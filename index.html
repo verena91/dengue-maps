@@ -1,0 +1,289 @@
+<meta charset="UTF-8">
+<html data-ember-extension="1">
+<head>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/select2/select2.min.js"></script>
+<script src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="bower_components/mapbox.js/mapbox.js"></script>
+<script src="bower_components/sprintf/src/sprintf.js"></script>
+<script src="bower_components/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script src="bower_components/flexslider/jquery.flexslider-min.js"></script>
+<script src="http://maps.google.com/maps/api/js?v=3&sensor=false"></script>
+<script src="bower_components/leaflet-plugins/layer/tile/Google.js"></script>
+<script src="bower_components/spin.js/spin.js"></script>
+<script src="js/viviendas.js"></script>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="bower_components/select2/select2.css">
+<link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
+<link rel="stylesheet" href="bower_components/mapbox.js/mapbox.css">
+<link rel="stylesheet" href="bower_components/mapbox.js/mapbox.css">
+<link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.css">
+<link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap-formhelpers.css">
+<link rel="stylesheet" href="css/bootstrap-formhelpers.min.css">
+<script src="js/bootstrap-formhelpers.js"></script>
+<link rel="stylesheet" href="bower_components/bootstrap-table-master/src/bootstrap-table.css">
+<script src="bower_components/bootstrap-table-master/src/bootstrap-table.js"></script>
+<script src="bower_components/bootstrap-table-master/src/locale/bootstrap-table-es-AR.js"></script>
+</head>
+
+<body>
+  <div class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">DENGUE</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa
+          de Riesgo</a></li>
+      <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
+      <li class="dropdown"><a data-toggle="dropdown"
+        class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a data-toggle="tab" href="#dropdown1">CSV</a></li>
+          <li><a data-toggle="tab" href="#dropdown2">JSON</a></li>
+        </ul></li>
+    </ul>
+    <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png"
+      alt="Open Data"> <img id="opendata" class="navbar-logo"
+      src="img/od-logo.png" alt="Open Data">
+  </div>
+  <div id="slide-panel">
+    <a href="#" id="opener" class="btn btn-default"></span> Filtrar los Datos
+      <span id="opener-icon"
+      class="glyphicon glyphicon-chevron-down arrow-right"></a>
+    <ul class="nav nav-pills">
+      <li class="active"><a data-toggle="tab" href="#menuA">Filtros</a></li>
+      <li><a data-toggle="tab" href="#menuB">Leyenda</a></li>
+    </ul>
+    <div id="menu-content" class="tab-content">
+      <div id="menuA" class="tab-pane fade in active">
+        <div id="tab-1"
+          class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <br/>
+          <h4>Departamento</h4>
+          <select multiple id="departamento" style="width: 250px;" >
+            <option value="Asuncion">Asunción</option>
+
+            <option value="Concepcion">Concepción</option>
+
+            <option value="San Pedro">San Pedro</option>
+
+            <option value="Cordillera">Cordillera</option>
+
+            <option value="Guaira">Guairá</option>
+
+            <option value="Caaguazu">Caaguazú</option>
+
+            <option value="Caazapa">Caazapá</option>
+
+            <option value="Itapua">Itapúa</option>
+
+            <option value="Misiones">Misiones</option>
+
+            <option value="Alto Parana">Alto Paraná</option>
+
+            <option value="Central">Central</option>
+
+            <option value="Ñeembucu">Ñeembucú</option>
+
+            <option value="Amambay">Amambay</option>
+
+            <option value="Canindeyu">Canindeyú</option>
+
+            <option value="Presidente Hayes">Presidente Hayes</option>
+
+            <option value="Boqueron">Boquerón</option>
+
+            <option value="Alto Paraguay">Alto Paraguay</option>
+          </select>
+          <h4>Distrito</h4>
+          <select multiple id="distrito" style="width: 250px;">
+            <option value="Asuncion">Asunción</option>
+
+            <option value="Concepcion">Concepción</option>
+
+            <option value="San Pedro">San Pedro</option>
+
+            <option value="Cordillera">Cordillera</option>
+
+            <option value="Guaira">Guairá</option>
+
+            <option value="Caaguazu">Caaguazú</option>
+
+            <option value="Caazapa">Caazapá</option>
+
+            <option value="Itapua">Itapúa</option>
+
+            <option value="Misiones">Misiones</option>
+
+            <option value="Alto Parana">Alto Paraná</option>
+
+            <option value="Central">Central</option>
+
+            <option value="Ñeembucu">Ñeembucú</option>
+
+            <option value="Amambay">Amambay</option>
+
+            <option value="Canindeyu">Canindeyú</option>
+
+            <option value="Presidente Hayes">Presidente Hayes</option>
+
+            <option value="Boqueron">Boquerón</option>
+
+            <option value="Alto Paraguay">Alto Paraguay</option>
+          </select>
+          <h4>Barrio</h4>
+          <select multiple id="localidad" style="width: 250px;">
+            <option value="Asuncion">Seleccionar Barrio</option>
+          </select>
+
+          <h4>Año</h4>
+          <ul id="anio">
+            <li><input id="chkTodosP" type="checkbox" value="Todos"
+              ="proj_check" checked="checked"> Todos</li>
+            <li><input type="checkbox" ="proj_check" value="2009"
+              checked="checked"> 2009</li>
+            <li><input type="checkbox" ="proj_check" value="2010"
+              checked="checked"> 2010</li>
+            <li><input type="checkbox" ="proj_check" value="2011"
+              checked="checked"> 2011</li>
+            <li><input type="checkbox" ="proj_check" value="2012"
+              checked="checked"> 2012</li>
+            <li><input type="checkbox" ="proj_check" value="2013"
+              checked="checked"> 2013</li>
+            <li><input type="checkbox" ="proj_check" value="2014"
+              checked="checked"> 2014</li>
+          </ul>
+
+
+          <h4>Resultado</h4>
+          <ul id="resultado">
+            <li><input id="chkTodosP" type="checkbox" value="Todos"
+              ="proj_check" checked="checked"> Todos</li>
+            <li><input type="checkbox" ="proj_check" value="Confirmado"
+              checked="checked"> Confirmado</li>
+            <li><input type="checkbox" name="proj_check"
+              value="Sospechoso" checked="checked"> Sospechoso</li>
+          </ul>
+
+          <h4>Serotipo</h4>
+          <ul id="tipo">
+            <li><input id="chkTodosP" type="checkbox" value="Todos"
+              ="proj_check" checked="checked"> Todos</li>
+            <li><input type="checkbox" ="proj_check" value="DEN-1"
+              checked="checked"> DEN-1</li>
+            <li><input type="checkbox" name="proj_check" value="DEN-2"
+              checked="checked"> DEN-2</li>
+            <li><input type="checkbox" name="proj_check" value="DEN-3"
+              checked="checked"> DEN-3</li>
+            <li><input type="checkbox" name="proj_check" value="DEN-4"
+              checked="checked"> DEN-4</li>
+          </ul>
+        </div>
+      </div>
+      <div id="menuB" class="tab-pane fade">
+        <div class="crop">
+          <br/>
+          <p>
+            <img
+              src="http://a.tiles.mapbox.com/v4/marker/pin-m+7e7e7e@2x.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg"
+              class="marker-icon">
+          </p>
+          <div class="legend-label">Guaira</div>
+        </div>
+        </br>
+        <div class="crop">
+          <p>
+            <img
+              src="http://a.tiles.mapbox.com/v4/marker/pin-m+ff8888@2x.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg"
+              class="marker-icon">
+          <div class="legend-label">Otros</div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="main-container">
+    <div id='loader'></div>
+    <div id="main-content" class="tab-content">
+      <div id="section-mapa" class="tab-pane fade in active">
+        <div id="map" style="height:680px"></div>
+        <!--<div class="well">-->
+          <div class="bfh-slider" data-name="slider1" data-value="25" data-min="1" data-max="50">
+          </div>
+        <!--</div>-->
+      </div>
+      <div id="section-tabla" class="tab-pane fade">
+          </br>
+          <!--<table id="lista" class="display" cellspacing="0" width="100%">
+
+            <tfoot>
+              <tr>
+              </tr>
+            </tfoot>
+
+          </table>-->
+          <!--<div class="bootstrap-table">
+            <table id="table-pagination" data-toggle="table" data-url="dengue.json" data-height="400" data-pagination="true" data-search="true" data-row-style="rowStyle" width="100%" style="margin:1px;">
+              <thead>
+                <tr>
+                    <th data-field="semana">Semana</th>
+                    <th data-field="anio">Año</th>
+                    <th data-field="departamento">Departamento</th>
+                    <th data-field="distrito">Distrito</th>
+                    <th data-field="barrio">Barrio</th>
+                    <th data-field="resultado">Resultado</th>
+                    <th data-field="clasificacion_clinica">Clasificación</th>
+                </tr>
+              </thead>
+            </table>
+          </div>-->
+        <div class="margin-table">
+          <table id="table-javascript"></table>
+        </div>
+      </div>
+      <div id="dropdown1" class="tab-pane fade">
+        <br/>
+        <div class="well">
+          <h3> CSV </h3>
+          <p>Descarga del conjunto de datos en formato CSV.</p>
+        </div>
+      </div>
+      <div id="dropdown2" class="tab-pane fade">
+        <br/>
+        <div class="well">
+          <h3>JSON</h3>
+          <p>Descarga del conjunto de datos en formato JSON.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="photo-modal" tabindex="-1" role="dialog"
+    aria-labelledby="photo-modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        </button>
+        <div class="modal-body"></div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <!--<div id="footer">
+    <div class="container">
+      <p class="muted credit">Desarrollado por <a href="www.pol.una.py">Facultad Politécnica</a></p>
+    </div>
+  </div>-->
+</body>
+
+</html>

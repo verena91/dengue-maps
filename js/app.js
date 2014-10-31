@@ -40,7 +40,7 @@ function draw_map() {
     map.addLayer(mapbox);
     L.control.layers(baseMaps).addTo(map);
 
-    var geoJson = L.mapbox.featureLayer(viviendas);
+   // var geoJson = L.mapbox.featureLayer(viviendas);
     /*Se añade capa de departamentos*/
     var statesLayer = L.geoJson(viviendas,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
 
@@ -67,7 +67,7 @@ function draw_map() {
 
     //map.fitBounds(geoJson.getBounds());
     //cupcakeTiles.addTo(map);
-    geoJson.addTo(map);
+    //geoJson.addTo(map);
 
    /* var markers = new L.MarkerClusterGroup({
         minZoom: 6
@@ -84,7 +84,7 @@ function draw_map() {
     markers.addLayer(geoJson);
     map.addLayer(markers);
     SMV.markerLayer = markers;*/
-    SMV.geoJsonLayer = geoJson;
+    //SMV.geoJsonLayer = geoJson;
     var legend = L.control({
         position: 'bottomright'
     });
@@ -125,6 +125,7 @@ var closeTooltip;
 
 /*Evento similar a hover para cada departamento*/
 function mousemove(e) {
+  console.log('mouse');
     var layer = e.target;
     layer.setStyle({
         weight: 5,

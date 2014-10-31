@@ -43,7 +43,7 @@ function draw_map() {
    // var geoJson = L.mapbox.featureLayer(viviendas);
     /*Se añade capa de departamentos*/
     var statesLayer = L.geoJson(viviendas,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
-
+    SMV.geoJsonLayer = statesLayer;
 
    /* geoJson.on('layeradd', function(e) {
         var marker = e.layer,
@@ -60,10 +60,6 @@ function draw_map() {
         marker.setIcon(icon);
     });*/
 
-    //geoJson.setGeoJSON(viviendas);
-    /*var cupcakeTiles = L.tileLayer('http://a.tiles.mapbox.com/v3/lyzidiamond.map-ietb6srb/{z}/{x}/{y}.png', {
-     maxZooom: 18  
-    });*/
 
     //map.fitBounds(geoJson.getBounds());
     //cupcakeTiles.addTo(map);
@@ -125,7 +121,6 @@ var closeTooltip;
 
 /*Evento similar a hover para cada departamento*/
 function mousemove(e) {
-  console.log('mouse');
     var layer = e.target;
     layer.setStyle({
         weight: 5,
@@ -138,7 +133,7 @@ function mousemove(e) {
 
 /*Evento al salir el puntero de un departamento*/
 function mouseout(e) {
-    statesLayer.resetStyle(e.target);
+    SMV.geoJsonLayer.resetStyle(e.target);
     //info.update();
 }
 
@@ -151,12 +146,25 @@ function getColor(d) {
     return d == 'E' ? '#FE0516' :
         d == 'RA' ? '#FF6905' :
         d == 'RM' ? '#FFB905' :
-        d == 'RB' ? '#FFF305' :
+        d == 'RB' ? '#FFF96D' :
         '#FFFFFF';
 }
 /*Estilo de la capa de acuedo a cantidad de matriculados*/
 function getStyle(feature) {
-    return { weight: 2, opacity: 0.1, color: 'black', dashArray: '3', fillOpacity: 0.7, fillColor: getColor('E') };
+    var n = feature.properties.DPTO_DESC;
+    n = n.charAt(0);
+    var color = 'RB';
+    if (n == 'C'){
+      color = 'E';
+    }
+    if (n == 'A'){
+      color = 'RM';
+    }
+    if (n == 'P'){
+      color = 'RA';
+    }
+
+    return { weight: 2, opacity: 0.1, color: 'black', dashArray: '3', fillOpacity: 0.7, fillColor: getColor(color) };
 }
 function getColor1(d) {
     return d > 300000 ? '#FE0516' :

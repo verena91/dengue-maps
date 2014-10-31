@@ -61,10 +61,6 @@ function draw_map() {
     });*/
 
 
-    //map.fitBounds(geoJson.getBounds());
-    //cupcakeTiles.addTo(map);
-    //geoJson.addTo(map);
-
    /* var markers = new L.MarkerClusterGroup({
         minZoom: 6
     });
@@ -85,42 +81,46 @@ function draw_map() {
         position: 'bottomright'
     });
     legend.onAdd = function(map) {
-        var div = L.DomUtil.create('div', 'info legend'),
-            grades = [1, 100, 500, 1000, 5000, 10000, 20000, 40000, 70000, 100000, 150000, 250000, 300000],
-            labels = [],
-            from, to;
+        var div = L.DomUtil.create('div', 'info legend'), labels = [];    
         labels.push('<i style="background:' + getColor('E') + '"></i> ' + 'Epidemia');
         labels.push('<i style="background:' + getColor('RA') + '"></i> ' + 'Riesgo alto');
         labels.push('<i style="background:' + getColor('RM') + '"></i> ' + 'Riesgo medio');
         labels.push('<i style="background:' + getColor('RB') + '"></i> ' + 'Riesgo bajo');
-
-        /*for (var i = 0; i < grades.length; i++) {
-            from = grades[i];
-            to = grades[i + 1];
-            labels.push(
-                '<i style="background:' + getColor(from + 1) + '"></i> ' +
-                from + (to ? '&ndash;' + to : '+'));
-        }*/
         div.innerHTML = '<span>Umbrales de riesgo</span><br>' + labels.join('<br>')
         return div;
     };
     legend.addTo(map);
+    var info = L.control();
+    info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info');
+        this.update();
+        return this._div;
+    };
+    info.update = function (props) {
+        if(props){
+          this._div.innerHTML =  '<h2>'+props.DPTO_DESC+'<\/h2>';
+        }
+    };
+    info.addTo(map);
+    SMV.info = info;
 
     return map;
 }
  /*Eventos para cada departamento*/
 function onEachFeature(feature, layer) {
     layer.on({
-        mousemove: mousemove,
+        mouseover: mouseover,
         mouseout: mouseout,
         click: zoomToFeature
     });
+    content = '<h2>'+feature.properties.DPTO_DESC+'<\/h2>';
+    layer.bindPopup(content);
 }
 
 var closeTooltip;
 
 /*Evento similar a hover para cada departamento*/
-function mousemove(e) {
+function mouseover(e) {
     var layer = e.target;
     layer.setStyle({
         weight: 5,
@@ -128,13 +128,14 @@ function mousemove(e) {
         dashArray: '',
         fillOpacity: 0.7
     });
-    //info.update(layer.feature.properties);
+    SMV.info.update(layer.feature.properties);
 }
 
 /*Evento al salir el puntero de un departamento*/
 function mouseout(e) {
     SMV.geoJsonLayer.resetStyle(e.target);
-    //info.update();
+    SMV.info.update();
+   
 }
 
 /*Zoom al hacer click en un departamento*/

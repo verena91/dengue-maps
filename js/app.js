@@ -681,28 +681,62 @@ function removeAccents(strAccents) {
     return strAccentsOut;
 }
 
+function ajaxRequest() {
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion?page=1&limit=10&sortField=id&sortOrder=asc",
+     
+        // the name of the callback parameter, as specified by the YQL service
+        jsonp: "callback",
+     
+        // tell jQuery we're expecting JSONP
+        dataType: "jsonp",
+     
+        // tell YQL what we want and that we want JSON
+        data: {
+            q: "select title,abstract,url from search.news where query=\"cat\"",
+            format: "json"
+        },
+     
+        // work with the response
+        success: function( response ) {
+            console.log( response ); // server response
+        }
+    });
+
+    return response;
+}
+
+var page = 1;
+var pagesize = 10;
+
 function draw_table_boot() {
     $(function() {
         $('#table-javascript').bootstrapTable({
             method: 'get',
+            //url:'http://localhost/denguemaps/rest/notificacion?page=' + page + '&limit=' + pagesize + '&sortField=id&sortOrder=asc',
             url: 'dengue.json',
             cache: false,
             height: 400,
             striped: true,
+            //serverSide: true,
             pagination: true,
+            //pageNumber:page,
+            pageSize: pagesize,
             pageSize: 10,
+            //totalRows: 250000,
             pageList: [10, 25, 50, 100, 200],
             search: true,
             showColumns: true,
             showRefresh: true,
             minimumCountColumns: 2,
             clickToSelect: true,
+            //root:'list',
             columns: [{
                 field: 'state',
                 valign: 'middle',
                 checkbox: true
             }, {
-                field: 'ID',
+                field: 'id',
                 title: 'ID',
                 align: 'right',
                 sortable: true
@@ -739,6 +773,66 @@ function draw_table_boot() {
             }, {
                 field: 'clasificacon_clinica',
                 title: 'Clasificación',
+                align: 'center',
+                sortable: true
+            }]
+        });
+    });
+}
+
+function draw_table_boot2() {
+    $(function() {
+        $('#table-javascript').bootstrapTable({
+            method: 'get',
+            //url:'http://localhost/denguemaps/rest/notificacion?page=1&limit=10&sortField=id&sortOrder=asc',
+            url:'http://localhost/denguemaps/rest/notificacion/2009',
+            cache: false,
+            height: 400,
+            striped: true,
+            pagination: true,
+            pageSize: 10,
+            pageList: [10, 25, 50, 100, 200],
+            sortOrder: 'asc',
+            sortField: 'id',
+            search: true,
+            showColumns: true,
+            showRefresh: true,
+            minimumCountColumns: 2,
+            clickToSelect: true,
+            //root:'list',
+            /*columns: [
+            {
+                field:'id',
+                title:'ID',
+                formatter: function (value, row) {
+                    return row.list.id;
+                }
+            }, {
+                field: 'anio',
+                title: 'Año',
+                formatter: function (value, row) {
+                    return row.list.anio;
+                },
+                align: 'center',
+                sortable: true
+            }]*/
+            columns: [{
+                field: 'state',
+                valign: 'middle',
+                checkbox: true
+            }, {
+                field: 'departamento',
+                title: 'Departamento',
+                align: 'right',
+                sortable: true
+            }, {
+                field: 'semana',
+                title: 'Semana',
+                align: 'center',
+                sortable: true
+            }, {
+                field: 'cantidad',
+                title: 'Cantidad',
                 align: 'center',
                 sortable: true
             }]

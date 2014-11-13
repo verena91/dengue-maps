@@ -8,7 +8,25 @@ $(document).ready(function() {
     $("#localidad").select2();
     add_filter_listeners(map);
     setup_modal_navigation();
-
+    $( "#slidersemana" ).on( 'change.bfhslider', function( event ) { 
+        
+        var seman = event.target.innerText;
+        var mapSem = new Object();
+        for(var i=0;i<riesgo.length;i++){
+            var obj = riesgo[i];
+            if(obj["semana"]==seman ){
+                
+                mapSem[obj["departamento"]]= obj["riesgo"];
+                if(obj["departamento"]=="CENTRAL"){
+                    rasu=obj["riesgo"];
+                }
+            }
+        }
+        mapSem["ASUNCION"]=rasu;
+        SMV.mapNotif = mapSem;
+        SMV.geoJsonLayer.setStyle(getStyle);
+    });
+    
 });
 
 function draw_map() {
@@ -23,6 +41,9 @@ function draw_map() {
     var gglHybrid = layers.GOOGLE_HYBRID.on("MapObjectInitialized", setup_gmaps);
     var gglRoadmap = layers.GOOGLE_ROADMAP.on("MapObjectInitialized", setup_gmaps);
 
+    /*var notif = JSON.parse(not_por_sem_ej);
+    console.log(notif);*/
+
     var map = L.map('map', {
         maxZoom: 18,
         minZoom: 3,
@@ -36,7 +57,28 @@ function draw_map() {
     "Satélite": gglHybrid,
     "Calles Google Maps": gglRoadmap
     };
-
+    var seman = $( "#slidersemana" ).data('value');
+    var rasu = 0;
+    var mapSem = new Object();
+    for(var i=0;i<riesgo.length;i++){
+        var obj = riesgo[i];
+        if(obj["semana"]==seman ){
+            
+            mapSem[obj["departamento"]]= obj["riesgo"];
+            if(obj["departamento"]=="CENTRAL"){
+                rasu=obj["riesgo"];
+            }
+        }
+        /*for(var key in obj){
+            var attrName = key;
+            var attrValue = obj[key];
+            console.log(attrName+" -> "+attrValue);
+        }*/
+    }
+    mapSem["ASUNCION"]=rasu;
+    
+    //console.log(mapSem["AMAMBAY"]);
+    SMV.mapNotif = mapSem;
     map.addLayer(mapbox);
     L.control.layers(baseMaps).addTo(map);
 
@@ -117,17 +159,22 @@ function onEachFeature(feature, layer) {
     layer.bindPopup(content);
 }
 
+
 var closeTooltip;
 
 /*Evento similar a hover para cada departamento*/
 function mouseover(e) {
     var layer = e.target;
-    layer.setStyle({
+     layer.setStyle({
         weight: 5,
-        color: '#030303',
-        dashArray: '',
-        fillOpacity: 0.7
+        color: '#666',
+        dashArray: ''
+        
     });
+
+    if (!L.Browser.ie && !L.Browser.opera) {
+        layer.bringToFront();
+    }
     SMV.info.update(layer.feature.properties);
 }
 
@@ -153,36 +200,36 @@ function getColor(d) {
 /*Estilo de la capa de acuedo a cantidad de matriculados*/
 function getStyle(feature) {
     var n = feature.properties.DPTO_DESC;
-    n = n.charAt(0);
-    var color = 'RB';
-    if (n == 'C'){
-      color = 'E';
+    var mapSem = SMV.mapNotif;
+    var color = 'NONE';
+    try{
+        color = mapSem[n]
+       console.log("hay valor")
+    }catch(e){
+        color = 'NONE';
     }
-    if (n == 'A'){
-      color = 'RM';
+    //console.log(color);
+    
+    console.log(color+"-----");
+    if(color){
+       return { weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.7, fillColor: getColor(color) };
+        
+    }else{
+        return { weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.1, fillColor: getColor(color)
+        };
+        
     }
-    if (n == 'P'){
-      color = 'RA';
-    }
+  
+}
 
-    return { weight: 2, opacity: 0.1, color: 'black', dashArray: '3', fillOpacity: 0.7, fillColor: getColor(color) };
-}
-function getColor1(d) {
-    return d > 300000 ? '#FE0516' :
-        d > 250000 ? '#FD1E0F' :
-        d > 150000 ? '#FD4619' :
-        d > 100000 ? '#FD6C24' :
-        d > 70000 ? '#FD8E2E' :
-        d > 40000 ? '#FDAE39' :
-        d > 20000 ? '#FDCB43' :
-        d > 10000 ? '#FDE54E' :
-        d > 5000 ? '#FDFC58' :
-        d > 1000 ? '#E9FD62' :
-        d > 500 ? '#D7FD6D' :
-        d > 100 ? '#C8FD77' :
-        d > 1 ? '#BCFD82' :
-        '#FFFFFF';
-}
 
 function draw_table_details(d) {
     var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
@@ -338,7 +385,7 @@ function draw_sidetag(map) {
         }
         $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
         $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
-        map.invalidateSize();
+        //map.invalidateSize();
         return false;
     });
 

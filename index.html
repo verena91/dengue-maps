@@ -14,7 +14,9 @@
 <script src="bower_components/spin.js/spin.js"></script>
 <script src="js/viviendas.js"></script>
 <script src="js/config.js"></script>
+<script src="js/riesgos2009.js"></script>
 <script src="js/app.js"></script>
+
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="bower_components/select2/select2.css">
@@ -98,7 +100,50 @@
         <div id="tab-1"
           class="ui-tabs-panel ui-widget-content ui-corner-bottom">
           <br/>
-          <h4>Departamento</h4>
+              <h4>Mapa de riesgo por</h4>
+          <ul id="anio">
+            <li><input type="radio" name="visualizar" value="departamentos" checked> Departamentos</li>
+            <li><input type="radio" name="visualizar" value="distritos"> Distritos de 
+            <select id="departamento" style="width: 150px;" >
+            <option value="Asuncion">Asunción</option>
+
+            <option value="Concepcion">Concepción</option>
+
+            <option value="San Pedro">San Pedro</option>
+
+            <option value="Cordillera">Cordillera</option>
+
+            <option value="Guaira">Guairá</option>
+
+            <option value="Caaguazu">Caaguazú</option>
+
+            <option value="Caazapa">Caazapá</option>
+
+            <option value="Itapua">Itapúa</option>
+
+            <option value="Misiones">Misiones</option>
+
+            <option value="Alto Parana">Alto Paraná</option>
+
+            <option value="Central">Central</option>
+
+            <option value="Ñeembucu">Ñeembucú</option>
+
+            <option value="Amambay">Amambay</option>
+
+            <option value="Canindeyu">Canindeyú</option>
+
+            <option value="Presidente Hayes">Presidente Hayes</option>
+
+            <option value="Boqueron">Boquerón</option>
+
+            <option value="Alto Paraguay">Alto Paraguay</option>
+          </select>
+
+             </li>
+          </ul>
+           <!--
+         <h4>Distristos de:</h4>
           <select multiple id="departamento" style="width: 250px;" >
             <option value="Asuncion">Asunción</option>
 
@@ -134,7 +179,7 @@
 
             <option value="Alto Paraguay">Alto Paraguay</option>
           </select>
-          <h4>Distrito</h4>
+         <h4>Distrito</h4>
           <select multiple id="distrito" style="width: 250px;">
             <option value="Asuncion">Asunción</option>
 
@@ -174,9 +219,16 @@
           <select multiple id="localidad" style="width: 250px;">
             <option value="Asuncion">Seleccionar Barrio</option>
           </select>
-
+          -->
           <h4>Año</h4>
-          <ul id="anio">
+           <select id="distrito" style="width: 250px;">
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+            </select>
+          <!--<ul id="anio">
             <li><input id="chkTodosP" type="checkbox" value="Todos"
               ="proj_check" checked="checked"> Todos</li>
             <li><input type="checkbox" ="proj_check" value="2009"
@@ -194,7 +246,7 @@
           </ul>
 
 
-          <h4>Resultado</h4>
+           <h4>Resultado</h4>
           <ul id="resultado">
             <li><input id="chkTodosP" type="checkbox" value="Todos"
               ="proj_check" checked="checked"> Todos</li>
@@ -216,7 +268,7 @@
               checked="checked"> DEN-3</li>
             <li><input type="checkbox" name="proj_check" value="DEN-4"
               checked="checked"> DEN-4</li>
-          </ul>
+          </ul> -->
         </div>
       </div>
       <div id="menuB" class="tab-pane fade">
@@ -245,13 +297,18 @@
   <div class="main-container">
     <div id='loader'></div>
     <div id="main-content" class="tab-content">
-      <div id="section-mapa" class="tab-pane fade in active">
-        <div id="map" style="height:680px"></div>
+      <div class="tab-pane fade in active">
+      <div id="section-mapa" >
+        <div id="map" style="height:660px"></div>
+      </div>
         <!--<div class="well">-->
-          <div class="bfh-slider" data-name="slider1" data-value="25" data-min="1" data-max="50">
-          </div>
+        <div id="section-slider" style="margin-left: 10px; margin-right: 8px;" >
+            <div id="slidersemana" class="bfh-slider" data-name="slider1" data-value="25" data-min="1" data-max="50">
+            </div>
+          </div >
         <!--</div>-->
       </div>
+    </div>
       <div id="section-tabla" class="tab-pane fade">
           </br>
           <!--<table id="lista" class="display" cellspacing="0" width="100%">

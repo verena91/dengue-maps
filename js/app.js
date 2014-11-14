@@ -9,21 +9,8 @@ $(document).ready(function() {
     add_filter_listeners(map);
     setup_modal_navigation();
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) { 
-        
-        var seman = event.target.innerText;
-        var mapSem = new Object();
-        for(var i=0;i<riesgo.length;i++){
-            var obj = riesgo[i];
-            if(obj["semana"]==seman ){
-                
-                mapSem[obj["departamento"]]= obj["riesgo"];
-                if(obj["departamento"]=="CENTRAL"){
-                    rasu=obj["riesgo"];
-                }
-            }
-        }
-        mapSem["ASUNCION"]=rasu;
-        SMV.mapNotif = mapSem;
+        SMV.semana= event.target.innerText;
+        reloadMapSem(event.target.innerText);
         SMV.geoJsonLayer.setStyle(getStyle);
     });
     
@@ -57,28 +44,9 @@ function draw_map() {
     "Satélite": gglHybrid,
     "Calles Google Maps": gglRoadmap
     };
-    var seman = $( "#slidersemana" ).data('value');
-    var rasu = 0;
-    var mapSem = new Object();
-    for(var i=0;i<riesgo.length;i++){
-        var obj = riesgo[i];
-        if(obj["semana"]==seman ){
-            
-            mapSem[obj["departamento"]]= obj["riesgo"];
-            if(obj["departamento"]=="CENTRAL"){
-                rasu=obj["riesgo"];
-            }
-        }
-        /*for(var key in obj){
-            var attrName = key;
-            var attrValue = obj[key];
-            console.log(attrName+" -> "+attrValue);
-        }*/
-    }
-    mapSem["ASUNCION"]=rasu;
-    
-    //console.log(mapSem["AMAMBAY"]);
-    SMV.mapNotif = mapSem;
+    SMV.riesgoJson = riesgo9;
+    reloadMapSem($( "#slidersemana" ).data('value'));
+    SMV.semana = $( "#slidersemana" ).data('value');
     map.addLayer(mapbox);
     L.control.layers(baseMaps).addTo(map);
 
@@ -140,7 +108,15 @@ function draw_map() {
     };
     info.update = function (props) {
         if(props){
-          this._div.innerHTML =  '<h2>'+props.DPTO_DESC+'<\/h2>';
+            var dep = props.DPTO_DESC;
+            var mapSem = SMV.mapNotif;
+            var nroNS = '0';
+            try{
+                nroNS = mapSem[dep]["cantidad"];
+            }catch(e){
+                
+            }
+          this._div.innerHTML =  '<h2>'+dep+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
         }
     };
     info.addTo(map);
@@ -148,6 +124,41 @@ function draw_map() {
 
     return map;
 }
+
+function reloadMapSem(semana){
+    
+    var rasu;
+    var rcen;
+    var mapSem = new Object();
+    var riesgo = SMV.riesgoJson;
+    for(var i=0;i<riesgo.length;i++){
+        var obj = riesgo[i];
+        if(obj["semana"]==semana ){
+            
+            mapSem[obj["departamento"]]= obj;
+            if(obj["departamento"]=="CENTRAL"){
+                rcen = obj;
+            }
+            if(obj["departamento"]=="ASUNCION"){
+                rasu = obj;
+            }
+        }
+    }
+    if(rasu){
+       try{
+            rasu["riesgo"] = rcen["riesgo"];
+        }catch(e){
+            rasu["riesgo"] = 'RB';
+        }
+        mapSem["ASUNCION"] = rasu;
+    }
+    SMV.mapNotif = mapSem;
+
+}
+function handleClick(myRadio) {
+    alert('New value: ' + myRadio.value);
+}
+
  /*Eventos para cada departamento*/
 function onEachFeature(feature, layer) {
     layer.on({
@@ -155,8 +166,8 @@ function onEachFeature(feature, layer) {
         mouseout: mouseout,
         click: zoomToFeature
     });
-    content = '<h2>'+feature.properties.DPTO_DESC+'<\/h2>';
-    layer.bindPopup(content);
+    //content = '<h2>'+feature.properties.DPTO_DESC+'<\/h2>';
+    //layer.bindPopup(content);
 }
 
 
@@ -187,6 +198,7 @@ function mouseout(e) {
 
 /*Zoom al hacer click en un departamento*/
 function zoomToFeature(e) {
+    console.log(e);
     map.fitBounds(e.target.getBounds());
 }
 
@@ -203,15 +215,14 @@ function getStyle(feature) {
     var mapSem = SMV.mapNotif;
     var color = 'NONE';
     try{
-        color = mapSem[n]
+        //color = mapSem[n]
+        color = mapSem[n]["riesgo"];
        console.log("hay valor")
     }catch(e){
-        color = 'NONE';
     }
     //console.log(color);
     
-    console.log(color+"-----");
-    if(color){
+    /*if(color){
        return { weight: 2,
             opacity: 1,
             color: 'white',
@@ -226,10 +237,76 @@ function getStyle(feature) {
             fillOpacity: 0.1, fillColor: getColor(color)
         };
         
+    }*/
+    if(color=='NONE'){
+       return { weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.1, fillColor: getColor(color)
+        };
+        
+    }else{
+        return { weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.7, fillColor: getColor(color) };
+        
     }
   
 }
+// This function is called whenever someone clicks on a checkbox and changes
+// the selection of markers to be displayed.
+function update_filters() {
+    var proyectos = get_selected_checkbox('#resultado li input');
+    var distrito = get_selected_combo('#distrito');
+    console.log(distrito);
+    var riesgo;
+    if(distrito=='2009'){
+        riesgo = riesgo9;
+    }else if (distrito=='2010'){
+        riesgo = riesgo10;
+    }else if (distrito=='2011'){
+        riesgo = riesgo11;
+    }else if (distrito=='2012'){
+        riesgo = riesgo12;
+    }else if (distrito=='2013'){
+        riesgo = riesgo13;
+    }
 
+    SMV.riesgoJson = riesgo;
+    reloadMapSem(SMV.semana);
+    SMV.geoJsonLayer.setStyle(getStyle);
+    //SMV.geoJsonLayer.setFilter(function(feature) {
+        // If this symbol is in the list, return true. if not, return false.
+        // The 'in' operator in javascript does exactly that: given a string
+        // or number, it says if that is in a object.
+        // 2 in { 2: true } // true
+        // 2 in { } // false
+/*        var proyectoFilter = feature.properties['Resultado'] in proyectos;
+        var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
+
+        var showMarker = departamentoFilter;
+
+        return (showMarker);
+    });
+
+    SMV.markerLayer.clearLayers();
+    SMV.markerLayer.addLayer(SMV.geoJsonLayer);*/
+}
+
+function get_selected_combo(selector) {
+    var value = $(selector).select2('val');
+    //var enabled = {};
+    // Run through each checkbox and record whether it is checked. If it is,
+    // add it to the object of types to display, otherwise do not.
+    /*for (var i = 0; i < value.length; i++) {
+        enabled[value[i].toLowerCase()] = true;
+    }*/
+    //return enabled;
+    return value;
+}
 
 function draw_table_details(d) {
     var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
@@ -417,7 +494,6 @@ function draw_popup(target) {
         animation: "slide"
     });
 
-
 }
 
 function draw_popup_tables(properties, attrs_by_tab) {
@@ -599,7 +675,7 @@ function add_filter_listeners(map) {
         update_filters(map);
     });
 
-    $("#tipo li input[value='Todos']").change(function() {
+    /*$("#tipo li input[value='Todos']").change(function() {
         var checked = $(this).prop('checked');
         $("#tipo li input").prop('checked', this.checked);
     });
@@ -615,33 +691,11 @@ function add_filter_listeners(map) {
 
     $('#anio li input, #departamento, #distrito, #localidad').change(function() {
         update_filters_2(map);
-    });
+    });*/
 
 }
 
-// This function is called whenever someone clicks on a checkbox and changes
-// the selection of markers to be displayed.
-function update_filters() {
-    var proyectos = get_selected_checkbox('#resultado li input');
-    var departamentos = get_selected_combo('#departamento');
 
-    SMV.geoJsonLayer.setFilter(function(feature) {
-        // If this symbol is in the list, return true. if not, return false.
-        // The 'in' operator in javascript does exactly that: given a string
-        // or number, it says if that is in a object.
-        // 2 in { 2: true } // true
-        // 2 in { } // false
-        var proyectoFilter = feature.properties['Resultado'] in proyectos;
-        var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
-
-        var showMarker = departamentoFilter;
-
-        return (showMarker);
-    });
-
-    SMV.markerLayer.clearLayers();
-    SMV.markerLayer.addLayer(SMV.geoJsonLayer);
-}
 
 function update_filters_2() {
     var proyectos = get_selected_checkbox('#tipo li input');
@@ -698,17 +752,7 @@ function get_selected_checkbox(selector) {
     return enabled;
 }
 
-function get_selected_combo(selector) {
-    var value = $(selector).select2('val');
-    console.log(value);
-    var enabled = {};
-    // Run through each checkbox and record whether it is checked. If it is,
-    // add it to the object of types to display, otherwise do not.
-    for (var i = 0; i < value.length; i++) {
-        enabled[value[i].toLowerCase()] = true;
-    }
-    return enabled;
-}
+
 
 /*Utilitario para eliminar acentos de la cadena, para poder comparar las claves
 (nombre del departamento) del servicio (BD MEC) con las del GEOJSON*/

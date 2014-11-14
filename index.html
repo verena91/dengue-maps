@@ -15,6 +15,10 @@
 <script src="js/viviendas.js"></script>
 <script src="js/config.js"></script>
 <script src="js/riesgos2009.js"></script>
+<script src="js/riesgos2010.js"></script>
+<script src="js/riesgos2011.js"></script>
+<script src="js/riesgos2012.js"></script>
+<script src="js/riesgos2013.js"></script>
 <script src="js/app.js"></script>
 
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -102,9 +106,9 @@
           <br/>
               <h4>Mapa de riesgo por</h4>
           <ul id="anio">
-            <li><input type="radio" name="visualizar" value="departamentos" checked> Departamentos</li>
-            <li><input type="radio" name="visualizar" value="distritos"> Distritos de 
-            <select id="departamento" style="width: 150px;" >
+            <li><input type="radio" name="visualizar" value="departamentos" checked onclick="handleClick(this);"> Departamentos</li>
+            <li><input type="radio" name="visualizar" value="distritos" onclick="handleClick(this);"> Distritos de 
+            <select id="departamento" style="width: 150px;"  >
             <option value="Asuncion">Asunción</option>
 
             <option value="Concepcion">Concepción</option>
@@ -221,7 +225,7 @@
           </select>
           -->
           <h4>Año</h4>
-           <select id="distrito" style="width: 250px;">
+           <select id="distrito" style="width: 250px;" >
               <option value="2009">2009</option>
               <option value="2010">2010</option>
               <option value="2011">2011</option>
@@ -299,11 +303,11 @@
     <div id="main-content" class="tab-content">
       <div class="tab-pane fade in active">
       <div id="section-mapa" >
-        <div id="map" style="height:660px"></div>
+        <div id="map" style="height:88%"></div>
       </div>
         <!--<div class="well">-->
-        <div id="section-slider" style="margin-left: 10px; margin-right: 8px;" >
-            <div id="slidersemana" class="bfh-slider" data-name="slider1" data-value="25" data-min="1" data-max="50">
+        <div id="section-slider" style="margin-left: 320px; margin-right: 17px; align-content: center;" >
+            <div id="slidersemana" class="bfh-slider" data-name="slider1" data-value="1" data-min="1" data-max="50">
             </div>
           </div >
         <!--</div>-->

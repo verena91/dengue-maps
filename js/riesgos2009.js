@@ -1,4 +1,4 @@
-var riesgo = [
+var riesgo9 = [
     {
         "semana": 1,
         "departamento": "ASUNCION",

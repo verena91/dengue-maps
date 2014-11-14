@@ -238,22 +238,13 @@ function getStyle(feature) {
         };
         
     }*/
-    if(color=='NONE'){
-       return { weight: 2,
+    
+    return { weight: 2,
             opacity: 1,
             color: 'white',
             dashArray: '3',
-            fillOpacity: 0.1, fillColor: getColor(color)
-        };
-        
-    }else{
-        return { weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7, fillColor: getColor(color) };
-        
-    }
+            fillOpacity: 0.7, 
+            fillColor: getColor(color) };
   
 }
 // This function is called whenever someone clicks on a checkbox and changes

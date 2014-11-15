@@ -55,7 +55,8 @@ function draw_map() {
     var statesLayer = L.geoJson(viviendas,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
     SMV.geoJsonLayer = statesLayer;
 
-   /* geoJson.on('layeradd', function(e) {
+/*
+    geoJson.on('layeradd', function(e) {
         var marker = e.layer,
             feature = marker.feature;
 
@@ -68,8 +69,8 @@ function draw_map() {
             });
         }
         marker.setIcon(icon);
-    });*/
-
+    });
+*/
 
    /* var markers = new L.MarkerClusterGroup({
         minZoom: 6
@@ -121,6 +122,7 @@ function draw_map() {
     };
     info.addTo(map);
     SMV.info = info;
+    SMV.map = map;
 
     return map;
 }
@@ -155,9 +157,6 @@ function reloadMapSem(semana){
     SMV.mapNotif = mapSem;
 
 }
-function handleClick(myRadio) {
-    alert('New value: ' + myRadio.value);
-}
 
  /*Eventos para cada departamento*/
 function onEachFeature(feature, layer) {
@@ -170,8 +169,6 @@ function onEachFeature(feature, layer) {
     //layer.bindPopup(content);
 }
 
-
-var closeTooltip;
 
 /*Evento similar a hover para cada departamento*/
 function mouseover(e) {
@@ -198,8 +195,11 @@ function mouseout(e) {
 
 /*Zoom al hacer click en un departamento*/
 function zoomToFeature(e) {
-    console.log(e);
-    map.fitBounds(e.target.getBounds());
+    console.log(e.target.getBounds());
+    SMV.map.fitBounds(e.target.getBounds());
+    L.geoJson(concepcion,  {onEachFeature: onEachFeature}).addTo(SMV.map);
+    SMV.map.removeLayer(SMV.geoJsonLayer);
+    
 }
 
 function getColor(d) {
@@ -220,25 +220,7 @@ function getStyle(feature) {
        console.log("hay valor")
     }catch(e){
     }
-    //console.log(color);
-    
-    /*if(color){
-       return { weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7, fillColor: getColor(color) };
-        
-    }else{
-        return { weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.1, fillColor: getColor(color)
-        };
-        
-    }*/
-    
+  
     return { weight: 2,
             opacity: 1,
             color: 'white',
@@ -269,33 +251,11 @@ function update_filters() {
     SMV.riesgoJson = riesgo;
     reloadMapSem(SMV.semana);
     SMV.geoJsonLayer.setStyle(getStyle);
-    //SMV.geoJsonLayer.setFilter(function(feature) {
-        // If this symbol is in the list, return true. if not, return false.
-        // The 'in' operator in javascript does exactly that: given a string
-        // or number, it says if that is in a object.
-        // 2 in { 2: true } // true
-        // 2 in { } // false
-/*        var proyectoFilter = feature.properties['Resultado'] in proyectos;
-        var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
-
-        var showMarker = departamentoFilter;
-
-        return (showMarker);
-    });
-
-    SMV.markerLayer.clearLayers();
-    SMV.markerLayer.addLayer(SMV.geoJsonLayer);*/
 }
 
 function get_selected_combo(selector) {
     var value = $(selector).select2('val');
-    //var enabled = {};
-    // Run through each checkbox and record whether it is checked. If it is,
-    // add it to the object of types to display, otherwise do not.
-    /*for (var i = 0; i < value.length; i++) {
-        enabled[value[i].toLowerCase()] = true;
-    }*/
-    //return enabled;
+
     return value;
 }
 
@@ -469,94 +429,6 @@ function draw_sidetag(map) {
     });
 }
 
-function draw_popup(target) {
-    var content = draw_popup_tabs(SMV.POPUP_ROWS);
-
-    content += draw_popup_tables(target.layer.feature.properties, SMV.POPUP_ROWS);
-    //content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
-    var popup = new L.Popup({
-        minWidth: 400,
-        className: "marker-popup"
-    }).setContent(content);
-    target.layer.bindPopup(popup).openPopup();
-    setup_modal();
-
-    $('.flexslider').flexslider({
-        animation: "slide"
-    });
-
-}
-
-function draw_popup_tables(properties, attrs_by_tab) {
-    var d = '<div class="tab-content">';
-    var c = 0;
-    for (key in attrs_by_tab) {
-        if (attrs_by_tab.hasOwnProperty(key)) {
-            var id = removeAccents(key.toLowerCase().split(" ").join("-"));
-            if (c == 0) {
-                d += sprintf('<div class="tab-pane active" id="%s">', id);
-                //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
-                d += draw_popup_album(["img/casa1.jpg", "img/casa2.jpg"]);
-            } else {
-                d += sprintf('<div class="tab-pane" id="%s">', id);
-            }
-
-            d += draw_popup_table(properties, attrs_by_tab[key]) + "</div>";
-            c++;
-        }
-    }
-    d += "</div>";
-    return d;
-}
-
-function draw_popup_table(properties, attrs) {
-    var t = "<table id=\'popup-table\' class=\'table table-striped popup-table table-condensed\'><tbody>";
-    for (var i = 0; i < attrs.length; i++) {
-        var key = attrs[i];
-        if (properties.hasOwnProperty(key)) {
-            t += draw_popup_table_row(key, properties[key]);
-        }
-    }
-    t += "</tbody></table>";
-    return t;
-}
-
-function draw_popup_tabs(tabs) {
-    var r = '<ul class="nav nav-tabs" role="tablist">'
-    var c = 0
-    for (k in tabs) {
-        if (tabs.hasOwnProperty(k)) {
-            var href = removeAccents(k.toLowerCase().split(" ").join("-"));
-            if (c == 0) {
-                r += sprintf('<li class="active"><a href="#%s" role="tab" data-toggle="tab">%s</a></li>', href, k);
-            } else {
-                r += sprintf('<li><a href="#%s" role="tab" data-toggle="tab">%s</a></li>', href, k);
-            }
-            c++;
-        }
-    }
-    r += '</ul>'
-    return r;
-}
-
-function draw_popup_table_row(key, value) {
-    return sprintf("<tr><td class=\'attr-title\'>%s</td><td>%s</td></tr>", SMV.ATTR_TO_LABEL[key], value);
-}
-
-function draw_popup_album(imgs) {
-    var a = "<div id=\'album-container\' class=\'flexslider\'><ul class=\'slides row\'>";
-    for (var i = 0; i < imgs.length; i++) {
-        a += draw_popup_album_photo(imgs[i]);
-    }
-    a += "</ul></div>"
-    return a;
-}
-
-function draw_popup_album_photo(img) {
-    console.log(img);
-    return sprintf("<li><img class=\'img-responsive\' src=\'%s\'/></li>", img);
-}
-
 function setup_modal() {
     $("#headerPreview").modal('show').css({
         'margin-top': function() {
@@ -593,6 +465,7 @@ function setup_modal() {
 }
 
 function setup_modal_navigation() {
+
     $(document).on('click', 'a.controls', function(e) {
         var index = $(this).attr('href');
         var src = $('ul.row li:nth-child(' + (index) + ') img').attr('src');
@@ -629,6 +502,7 @@ function setup_modal_navigation() {
 }
 
 function startLoading() {
+    console.log('startLoading');
     var spinner = new Spinner({
         color: "#5bc0de",
         radius: 30,
@@ -639,6 +513,7 @@ function startLoading() {
 }
 
 function finishedLoading() {
+    console.log('finishedLoading');
     // first, toggle the class 'done', which makes the loading screen
     // fade out
     var loader = $("#loader");
@@ -653,6 +528,7 @@ function finishedLoading() {
 }
 
 function setup_gmaps() {
+    console.log('setup_gmaps');
     google.maps.event.addListenerOnce(this._google, 'tilesloaded', finishedLoading);
 }
 
@@ -666,71 +542,8 @@ function add_filter_listeners(map) {
         update_filters(map);
     });
 
-    /*$("#tipo li input[value='Todos']").change(function() {
-        var checked = $(this).prop('checked');
-        $("#tipo li input").prop('checked', this.checked);
-    });
-
-    $('#tipo li input, #departamento, #distrito, #localidad').change(function() {
-        update_filters_2(map);
-    });
-
-    $("#anio li input[value='Todos']").change(function() {
-        var checked = $(this).prop('checked');
-        $("#anio li input").prop('checked', this.checked);
-    });
-
-    $('#anio li input, #departamento, #distrito, #localidad').change(function() {
-        update_filters_2(map);
-    });*/
-
 }
 
-
-
-function update_filters_2() {
-    var proyectos = get_selected_checkbox('#tipo li input');
-    var departamentos = get_selected_combo('#departamento');
-
-    SMV.geoJsonLayer.setFilter(function(feature) {
-        // If this symbol is in the list, return true. if not, return false.
-        // The 'in' operator in javascript does exactly that: given a string
-        // or number, it says if that is in a object.
-        // 2 in { 2: true } // true
-        // 2 in { } // false
-        var proyectoFilter = feature.properties['Serotipo'] in proyectos;
-        var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
-
-        var showMarker = departamentoFilter;
-
-        return (showMarker);
-    });
-
-    SMV.markerLayer.clearLayers();
-    SMV.markerLayer.addLayer(SMV.geoJsonLayer);
-}
-
-function update_filters_3() {
-    var proyectos = get_selected_checkbox('#anio li input');
-    var departamentos = get_selected_combo('#departamento');
-
-    SMV.geoJsonLayer.setFilter(function(feature) {
-        // If this symbol is in the list, return true. if not, return false.
-        // The 'in' operator in javascript does exactly that: given a string
-        // or number, it says if that is in a object.
-        // 2 in { 2: true } // true
-        // 2 in { } // false
-        var proyectoFilter = feature.properties['Serotipo'] in proyectos;
-        var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
-
-        var showMarker = departamentoFilter;
-
-        return (showMarker);
-    });
-
-    SMV.markerLayer.clearLayers();
-    SMV.markerLayer.addLayer(SMV.geoJsonLayer);
-}
 
 function get_selected_checkbox(selector) {
     var checkboxes = $(selector);
@@ -763,34 +576,6 @@ function removeAccents(strAccents) {
     return strAccentsOut;
 }
 
-function ajaxRequest() {
-    $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion?page=1&limit=10&sortField=id&sortOrder=asc",
-     
-        // the name of the callback parameter, as specified by the YQL service
-        jsonp: "callback",
-     
-        // tell jQuery we're expecting JSONP
-        dataType: "jsonp",
-     
-        // tell YQL what we want and that we want JSON
-        data: {
-            q: "select title,abstract,url from search.news where query=\"cat\"",
-            format: "json"
-        },
-     
-        // work with the response
-        success: function( response ) {
-            console.log( response ); // server response
-        }
-    });
-
-    return response;
-}
-
-var page = 1;
-var pagesize = 10;
-
 function draw_table_boot() {
     $(function() {
         $('#table-javascript').bootstrapTable({
@@ -803,7 +588,6 @@ function draw_table_boot() {
             //serverSide: true,
             pagination: true,
             //pageNumber:page,
-            pageSize: pagesize,
             pageSize: 10,
             //totalRows: 250000,
             pageList: [10, 25, 50, 100, 200],
@@ -855,66 +639,6 @@ function draw_table_boot() {
             }, {
                 field: 'clasificacon_clinica',
                 title: 'Clasificación',
-                align: 'center',
-                sortable: true
-            }]
-        });
-    });
-}
-
-function draw_table_boot2() {
-    $(function() {
-        $('#table-javascript').bootstrapTable({
-            method: 'get',
-            //url:'http://localhost/denguemaps/rest/notificacion?page=1&limit=10&sortField=id&sortOrder=asc',
-            url:'http://localhost/denguemaps/rest/notificacion/2009',
-            cache: false,
-            height: 400,
-            striped: true,
-            pagination: true,
-            pageSize: 10,
-            pageList: [10, 25, 50, 100, 200],
-            sortOrder: 'asc',
-            sortField: 'id',
-            search: true,
-            showColumns: true,
-            showRefresh: true,
-            minimumCountColumns: 2,
-            clickToSelect: true,
-            //root:'list',
-            /*columns: [
-            {
-                field:'id',
-                title:'ID',
-                formatter: function (value, row) {
-                    return row.list.id;
-                }
-            }, {
-                field: 'anio',
-                title: 'Año',
-                formatter: function (value, row) {
-                    return row.list.anio;
-                },
-                align: 'center',
-                sortable: true
-            }]*/
-            columns: [{
-                field: 'state',
-                valign: 'middle',
-                checkbox: true
-            }, {
-                field: 'departamento',
-                title: 'Departamento',
-                align: 'right',
-                sortable: true
-            }, {
-                field: 'semana',
-                title: 'Semana',
-                align: 'center',
-                sortable: true
-            }, {
-                field: 'cantidad',
-                title: 'Cantidad',
                 align: 'center',
                 sortable: true
             }]

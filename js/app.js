@@ -12,6 +12,7 @@ $(document).ready(function() {
         SMV.semana= event.target.innerText;
         reloadMapSem(event.target.innerText);
         SMV.geoJsonLayer.setStyle(getStyle);
+        console.log('se movio el slide');
     });
     
 });
@@ -30,7 +31,7 @@ function draw_map() {
 
     /*var notif = JSON.parse(not_por_sem_ej);
     console.log(notif);*/
-
+    loadDrillDownDep();
     var map = L.map('map', {
         maxZoom: 18,
         minZoom: 3,
@@ -45,6 +46,7 @@ function draw_map() {
     "Calles Google Maps": gglRoadmap
     };
     SMV.riesgoJson = riesgo9;
+    SMV.riesgoDisJson = riesgoDis9;
     reloadMapSem($( "#slidersemana" ).data('value'));
     SMV.semana = $( "#slidersemana" ).data('value');
     map.addLayer(mapbox);
@@ -52,7 +54,7 @@ function draw_map() {
 
    // var geoJson = L.mapbox.featureLayer(viviendas);
     /*Se añade capa de departamentos*/
-    var statesLayer = L.geoJson(viviendas,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
+    var statesLayer = L.geoJson(departamentos,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
     SMV.geoJsonLayer = statesLayer;
 
 /*
@@ -122,7 +124,6 @@ function draw_map() {
     };
     info.addTo(map);
     SMV.info = info;
-    SMV.map = map;
 
     return map;
 }
@@ -132,7 +133,9 @@ function reloadMapSem(semana){
     var rasu;
     var rcen;
     var mapSem = new Object();
+    var mapSemDis = new Object();
     var riesgo = SMV.riesgoJson;
+    var riesgoDis = SMV.riesgoDisJson;
     for(var i=0;i<riesgo.length;i++){
         var obj = riesgo[i];
         if(obj["semana"]==semana ){
@@ -155,6 +158,22 @@ function reloadMapSem(semana){
         mapSem["ASUNCION"] = rasu;
     }
     SMV.mapNotif = mapSem;
+
+    for(var i=0;i<riesgoDis.length;i++){
+        var obj = riesgoDis[i];
+        if(obj["semana"]==semana ){
+            
+            mapSemDis[obj["distrito"]]= obj;
+            /*if(obj["departamento"]=="CENTRAL"){
+                rcen = obj;
+            }*/
+            if(obj["distrito"]=="ASUNCION"){
+                //rasu = obj;
+            }
+        }
+    }
+   
+    SMV.mapNotifDis = mapSemDis;
 
 }
 
@@ -195,11 +214,16 @@ function mouseout(e) {
 
 /*Zoom al hacer click en un departamento*/
 function zoomToFeature(e) {
-    console.log(e.target.getBounds());
-    SMV.map.fitBounds(e.target.getBounds());
-    L.geoJson(concepcion,  {onEachFeature: onEachFeature}).addTo(SMV.map);
-    SMV.map.removeLayer(SMV.geoJsonLayer);
+    var target = e.target;
+    var json = SMV.drillDown[target.feature.properties.DPTO_DESC];
+    if(SMV.layerActual){
+        console.log('removiendo capa')
+        SMV.map.removeLayer(SMV.layerActual);
+    }
+    SMV.layerActual = L.geoJson(json,  {style: getStyleDrill, onEachFeature: onEachFeature}).addTo(SMV.map);
+    SMV.map.fitBounds(target.getBounds());
     
+   // SMV.map.removeLayer(SMV.geoJsonLayer);
 }
 
 function getColor(d) {
@@ -209,7 +233,7 @@ function getColor(d) {
         d == 'RB' ? '#FFF96D' :
         '#FFFFFF';
 }
-/*Estilo de la capa de acuedo a cantidad de matriculados*/
+/*Estilo de la capa de acuedo a los valores de riesgo*/
 function getStyle(feature) {
     var n = feature.properties.DPTO_DESC;
     var mapSem = SMV.mapNotif;
@@ -217,7 +241,6 @@ function getStyle(feature) {
     try{
         //color = mapSem[n]
         color = mapSem[n]["riesgo"];
-       console.log("hay valor")
     }catch(e){
     }
   
@@ -226,29 +249,82 @@ function getStyle(feature) {
             color: 'white',
             dashArray: '3',
             fillOpacity: 0.7, 
-            fillColor: getColor(color) };
+            fillColor: getColor(color) 
+        };
+}
+
+function getStyleDrill(feature) {
+    var prop = feature.properties;
+    var n = prop.DPTO_DESC+'-'+prop.DIST_DESC;
+    var mapSem = SMV.mapNotifDis;
+    var color = 'NONE';
+   try{
+        //color = mapSem[n]
+        color = mapSem[n]["riesgo"];
+        //console.log("hay valor");
+    }catch(e){
+    }
   
+    return { weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.7, 
+            fillColor: getColor(color) 
+        };
+}
+
+function loadDrillDownDep(){
+
+    var drillDown = new Object();
+    drillDown['ASUNCION'] = asuncion;
+    drillDown['ALTO PARAGUAY'] = altoparaguay;
+    drillDown['ALTO PARANA'] = altoparana;
+    drillDown['AMAMBAY'] = amambay;
+    drillDown['BOQUERON'] = boqueron;
+    drillDown['CAAGUAZU'] = caaguazu;
+    drillDown['CAAZAPA'] = caazapa;
+    drillDown['CANINDEYU'] = canindeyu;
+    drillDown['CENTRAL'] = central;
+    drillDown['CONCEPCION'] = concepcion;
+    drillDown['CORDILLERA'] = cordillera;
+    drillDown['GUAIRA'] = guaira;
+    drillDown['ITAPUA'] = itapua;
+    drillDown['MISIONES'] = misiones;
+    drillDown['ÑEEMBUCU'] = neembucu;
+    drillDown['PARAGUARI'] = paraguari;
+    drillDown['PRESIDENTE HAYES'] = presidentehayes;
+    drillDown['SAN PEDRO'] = sanpedro;
+    SMV.drillDown = drillDown;
+
 }
 // This function is called whenever someone clicks on a checkbox and changes
 // the selection of markers to be displayed.
 function update_filters() {
     var proyectos = get_selected_checkbox('#resultado li input');
     var distrito = get_selected_combo('#distrito');
-    console.log(distrito);
+   
     var riesgo;
+    var riesgoDistritos;
     if(distrito=='2009'){
         riesgo = riesgo9;
+        riesgoDistritos = riesgoDis2009;
     }else if (distrito=='2010'){
         riesgo = riesgo10;
+        riesgoDistritos = riesgoDis2010;
     }else if (distrito=='2011'){
         riesgo = riesgo11;
+        riesgoDistritos = riesgoDis2011;
     }else if (distrito=='2012'){
         riesgo = riesgo12;
+        riesgoDistritos = riesgoDis2012;
     }else if (distrito=='2013'){
         riesgo = riesgo13;
+        riesgoDistritos = riesgoDis2013;
     }
 
     SMV.riesgoJson = riesgo;
+    SMV.riesgoDisJson = riesgoDistritos;
     reloadMapSem(SMV.semana);
     SMV.geoJsonLayer.setStyle(getStyle);
 }
@@ -502,7 +578,7 @@ function setup_modal_navigation() {
 }
 
 function startLoading() {
-    console.log('startLoading');
+
     var spinner = new Spinner({
         color: "#5bc0de",
         radius: 30,
@@ -513,7 +589,7 @@ function startLoading() {
 }
 
 function finishedLoading() {
-    console.log('finishedLoading');
+
     // first, toggle the class 'done', which makes the loading screen
     // fade out
     var loader = $("#loader");
@@ -528,7 +604,7 @@ function finishedLoading() {
 }
 
 function setup_gmaps() {
-    console.log('setup_gmaps');
+
     google.maps.event.addListenerOnce(this._google, 'tilesloaded', finishedLoading);
 }
 

@@ -1,13 +1,16 @@
 $(document).ready(function() {
+    var mapTabActive = check_url();
     SMV.map = draw_map();
-    //draw_table();
-    draw_table_boot();
-    draw_sidetag(map);
+    draw_table();
+    //draw_table_boot();
+    draw_sidetag(map, !mapTabActive);
+    //draw_or_defer_map(mapTabActive);
     $("#departamento").select2();
     $("#distrito").select2();
     $("#localidad").select2();
     add_filter_listeners(map);
     setup_modal_navigation();
+    setup_intro();
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) { 
         SMV.semana= event.target.innerText;
         reloadMapSem(event.target.innerText);
@@ -15,6 +18,34 @@ $(document).ready(function() {
     });
     
 });
+
+function check_url(){
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    var hash = url.split('#')[1] || 'mapa';
+    if (url.match('#')) {
+        $('.navbar-nav a[href=#'+hash+']').tab('show') ;
+    } 
+
+    // Change hash for page-reload
+    $('.navbar-nav a').on('click', function (e) {
+        window.location.hash = e.target.hash;
+    })
+    return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
+}
+
+function draw_or_defer_map(mapTabActive){
+  if(mapTabActive){
+    SMV.map = draw_map();
+  }else{
+    finishedLoading();
+    $('.navbar-nav a').on('click', function (e) {
+      if(e.target.hash === '#mapa' && !!! SMV.map){
+        SMV.map = draw_map();
+      }
+    });
+  }
+}
 
 function draw_map() {
     startLoading();
@@ -259,132 +290,11 @@ function get_selected_combo(selector) {
     return value;
 }
 
-function draw_table_details(d) {
-    var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-    for (var i = SMV.DATA_COLUMNS; i < SMV.TABLE_COLUMNS.length; i++) {
-        row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', SMV.ATTR_TO_LABEL[SMV.TABLE_COLUMNS[i]], d[SMV.TABLE_COLUMNS[i]])
-        table += row;
-    }
-    table += '</table>';
-    return table;
-}
-
-function draw_table() {
-
-    /*var dataset = viviendas.features.map(function(f){
-                  return SMV.TABLE_COLUMNS.map(function(c){
-                    return f.properties[c];
-                  });
-                });*/
-    var dataset = viviendas.features.map(function(f) {
-        var result = f.properties;
-        result.coordinates = f.geometry.coordinates;
-        return result;
-    })
-
-    for (var i = 0; i < SMV.TABLE_COLUMNS.length + SMV.BUTTON_COLUMNS; i++) {
-        $('#lista tfoot tr').append('<th></th>');
-    }
-
-    var columns = SMV.TABLE_COLUMNS.map(function(c, i) {
-        return {
-            "title": SMV.ATTR_TO_LABEL[c],
-            "data": c,
-            "visible": (i < SMV.DATA_COLUMNS),
-            "defaultContent": ""
-        };
-    });
-
-    columns.unshift({
-        "class": 'details-control',
-        "orderable": false,
-        "data": null,
-        "defaultContent": ''
-    }, {
-        "class": 'map-control',
-        "orderable": false,
-        "data": null,
-        "defaultContent": ''
-    });
-
-    // DataTable
-    var table = $('#lista').DataTable({
-        "language": {
-            "sProcessing": "Procesando...",
-            "sLengthMenu": "Mostrar _MENU_ registros",
-            "sZeroRecords": "No se encontraron resultados",
-            "sEmptyTable": "Ningún dato disponible en esta tabla",
-            "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
-            "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
-            "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
-            "sInfoPostFix": "",
-            "sSearch": "Buscar:",
-            "sUrl": "",
-            "sInfoThousands": ",",
-            "sLoadingRecords": "Cargando...",
-            "oPaginate": {
-                "sFirst": "Primero",
-                "sLast": "Último",
-                "sNext": "Siguiente",
-                "sPrevious": "Anterior"
-            },
-            "oAria": {
-                "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
-                "sSortDescending": ": Activar para ordenar la columna de manera descendente"
-            }
-        },
-        "data": dataset,
-        "columns": columns,
-        "order": [
-            [2, "asc"]
-        ]
-    });
-
-    // Add event listener for opening and closing details
-    $('#lista tbody').on('click', 'td.details-control', function() {
-        var tr = $(this).closest('tr');
-        var row = table.row(tr);
-
-        if (row.child.isShown()) {
-            // This row is already open - close it
-            row.child.hide();
-            tr.removeClass('shown');
-        } else {
-            // Open this row
-            row.child(draw_table_details(row.data())).show();
-            tr.addClass('shown');
-        }
-    });
-
-    $('#lista tbody').on('click', 'td.map-control', function() {
-        var tr = $(this).closest('tr');
-        var row = table.row(tr);
-        go_to_feature(row.data().coordinates);
-    });
-
-    // Setup - add a text input to each footer cell
-    $('#lista tfoot th:not(:first, :nth-of-type(2))').each(function() {
-        var title = $('#lista thead th').eq($(this).index()).text();
-        $(this).html('<input class="column-filter" type="text" placeholder="Buscar ' + title + '" />');
-    });
-
-    // Apply the search
-    table.columns().eq(0).each(function(colIdx) {
-        $('input', table.column(colIdx).footer()).on('keyup change', function() {
-            table
-                .column(colIdx)
-                .search(this.value)
-                .draw();
-        });
-    });
-    $('tfoot').insertAfter('thead');
-}
-
 function go_to_feature(target) {
     SMV.markerLayer.eachLayer(function(marker) {
         var t = L.latLng(target[1], target[0]);
         if (t.equals(marker.getLatLng())) {
-            $('#section-mapa').on('transitionend', function() {
+            $('#mapa').on('transitionend', function() {
                 SMV.map.setView(t, 18);
                 marker.fireEvent('click', {
                     layer: marker
@@ -392,41 +302,50 @@ function go_to_feature(target) {
                 $(this).off('transitionend');
             });
 
-            $(".navbar-nav>li>a[href=#section-mapa]").click();
+            $(".navbar-nav>li>a[href=#mapa]").click();
 
         }
     });
 
 }
 
-function draw_sidetag(map) {
-    $('#opener').on('click', function() {
-        var panel = $('#slide-panel');
-        if (panel.hasClass("visible")) {
-            panel.removeClass('visible').css({
-                'margin-left': '-300px'
-            });
-        } else {
-            panel.addClass('visible').css({
-                'margin-left': '0px'
-            });
-        }
-        $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
-        $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
-        //map.invalidateSize();
-        return false;
+function draw_sidetag(map, hide) {
+    $('#opener').on('click', function() {   
+    var panel = $('#slide-panel');
+    if (panel.hasClass("visible")) {
+       panel.removeClass('visible').animate({'margin-left':'-300px'});
+       $('#slide-tag').animate({'margin-left':'-300px'});
+    } else {
+      panel.addClass('visible').animate({'margin-left':'0px'});
+      $('#slide-tag').animate({'margin-left':'0px'});
+    }
+    $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
+    $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
+    return false; 
     });
 
-    $('.navbar-nav>li>a').bind('click', function(e) {
-        if ($(this).attr('href') === '#section-mapa') {
-            $('#opener').show();
-        } else {
-            if ($('#slide-panel').hasClass("visible")) {
-                $('#opener').click();
-            }
-            $('#opener').hide();
+    $('.navbar-nav>li>a').bind('click', function (e) {
+        if($(this).attr('href') === '#mapa'){
+          $('#opener').show();
+          $('body').css('overflow', 'hidden');
+          $('#opener').click();
         }
-    });
+        if($(this).attr('href') === '#listado' ||
+          $(this).attr('href') === '#acerca-de' ||
+            $(this).attr('href') === '#contacto'){
+
+          $('body').css('overflow', 'auto');
+          if ($('#slide-panel').hasClass("visible")) {
+            $('#opener').click();
+          }
+          $('#opener').hide();
+        }
+      });
+
+    if(hide){
+        $('#opener').hide();
+    }
+
 }
 
 function setup_modal() {
@@ -544,7 +463,6 @@ function add_filter_listeners(map) {
 
 }
 
-
 function get_selected_checkbox(selector) {
     var checkboxes = $(selector);
     var enabled = {};
@@ -555,8 +473,6 @@ function get_selected_checkbox(selector) {
     }
     return enabled;
 }
-
-
 
 /*Utilitario para eliminar acentos de la cadena, para poder comparar las claves
 (nombre del departamento) del servicio (BD MEC) con las del GEOJSON*/
@@ -576,7 +492,144 @@ function removeAccents(strAccents) {
     return strAccentsOut;
 }
 
-function draw_table_boot() {
+
+
+
+function draw_table () {
+
+  /*var dataset = viviendas.features.map(function(f){
+                  return SMV.TABLE_COLUMNS.map(function(c){
+                    return f.properties[c];
+                  });
+                });*/
+    var dataset = viviendas.features.map(function(f){
+    var result = f.properties;
+    result.coordinates = f.geometry.coordinates;
+    return result;
+  });
+
+  for(var i=0; i<SMV.TABLE_COLUMNS.length + SMV.BUTTON_COLUMNS; i++){
+    $('#lista tfoot tr').append('<th></th>');
+  }
+
+  var columns = SMV.TABLE_COLUMNS.map(function(c, i){
+    return { 
+        "title": SMV.ATTR_TO_LABEL[c],
+        "data": c,
+        "visible": (i < SMV.DATA_COLUMNS),
+        "defaultContent": ""
+      };
+  });
+
+  columns.unshift({
+                "class":          'details-control',
+                "orderable":      false,
+                "data":           null,
+                "defaultContent": ''
+            },
+            {
+                "class":          'map-control',
+                "orderable":      false,
+                "data":           null,
+                "defaultContent": ''
+            });
+
+  // DataTable
+  var table = $('#lista').DataTable({
+    "language": {
+      "sProcessing":     "Procesando...",
+      "sLengthMenu":     "Mostrar _MENU_ registros",
+      "sZeroRecords":    "No se encontraron resultados",
+      "sEmptyTable":     "Ningún dato disponible en esta tabla",
+      "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+      "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+      "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+      "sInfoPostFix":    "",
+      "sSearch":         "Buscar:",
+      "sUrl":            "",
+      "sInfoThousands":  ",",
+      "sLoadingRecords": "Cargando...",
+      "oPaginate": {
+          "sFirst":    "Primero",
+          "sLast":     "Último",
+          "sNext":     "Siguiente",
+          "sPrevious": "Anterior"
+      },
+      "oAria": {
+          "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+          "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+      }
+    },
+    "data": dataset,
+    "columns": columns,
+    "order": [[ 2, "asc" ]],
+  });
+
+  // Add event listener for opening and closing details
+  $('#lista tbody').on('click', 'td.details-control', function () {
+      var tr = $(this).closest('tr');
+      var row = table.row(tr);
+      var content = draw_table_details(row.data());
+      draw_table_row_child(table, tr, content, 'row-details');
+  } );
+
+  $('#lista tbody').on('click', 'td.map-control', function () {
+    var tr = $(this).closest('tr');
+    draw_table_map(table, tr);
+    //go_to_feature(row.data().coordinates);
+  });
+
+  // Setup - add a text input to each footer cell
+  $('#lista tfoot th:not(:first, :nth-of-type(2))').each( function () {
+      var title = $('#lista thead th').eq( $(this).index() ).text();
+      $(this).html( '<input class="column-filter form-control input-sm" type="text" placeholder="Buscar '+title+'" />' );
+  } );
+
+  // Apply the search
+  table.columns().eq(0).each( function (colIdx) {
+      $( 'input', table.column(colIdx).footer()).on( 'keyup change', function(){
+          table
+            .column(colIdx)
+            .search(this.value)
+            .draw();
+      } );
+  } );
+
+  $('tfoot').insertAfter('thead');
+  $('#download-footer').insertAfter('.row:last');
+  SMV.table = table;
+}
+
+function setup_checkbox_values(name, selector){
+    var values = get_unique_values(name);
+
+    _.each(values, function(d){
+        var icon = SMV.ESTADO_TO_ICON_CSS[d] || '';
+        var label = sprintf('<label class="btn btn-sm btn-primary %s"><input type="checkbox">%s</label>', icon, d);
+        $(selector).append(label);
+    });
+}
+
+function get_unique_values(prop){
+    return _.chain(viviendas.features)
+        .map(function(f){ return f.properties[prop]; })
+        .unique()
+        .sortBy(function(d){ return d; })
+        .value();
+}
+
+function draw_table_details (d) {
+    var table = '<table id="row-details" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+    for(var i = SMV.DATA_COLUMNS; i < SMV.TABLE_COLUMNS.length; i++){
+        var value = d[SMV.TABLE_COLUMNS[i]] || '-';
+        row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', SMV.ATTR_TO_LABEL[SMV.TABLE_COLUMNS[i]], value);
+        table += row;
+    }
+    table += '</table>';
+    return table;
+}
+
+/*function draw_table_boot() {
     $(function() {
         $('#table-javascript').bootstrapTable({
             method: 'get',
@@ -644,4 +697,125 @@ function draw_table_boot() {
             }]
         });
     });
+}*/
+
+function setup_intro(){
+    console.log('entro a setup_intro');
+  var stepsMapa = [
+    { 
+      intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
+      </br></br>Haz click en siguiente para comenzar."
+    },
+    {
+      element: '#tab-mapa',
+      intro: "En esta sección, puedes ver las viviendas de acuerdo a su ubicación geográfica.",
+      position: "right"
+    },
+    {
+      intro: "<div id='demo-marker' class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-clickable' tabindex='0'><div><span>8</span></div></div> \
+      </br></br>Un conglomerado agrupa varias obras de acuerdo al nivel de zoom del mapa. \
+      </br></br>El número en el centro indica la cantidad de proyectos agrupados en el conglomerado. \
+      </br></br>Para ver más de cerca las obras, haz click en el ícono del conglomerado.",
+      position: "right"
+    },
+    {
+      element: '#slide-panel',
+      intro: "Filtra las viviendas por departamento, distrito, programa o estado de la obra.",
+      position: 'right'
+    },
+    {
+      element: '.info-box',
+      intro: "Aquí puedes ver un resumen de las viviendas visibles en el mapa.",
+      position: "left"
+    },
+    {
+      element: '.leaflet-control-layers',
+      intro: "Cambia el mapa base con este componente.</br></br>¿Te gustaría ver una imagen satelital? Es posible!",
+      position: "left"
+    },
+    {
+      element: '#tab-descargas',
+      intro: "Haciendo click aquí puedes descargar los datos en formato Excel, CSV y JSON.",
+      position: "right"
+    },
+    {
+      element: '#tab-listado',
+      intro: "En la sección de listado, puedes ver datos de las viviendas de forma tabular. Visítala!",
+      position: "right"
+    }
+  ];
+
+  var stepsListado = [
+    { 
+      intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
+      </br></br>Haz click en siguiente para comenzar."
+    },
+    {
+      element: '#tab-listado',
+      intro: "En esta sección, puedes ver datos de las viviendas de forma tabular.",
+      position: "right"
+    },
+    {
+      element: document.querySelector('#lista_length label'),
+      intro: "Selecciona la cantidad de filas por página de la tabla.",
+      position: 'right'
+    },
+    {
+      element: document.querySelector('#lista_filter label'),
+      intro: "Filtra los resultados de acuerdo a los valores de cualquier campo.",
+      position: "left"
+    },
+    {
+      element: document.querySelectorAll('.column-filter')[0],
+      intro: "O filtra de acuerdo a los valores de una columna en particular.",
+    },
+    {
+      element: '#lista_info',
+      intro: "Aquí puedes ver un resumen de los resultados de tu búsqueda.",
+      position: "right"
+    },
+    {
+      element: '#lista_paginate',
+      intro: "Si los resultados son muchos, desplázate entre las páginas de la tabla.",
+      position: "left"
+    },
+    {
+      element: '#download-button-bar',
+      intro: "Descarga los resultados filtrados en JSON o CSV.",
+      position: "top"
+    },
+    {
+      element: '#tab-descargas',
+      intro: "O descarga todos los datos en formato Excel, CSV y JSON.",
+      position: "right"
+    },
+    {
+      element: '#tab-mapa',
+      intro: "Por último, ¿ya visitaste la sección del mapa interactivo?",
+      position: "right"
+    },
+  ];
+
+  $('#start-tour').click(function(){
+    console.log('cick en ayuda');
+    var steps;
+    switch($('.menu-wrapper ul li.active').attr('id')) {
+      case "tab-mapa":
+          steps = stepsMapa;
+          break;
+      case "tab-listado":
+          steps = stepsListado;
+          break;
+      default:
+          steps = false;
+    }
+
+    introJs().setOptions({
+      doneLabel: 'Salir',
+      nextLabel: 'Siguiente &rarr;',
+      prevLabel: '&larr; Anterior',
+      skipLabel: 'Salir',
+      steps: steps
+    }).start();
+  });
 }

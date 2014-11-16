@@ -4,14 +4,28 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/select2/select2.min.js"></script>
-<script src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script
+  src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
 <script src="bower_components/mapbox.js/mapbox.js"></script>
 <script src="bower_components/sprintf/src/sprintf.js"></script>
-<script src="bower_components/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script
+  src="bower_components/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 <script src="bower_components/flexslider/jquery.flexslider-min.js"></script>
 <script src="http://maps.google.com/maps/api/js?v=3&sensor=false"></script>
 <script src="bower_components/leaflet-plugins/layer/tile/Google.js"></script>
 <script src="bower_components/spin.js/spin.js"></script>
+<script src="bower_components/underscore/underscore-min.js"></script>
+<script src="bower_components/PapaParse/papaparse.min.js"></script>
+<script src="bower_components/momentjs/min/moment.min.js"></script>
+<script src="bower_components/intro.js/minified/intro.min.js"></script>
+<script src="bower_components/toastr/toastr.min.js"></script>
+<script
+  src="bower_components/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+<script
+  src="bower_components/bootstrapvalidator/dist/js/language/es_ES.js"></script>
+<script
+  src="bower_components/bootstrap-filestyle/src/bootstrap-filestyle.js"></script>
+
 <script src="js/viviendas.js"></script>
 <script src="js/config.js"></script>
 <script src="js/riesgos2009.js"></script>
@@ -22,75 +36,65 @@
 <script src="js/concepcion.js"></script>
 <script src="js/app.js"></script>
 
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.min.css">
+<link rel="stylesheet"
+  href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet"
+  href="bower_components/datatables/media/css/dataTables.bootstrap.css">
 <link rel="stylesheet" href="bower_components/select2/select2.css">
 <link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
 <link rel="stylesheet" href="bower_components/mapbox.js/mapbox.css">
 <link rel="stylesheet" href="bower_components/mapbox.js/mapbox.css">
-<link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.css">
-<link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.Default.css">
+<link rel="stylesheet"
+  href="bower_components/Leaflet.markercluster/dist/MarkerCluster.css">
+<link rel="stylesheet"
+  href="bower_components/Leaflet.markercluster/dist/MarkerCluster.Default.css">
+<link rel="stylesheet"
+  href="bower_components/intro.js/minified/introjs.min.css">
+<link rel="stylesheet" href="bower_components/toastr/toastr.min.css">
+<link rel="stylesheet"
+  href="bower_components/bootstrapvalidator/dist/css/bootstrapValidator.min.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon"
+  href="http://www.senavitat.gov.py/sitio/wp-content/themes/senavitat/favicon.ico">
+<link rel="stylesheet"
+  href="bower_components/datatables/media/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="css/bootstrap-formhelpers.css">
 <link rel="stylesheet" href="css/bootstrap-formhelpers.min.css">
 <script src="js/bootstrap-formhelpers.js"></script>
-<link rel="stylesheet" href="bower_components/bootstrap-table-master/src/bootstrap-table.css">
-<script src="bower_components/bootstrap-table-master/src/bootstrap-table.js"></script>
-<script src="bower_components/bootstrap-table-master/src/locale/bootstrap-table-es-AR.js"></script>
 </head>
 
 <body>
-<style type="text/css">
-  .legend {
-    text-align: left;
-    line-height: 18px;
-    color: #555;
-    }
-.legend i {
-    width: 15px;
-    height: 15px;
-    float: left;
-    margin-right: 8px;
-    opacity: 0.8;
-    }
-.leaflet-popup-close-button {
-    display: none;
-}
-.leaflet-popup-content-wrapper {
-    pointer-events: none;
-}
-.info {
-    padding: 6px 8px;
-    font: 14px/16px Arial, Helvetica, sans-serif;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 10 10 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-}
-.info h4 {
-    margin: 10 10 15px;
-    color: #777;
-}
-
-</style>
-  <div class="navbar navbar-default">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">DENGUE</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa
-          de Riesgo</a></li>
-      <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
-      <li class="dropdown"><a data-toggle="dropdown"
-        class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a data-toggle="tab" href="#dropdown1">CSV</a></li>
-          <li><a data-toggle="tab" href="#dropdown2">JSON</a></li>
-        </ul></li>
-    </ul>
-    <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png"
-      alt="Open Data"> <img id="opendata" class="navbar-logo"
-      src="img/od-logo.png" alt="Open Data">
+  <!--<div class="container">-->
+    <div class="navbar navbar-default">
+      <div>
+        <div id="title" class="navbar-header">
+          <a class="navbar-brand" href="#">DENGUE</a>
+        </div>
+        <div class="navbar-header menu-wrapper">
+          <ul class="nav navbar-nav">
+            <li id="tab-mapa" class="active"><a data-toggle="tab"
+              href="#mapa">Mapa</a></li>
+            <li id="tab-listado"><a data-toggle="tab" href="#listado">Listado</a></li>
+            <li id="tab-descargas" class="dropdown"><a
+              data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas
+                <b class="caret"></b>
+            </a>
+              <ul class="dropdown-menu">
+                <li><a href="public/viviendas.xls" target="_blank">Excel</a></li>
+                <li><a href="public/viviendas.csv" target="_blank">CSV</a></li>
+                <li><a href="public/viviendas.json" target="_blank">JSON</a></li>
+              </ul></li>
+            <li id="tab-about"><a data-toggle="tab" href="#acerca-de">Acerca
+                de</a></li>
+            <li id="tab-ayuda"><a href="#" id="start-tour">Ayuda</a></li>
+            <li class="logo-li"><img id="cc-by" class="navbar-logo"
+              src="img/cc-by-logo.png" alt="CC BY"></li>
+            <li class="logo-li"><img id="opendata" class="navbar-logo"
+              src="img/od-logo.png" alt="Open Data"></li>
+          </ul>
+        </div>
+      </div>
   </div>
   <div id="slide-panel">
     <a href="#" id="opener" class="btn btn-default"></span> Filtrar los Datos
@@ -104,154 +108,59 @@
       <div id="menuA" class="tab-pane fade in active">
         <div id="tab-1"
           class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-          <br/>
-              <h4>Mapa de riesgo por</h4>
+          <br />
+          <h4>Mapa de riesgo por</h4>
           <ul id="anio">
-            <li><input type="radio" name="visualizar" value="departamentos" checked onclick="handleClick(this);"> Departamentos</li>
-            <li><input type="radio" name="visualizar" value="distritos" onclick="handleClick(this);"> Distritos de 
-            <select id="departamento" style="width: 150px;"  >
-            <option value="Asuncion">Asunción</option>
+            <li><input type="radio" name="visualizar"
+              value="departamentos" checked onclick="handleClick(this);">
+              Departamentos</li>
+            <li><input type="radio" name="visualizar" value="distritos"
+              onclick="handleClick(this);"> Distritos de <select
+              id="departamento" style="width: 150px;">
+                <option value="Asuncion">Asunción</option>
 
-            <option value="Concepcion">Concepción</option>
+                <option value="Concepcion">Concepción</option>
 
-            <option value="San Pedro">San Pedro</option>
+                <option value="San Pedro">San Pedro</option>
 
-            <option value="Cordillera">Cordillera</option>
+                <option value="Cordillera">Cordillera</option>
 
-            <option value="Guaira">Guairá</option>
+                <option value="Guaira">Guairá</option>
 
-            <option value="Caaguazu">Caaguazú</option>
+                <option value="Caaguazu">Caaguazú</option>
 
-            <option value="Caazapa">Caazapá</option>
+                <option value="Caazapa">Caazapá</option>
 
-            <option value="Itapua">Itapúa</option>
+                <option value="Itapua">Itapúa</option>
 
-            <option value="Misiones">Misiones</option>
+                <option value="Misiones">Misiones</option>
 
-            <option value="Alto Parana">Alto Paraná</option>
+                <option value="Alto Parana">Alto Paraná</option>
 
-            <option value="Central">Central</option>
+                <option value="Central">Central</option>
 
-            <option value="Ñeembucu">Ñeembucú</option>
+                <option value="Ñeembucu">Ñeembucú</option>
 
-            <option value="Amambay">Amambay</option>
+                <option value="Amambay">Amambay</option>
 
-            <option value="Canindeyu">Canindeyú</option>
+                <option value="Canindeyu">Canindeyú</option>
 
-            <option value="Presidente Hayes">Presidente Hayes</option>
+                <option value="Presidente Hayes">Presidente Hayes</option>
 
-            <option value="Boqueron">Boquerón</option>
+                <option value="Boqueron">Boquerón</option>
 
-            <option value="Alto Paraguay">Alto Paraguay</option>
-          </select>
-
-             </li>
+                <option value="Alto Paraguay">Alto Paraguay</option>
+            </select></li>
           </ul>
-           <!--
-         <h4>Distristos de:</h4>
-          <select multiple id="departamento" style="width: 250px;" >
-            <option value="Asuncion">Asunción</option>
-
-            <option value="Concepcion">Concepción</option>
-
-            <option value="San Pedro">San Pedro</option>
-
-            <option value="Cordillera">Cordillera</option>
-
-            <option value="Guaira">Guairá</option>
-
-            <option value="Caaguazu">Caaguazú</option>
-
-            <option value="Caazapa">Caazapá</option>
-
-            <option value="Itapua">Itapúa</option>
-
-            <option value="Misiones">Misiones</option>
-
-            <option value="Alto Parana">Alto Paraná</option>
-
-            <option value="Central">Central</option>
-
-            <option value="Ñeembucu">Ñeembucú</option>
-
-            <option value="Amambay">Amambay</option>
-
-            <option value="Canindeyu">Canindeyú</option>
-
-            <option value="Presidente Hayes">Presidente Hayes</option>
-
-            <option value="Boqueron">Boquerón</option>
-
-            <option value="Alto Paraguay">Alto Paraguay</option>
-          </select>
-         <h4>Distrito</h4>
-          <select multiple id="distrito" style="width: 250px;">
-            <option value="Asuncion">Asunción</option>
-
-            <option value="Concepcion">Concepción</option>
-
-            <option value="San Pedro">San Pedro</option>
-
-            <option value="Cordillera">Cordillera</option>
-
-            <option value="Guaira">Guairá</option>
-
-            <option value="Caaguazu">Caaguazú</option>
-
-            <option value="Caazapa">Caazapá</option>
-
-            <option value="Itapua">Itapúa</option>
-
-            <option value="Misiones">Misiones</option>
-
-            <option value="Alto Parana">Alto Paraná</option>
-
-            <option value="Central">Central</option>
-
-            <option value="Ñeembucu">Ñeembucú</option>
-
-            <option value="Amambay">Amambay</option>
-
-            <option value="Canindeyu">Canindeyú</option>
-
-            <option value="Presidente Hayes">Presidente Hayes</option>
-
-            <option value="Boqueron">Boquerón</option>
-
-            <option value="Alto Paraguay">Alto Paraguay</option>
-          </select>
-          <h4>Barrio</h4>
-          <select multiple id="localidad" style="width: 250px;">
-            <option value="Asuncion">Seleccionar Barrio</option>
-          </select>
-          -->
           <h4>Año</h4>
-           <select id="distrito" style="width: 250px;" >
-              <option value="2009">2009</option>
-              <option value="2010">2010</option>
-              <option value="2011">2011</option>
-              <option value="2012">2012</option>
-              <option value="2013">2013</option>
-            </select>
-          <!--<ul id="anio">
-            <li><input id="chkTodosP" type="checkbox" value="Todos"
-              ="proj_check" checked="checked"> Todos</li>
-            <li><input type="checkbox" ="proj_check" value="2009"
-              checked="checked"> 2009</li>
-            <li><input type="checkbox" ="proj_check" value="2010"
-              checked="checked"> 2010</li>
-            <li><input type="checkbox" ="proj_check" value="2011"
-              checked="checked"> 2011</li>
-            <li><input type="checkbox" ="proj_check" value="2012"
-              checked="checked"> 2012</li>
-            <li><input type="checkbox" ="proj_check" value="2013"
-              checked="checked"> 2013</li>
-            <li><input type="checkbox" ="proj_check" value="2014"
-              checked="checked"> 2014</li>
-          </ul>
-
-
-           <h4>Resultado</h4>
+          <select id="distrito" style="width: 250px;">
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+          </select>
+          <!--<h4>Resultado</h4>
           <ul id="resultado">
             <li><input id="chkTodosP" type="checkbox" value="Todos"
               ="proj_check" checked="checked"> Todos</li>
@@ -278,7 +187,7 @@
       </div>
       <div id="menuB" class="tab-pane fade">
         <div class="crop">
-          <br/>
+          <br />
           <p>
             <img
               src="http://a.tiles.mapbox.com/v4/marker/pin-m+7e7e7e@2x.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg"
@@ -298,87 +207,99 @@
       </div>
     </div>
   </div>
-  
+
   <div class="main-container">
     <div id='loader'></div>
     <div id="main-content" class="tab-content">
-      <div class="tab-pane fade in active">
-      <div id="section-mapa" >
-        <div id="map" style="height:88%"></div>
-      </div>
+      <div id="mapa" class="tab-pane fade in active">
+
         <!--<div class="well">-->
-        <div id="section-slider" style="margin-left: 320px; margin-right: 17px; align-content: center;" >
-            <div id="slidersemana" class="bfh-slider" data-name="slider1" data-value="1" data-min="1" data-max="50">
-            </div>
-          </div >
+        <div id="section-slider"
+          style="margin-left: 320px; margin-right: 17px; align-content: center;">
+          <div id="slidersemana" class="bfh-slider" data-name="slider1"
+            data-value="1" data-min="1" data-max="50"></div>
+        </div>
         <!--</div>-->
+        <div>
+          <div id="map" style="height: 88%"></div>
+        </div>
+
       </div>
-    </div>
-      <div id="section-tabla" class="tab-pane fade">
-          </br>
-          <!--<table id="lista" class="display" cellspacing="0" width="100%">
+      <div id="listado" class="tab-pane fade">
+        </br>
+        <div class="margin-table">
+          <table id="lista"
+            class="table table-striped table-bordered no-footer display"
+            cellspacing="0" width="100%">
 
             <tfoot>
               <tr>
               </tr>
             </tfoot>
 
-          </table>-->
-          <!--<div class="bootstrap-table">
-            <table id="table-pagination" data-toggle="table" data-url="dengue.json" data-height="400" data-pagination="true" data-search="true" data-row-style="rowStyle" width="100%" style="margin:1px;">
-              <thead>
-                <tr>
-                    <th data-field="semana">Semana</th>
-                    <th data-field="anio">Año</th>
-                    <th data-field="departamento">Departamento</th>
-                    <th data-field="distrito">Distrito</th>
-                    <th data-field="barrio">Barrio</th>
-                    <th data-field="resultado">Resultado</th>
-                    <th data-field="clasificacion_clinica">Clasificación</th>
-                </tr>
-              </thead>
-            </table>
-          </div>-->
-        <div class="margin-table">
-          <table id="table-javascript"></table>
+          </table>
+          <div id="download-footer">
+            </br> <span class="download-label">Descargar lista filtrada de
+              notificaciones:</span>
+            <div id="download-button-bar" class="btn-group"
+              data-toggle="buttons">
+              <button id="filtered-csv" class="btn btn-primary">CSV</button>
+              <button id="filtered-json" class="btn btn-primary">JSON</button>
+            </div>
+          </div>
         </div>
       </div>
+      <!--<div class="margin-table">
+        <table id="table-javascript"></table>
+        </div>-->
       <div id="dropdown1" class="tab-pane fade">
-        <br/>
+        <br />
         <div class="well">
-          <h3> CSV </h3>
+          <h3>CSV</h3>
           <p>Descarga del conjunto de datos en formato CSV.</p>
         </div>
       </div>
       <div id="dropdown2" class="tab-pane fade">
-        <br/>
+        <br />
         <div class="well">
           <h3>JSON</h3>
           <p>Descarga del conjunto de datos en formato JSON.</p>
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="modal fade" id="photo-modal" tabindex="-1" role="dialog"
-    aria-labelledby="photo-modal-label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal">
-          <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-        </button>
-        <div class="modal-body"></div>
+      <div id="acerca-de" class="tab-pane fade">
+        <br/>
+        <div class="margin-table">
+          <h2>¿Por qué publicar Mapas de Riesgo del DENGUE?</h2>
+          <p>Este Mapa de Riesgo pretende [...redactar]</p>
+          <h2>¿Qué son los datos abiertos?</h2>
+          <p>Los Datos Abiertos pueden ser libremente usados, re-usados y
+            redistribuidos por cualquiera, sujeto solamente, a lo sumo, a
+            requisitos de atribución y redistribución con la misma licencia.</p>
+          <p>Los Datos Abiertos Gubernamentales son un medio fundamental
+            para fomentar la transparencia, facilitando a los ciudadanos el
+            acceso a la información de la gestión del Gobierno. Los ciudadanos
+            pueden así empoderarse de los procesos de decisión, ayudando al
+            gobierno en la toma de mejores decisiones y colaborando en la
+            propuesta de soluciones.</p>
+          <h2>¿Cómo puedo usar los datos?</h2>
+          <p>Con los Datos Abiertos se pueden crear visualizaciones
+            innovativas para comprender mejor datos complejos, fomentando la
+            creación de nuevos conocimientos. También puede ser la base de
+            oportunidades de negocios convirtiéndose en un importante motor
+            económico.</p>
+          <h2>¿Quiénes están involucrados en el proyecto?</h2>
+          <p>La visualización fue desarrollada como Proyecto de la materia Electiva 6 - Datos
+            Abiertos de la carrera Ingeniería Informática de la Facultad Politécnica             para la Dirección de Vigilancia de la Salud del Ministerio de Salud Pública y Bienestar Social por el Dr. Prof. Juan Pane y las alumnas Verena Ojeda y Natalia Valdez, con el apoyo del equipo técnico de la institución.</p>
+          </div>
       </div>
-      <!-- /.modal-content -->
     </div>
-    <!-- /.modal-dialog -->
   </div>
-  <!-- /.modal -->
   <!--<div id="footer">
-    <div class="container">
-      <p class="muted credit">Desarrollado por <a href="www.pol.una.py">Facultad Politécnica</a></p>
-    </div>
-  </div>-->
+      <div class="container">
+        <p class="muted credit">Desarrollado por <a href="www.pol.una.py">Facultad Politécnica</a></p>
+      </div>
+      </div>-->
 </body>
 
 </html>

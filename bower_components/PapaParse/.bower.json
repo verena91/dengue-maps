@@ -1,0 +1,13 @@
+{
+  "name": "PapaParse",
+  "_cacheHeaders": {
+    "ETag": "\"f8758d64162467a789d5c29b4ead4435\"",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "_release": "e-tag:f8758d641",
+  "main": "index",
+  "_source": "https://github.com/mholt/PapaParse",
+  "_target": "*",
+  "_originalSource": "https://github.com/mholt/PapaParse",
+  "_direct": true
+}

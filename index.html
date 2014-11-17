@@ -4,8 +4,10 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/select2/select2.min.js"></script>
-<script
+  <script
   src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+  <script
+  src="bower_components/datatables/media/js/dataTables.bootstrap.js"></script>
 <script src="bower_components/mapbox.js/mapbox.js"></script>
 <script src="bower_components/sprintf/src/sprintf.js"></script>
 <script
@@ -25,8 +27,6 @@
   src="bower_components/bootstrapvalidator/dist/js/language/es_ES.js"></script>
 <script
   src="bower_components/bootstrap-filestyle/src/bootstrap-filestyle.js"></script>
-<!--Mientras para que no falle la tabla-->
-<script src="js/viviendas.js"></script>
 <script src="js/departamentos.js"></script>
 <script src="js/config.js"></script>
 <script src="js/riesgos/departamentos/riesgos2009.js"></script>
@@ -83,8 +83,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="shortcut icon"
   href="http://www.senavitat.gov.py/sitio/wp-content/themes/senavitat/favicon.ico">
-<link rel="stylesheet"
-  href="bower_components/datatables/media/css/jquery.dataTables.min.css">
+
 <link rel="stylesheet" href="css/bootstrap-formhelpers.css">
 <link rel="stylesheet" href="css/bootstrap-formhelpers.min.css">
 <script src="js/bootstrap-formhelpers.js"></script>
@@ -114,13 +113,16 @@
             <li id="tab-about"><a data-toggle="tab" href="#acerca-de">Acerca
                 de</a></li>
             <li id="tab-ayuda"><a href="#" id="start-tour">Ayuda</a></li>
-            <li class="logo-li"><img id="cc-by" class="navbar-logo"
+            <!--<li class="logo-li"><img id="cc-by" class="navbar-logo"
               src="img/cc-by-logo.png" alt="CC BY"></li>
             <li class="logo-li"><img id="opendata" class="navbar-logo"
-              src="img/od-logo.png" alt="Open Data"></li>
+              src="img/od-logo.png" alt="Open Data"></li>-->
           </ul>
-        </div>
       </div>
+      <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png"
+            alt="Open Data"> <img id="opendata" class="navbar-logo"
+            src="img/od-logo.png" alt="Open Data">
+    </div>
   </div>
   <div id="slide-panel">
     <a href="#" id="opener" class="btn btn-default"></span> Filtrar los Datos
@@ -253,35 +255,12 @@
       </div>
       <div id="listado" class="tab-pane fade">
         </br>
-        <!--<div class="margin-table">
-          <table id="lista"
-            class="table table-striped table-bordered no-footer display"
-            cellspacing="0" width="100%">
-
-            <tfoot>
-              <tr>
-              </tr>
-            </tfoot>
-
-          </table>
-          <div id="download-footer">
-            </br> <span class="download-label">Descargar lista filtrada de
-              notificaciones:</span>
-            <div id="download-button-bar" class="btn-group"
-              data-toggle="buttons">
-              <button id="filtered-csv" class="btn btn-primary">CSV</button>
-              <button id="filtered-json" class="btn btn-primary">JSON</button>
-            </div>
-          </div>
-        </div>-->
-
-        <table id="lista" 
-        class="table table-striped table-bordered no-footer display" 
+        <table id="lista"
+        class="table table-striped table-bordered no-footer display"
         cellspacing="0" width="100%">
           <thead>
               <tr>
-                  <th>Año
-                  </th>
+                  <th>Año</th>
                   <th>Semana</th>
                   <th>Fecha Notif.</th>
                   <th>Departamento</th>
@@ -296,7 +275,7 @@
               </tr>
           </tfoot>
         </table>
-        <div class="margin-table">
+
           <div id="download-footer">
             </br> <span class="download-label">Descargar lista filtrada de
               notificaciones:</span>
@@ -306,7 +285,7 @@
               <button id="filtered-json" class="btn btn-primary">JSON</button>
             </div>
           </div>
-        </div>
+
       </div>
       <!--<div class="margin-table">
         <table id="table-javascript"></table>

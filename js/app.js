@@ -97,7 +97,7 @@ function draw_table() {
 
     $('tfoot').insertAfter('thead');
     $('#download-footer').insertAfter('.row:last');
-    //SMV.table = table;
+    SMV.table = table;
 }
 
 
@@ -664,85 +664,6 @@ function removeAccents(strAccents) {
     return strAccentsOut;
 }
 
-
-
-/* Ubicar aqui todo lo que tiene que ver con la tabla*/
-function draw_table_2 () {
-
-    var dataset = viviendas.features.map(function(f){
-        var result = f.properties;
-        result.coordinates = f.geometry.coordinates;
-        return result;
-    });
-
-    for(var i=0; i<SMV.TABLE_COLUMNS.length; i++){
-        $('#lista tfoot tr').append('<th></th>');
-    }
-
-    var columns = SMV.TABLE_COLUMNS.map(function(c, i){
-        return {
-            "title": SMV.ATTR_TO_LABEL[c],
-            "data": c,
-            "visible": (i < SMV.DATA_COLUMNS),
-            "defaultContent": ""
-        };
-    });
-
-    /*columns.unshift({
-                "class":          'details-control',
-                "orderable":      false,
-                "data":           null,
-                "defaultContent": ''
-            },
-            {
-                "class":          'map-control',
-                "orderable":      false,
-                "data":           null,
-                "defaultContent": ''
-            });*/
-
-  // DataTable
-  var table = $('#lista').DataTable({
-    "data": dataset,
-    "columns": columns,
-    "order": [[ 2, "asc" ]],
-  });
-
-  // Add event listener for opening and closing details
-  /*$('#lista tbody').on('click', 'td.details-control', function () {
-      var tr = $(this).closest('tr');
-      var row = table.row(tr);
-      var content = draw_table_details(row.data());
-      draw_table_row_child(table, tr, content, 'row-details');
-  } );
-
-  $('#lista tbody').on('click', 'td.map-control', function () {
-    var tr = $(this).closest('tr');
-    draw_table_map(table, tr);
-    //go_to_feature(row.data().coordinates);
-  });*/
-
-  // Setup - add a text input to each footer cell
-  $('#lista tfoot th:not(:first, :nth-of-type(2))').each( function () {
-      var title = $('#lista thead th').eq( $(this).index() ).text();
-      $(this).html( '<input class="column-filter form-control input-sm" type="text" placeholder="Buscar '+title+'" />' );
-  } );
-
-  // Apply the search
-  table.columns().eq(0).each( function (colIdx) {
-      $( 'input', table.column(colIdx).footer()).on( 'keyup change', function(){
-          table
-            .column(colIdx)
-            .search(this.value)
-            .draw();
-      } );
-  } );
-
-  $('tfoot').insertAfter('thead');
-  $('#download-footer').insertAfter('.row:last');
-  SMV.table = table;
-}
-
 function setup_checkbox_values(name, selector){
     var values = get_unique_values(name);
 
@@ -880,11 +801,11 @@ function setup_intro(){
       intro: "En esta sección, puedes ver datos de las notificaciones de dengue de forma tabular.",
       position: "right"
     },
-    /*{
+    {
       element: document.querySelector('#lista_length label'),
       intro: "Selecciona la cantidad de filas por página de la tabla.",
       position: 'right'
-    },*/
+    },
     {
       element: document.querySelector('#lista_filter label'),
       intro: "Filtra los resultados de acuerdo a los valores de cualquier campo.",

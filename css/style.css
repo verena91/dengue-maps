@@ -254,8 +254,6 @@ tr.shown td.details-control {
     cursor: pointer;
 }
 
-/* select2 style bootstrap */
-
 .glyphicon.glyphicon-refresh.icon-refresh {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -264,11 +262,6 @@ tr.shown td.details-control {
 .margin-table {
     padding-right: 20px;
     padding-left: 20px;
-}
-
-/* Mientras */
-#download-footer{
-    margin-left: 25px;
 }
 
 #download-button-bar{

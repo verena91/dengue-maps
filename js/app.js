@@ -18,6 +18,11 @@ $(document).ready(function() {
         console.log('se movio el slide');
     });
 
+    // Pruebas con el slider
+    //var $slider2 = $("#slider2").slider({ max: 20 , value: 10 });
+    //$slider2.slider("pips");
+    //$('#slider2').slider().slider('pips').slider('pips');
+
 });
 
 function check_url(){
@@ -159,7 +164,7 @@ function draw_map() {
     SMV.inzoom = false;
     SMV.riesgoJson = riesgo13;
     SMV.riesgoDisJson = riesgoDis13;
-    
+
     reloadMapSem($( "#slidersemana" ).data('value'));
     SMV.semana = $( "#slidersemana" ).data('value');
     map.addLayer(mapbox);
@@ -254,9 +259,9 @@ function draw_map() {
     };
     info.update = function (props) {
         if(props){
-            var dep = props.DPTO_DESC;
             var anio = SMV.anio;
             var semana = SMV.semana;
+            var dep = props.DPTO_DESC;
             var mapSem = SMV.mapNotif;
             var nroNS = '0';
             try{
@@ -269,6 +274,8 @@ function draw_map() {
     };
     info.updateDrillDown = function (props){
         if(props){
+            var anio = SMV.anio;
+            var semana = SMV.semana;
             var dep = props.DPTO_DESC;
             var dis = props.DIST_DESC;
             var mapSem = SMV.mapNotifDis;
@@ -278,9 +285,9 @@ function draw_map() {
             try{
                 nroNS = mapSem[key]["cantidad"];
             }catch(e){
-                
+
             }
-          this._div.innerHTML =  '<h2>'+dep+'<\/h2><h2>'+dis+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
+          this._div.innerHTML =  '<h2>Año: '+anio+'<\/h2><h2>Semana: '+semana+'<\/h2><h2>Dpto: '+dep+'<\/h2><h2>Distrito: '+dis+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
         }
     };
     info.addTo(map);

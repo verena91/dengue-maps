@@ -15,6 +15,7 @@ $(document).ready(function() {
         SMV.semana= event.target.innerText;
         reloadMapSem(event.target.innerText);
         SMV.geoJsonLayer.setStyle(getStyle);
+        SMV.layerActual.setStyle(getStyleDrillDown);
         console.log('se movio el slide');
     });
     
@@ -76,8 +77,10 @@ function draw_map() {
     "Satélite": gglHybrid,
     "Calles Google Maps": gglRoadmap
     };
-    SMV.riesgoJson = riesgo9;
-    SMV.riesgoDisJson = riesgoDis9;
+    SMV.inzoom = false;
+    SMV.riesgoJson = riesgo13;
+    SMV.riesgoDisJson = riesgoDis13;
+    
     reloadMapSem($( "#slidersemana" ).data('value'));
     SMV.semana = $( "#slidersemana" ).data('value');
     map.addLayer(mapbox);
@@ -153,182 +156,28 @@ function draw_map() {
           this._div.innerHTML =  '<h2>'+dep+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
         }
     };
+    info.updateDrillDown = function (props){
+        if(props){
+            var dep = props.DPTO_DESC;
+            var dis = props.DIST_DESC;
+            var mapSem = SMV.mapNotifDis;
+            var nroNS = '0';
+            var key = dep+'-'+dis;
+            console.log(key);
+            try{
+                nroNS = mapSem[key]["cantidad"];
+            }catch(e){
+                
+            }
+          this._div.innerHTML =  '<h2>'+dep+'<\/h2><h2>'+dis+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
+        }
+    };
     info.addTo(map);
     SMV.info = info;
 
     return map;
 }
 
-function reloadMapSem(semana){
-    
-    var rasu;
-    var rcen;
-    var mapSem = new Object();
-    var mapSemDis = new Object();
-    var riesgo = SMV.riesgoJson;
-    var riesgoDis = SMV.riesgoDisJson;
-    for(var i=0;i<riesgo.length;i++){
-        var obj = riesgo[i];
-        if(obj["semana"]==semana ){
-            
-            mapSem[obj["departamento"]]= obj;
-            if(obj["departamento"]=="CENTRAL"){
-                rcen = obj;
-            }
-            if(obj["departamento"]=="ASUNCION"){
-                rasu = obj;
-            }
-        }
-    }
-    if(rasu){
-       try{
-            rasu["riesgo"] = rcen["riesgo"];
-        }catch(e){
-            rasu["riesgo"] = 'RB';
-        }
-        mapSem["ASUNCION"] = rasu;
-    }
-    SMV.mapNotif = mapSem;
-
-    for(var i=0;i<riesgoDis.length;i++){
-        var obj = riesgoDis[i];
-        if(obj["semana"]==semana ){
-            
-            mapSemDis[obj["distrito"]]= obj;
-            /*if(obj["departamento"]=="CENTRAL"){
-                rcen = obj;
-            }*/
-            if(obj["distrito"]=="ASUNCION"){
-                //rasu = obj;
-            }
-        }
-    }
-   
-    SMV.mapNotifDis = mapSemDis;
-
-}
-
- /*Eventos para cada departamento*/
-function onEachFeature(feature, layer) {
-    layer.on({
-        mouseover: mouseover,
-        mouseout: mouseout,
-        click: zoomToFeature
-    });
-    //content = '<h2>'+feature.properties.DPTO_DESC+'<\/h2>';
-    //layer.bindPopup(content);
-}
-
-
-/*Evento similar a hover para cada departamento*/
-function mouseover(e) {
-    var layer = e.target;
-     layer.setStyle({
-        weight: 5,
-        color: '#666',
-        dashArray: ''
-        
-    });
-
-    if (!L.Browser.ie && !L.Browser.opera) {
-        layer.bringToFront();
-    }
-    SMV.info.update(layer.feature.properties);
-}
-
-/*Evento al salir el puntero de un departamento*/
-function mouseout(e) {
-    SMV.geoJsonLayer.resetStyle(e.target);
-    SMV.info.update();
-   
-}
-
-/*Zoom al hacer click en un departamento*/
-function zoomToFeature(e) {
-    var target = e.target;
-    var json = SMV.drillDown[target.feature.properties.DPTO_DESC];
-    if(SMV.layerActual){
-        console.log('removiendo capa')
-        SMV.map.removeLayer(SMV.layerActual);
-    }
-    SMV.layerActual = L.geoJson(json,  {style: getStyleDrill, onEachFeature: onEachFeature}).addTo(SMV.map);
-    SMV.map.fitBounds(target.getBounds());
-    
-   // SMV.map.removeLayer(SMV.geoJsonLayer);
-}
-
-function getColor(d) {
-    return d == 'E' ? '#FE0516' :
-        d == 'RA' ? '#FF6905' :
-        d == 'RM' ? '#FFB905' :
-        d == 'RB' ? '#FFF96D' :
-        '#FFFFFF';
-}
-/*Estilo de la capa de acuedo a los valores de riesgo*/
-function getStyle(feature) {
-    var n = feature.properties.DPTO_DESC;
-    var mapSem = SMV.mapNotif;
-    var color = 'NONE';
-    try{
-        //color = mapSem[n]
-        color = mapSem[n]["riesgo"];
-    }catch(e){
-    }
-  
-    return { weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7, 
-            fillColor: getColor(color) 
-        };
-}
-
-function getStyleDrill(feature) {
-    var prop = feature.properties;
-    var n = prop.DPTO_DESC+'-'+prop.DIST_DESC;
-    var mapSem = SMV.mapNotifDis;
-    var color = 'NONE';
-   try{
-        //color = mapSem[n]
-        color = mapSem[n]["riesgo"];
-        //console.log("hay valor");
-    }catch(e){
-    }
-  
-    return { weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7, 
-            fillColor: getColor(color) 
-        };
-}
-
-function loadDrillDownDep(){
-
-    var drillDown = new Object();
-    drillDown['ASUNCION'] = asuncion;
-    drillDown['ALTO PARAGUAY'] = altoparaguay;
-    drillDown['ALTO PARANA'] = altoparana;
-    drillDown['AMAMBAY'] = amambay;
-    drillDown['BOQUERON'] = boqueron;
-    drillDown['CAAGUAZU'] = caaguazu;
-    drillDown['CAAZAPA'] = caazapa;
-    drillDown['CANINDEYU'] = canindeyu;
-    drillDown['CENTRAL'] = central;
-    drillDown['CONCEPCION'] = concepcion;
-    drillDown['CORDILLERA'] = cordillera;
-    drillDown['GUAIRA'] = guaira;
-    drillDown['ITAPUA'] = itapua;
-    drillDown['MISIONES'] = misiones;
-    drillDown['ÑEEMBUCU'] = neembucu;
-    drillDown['PARAGUARI'] = paraguari;
-    drillDown['PRESIDENTE HAYES'] = presidentehayes;
-    drillDown['SAN PEDRO'] = sanpedro;
-    SMV.drillDown = drillDown;
-
-}
 // This function is called whenever someone clicks on a checkbox and changes
 // the selection of markers to be displayed.
 function update_filters() {

@@ -1,4 +1,4 @@
-var riesgoDis2012 = [
+var riesgoDis12 = [
     {
         "semana": 1,
         "cantidad": 48,

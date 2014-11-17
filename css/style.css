@@ -94,7 +94,7 @@ table{
 
 .dataTables_wrapper{
     clear: none;
-    margin: 40px;
+    margin: 0 40 40 40;
 }
 
 .popup-table{
@@ -164,7 +164,14 @@ table{
 }
 
 #lista thead th{
-    border: 0;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#lista tfoot th{
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
 }
 
 tfoot {
@@ -177,6 +184,7 @@ tfoot th{
     border-bottom-style: solid;
     border-bottom-color: rgb(17, 17, 17);
 }
+
 
 .marker-icon{
     width: 25px;
@@ -248,25 +256,6 @@ tr.shown td.details-control {
 
 /* select2 style bootstrap */
 
-.select2-container-multi.select2-container-active .select2-choices {
-    border-color: #66afe9;
-    outline: none;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-.select2-drop-active {
-    border-color: #66afe9;
-    border-top: none;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-}
-
-.select2-container-multi .select2-choices {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
 .glyphicon.glyphicon-refresh.icon-refresh {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -277,8 +266,13 @@ tr.shown td.details-control {
     padding-left: 20px;
 }
 
-.table.table-hover.table-striped {
-    font-size: 12px; !important
+/* Mientras */
+#download-footer{
+    margin-left: 25px;
+}
+
+#download-button-bar{
+    margin-left: 25px;
 }
 
 #dropdown2 {

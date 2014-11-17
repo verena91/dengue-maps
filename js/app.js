@@ -2,7 +2,6 @@ $(document).ready(function() {
     var mapTabActive = check_url();
     SMV.map = draw_map();
     draw_table();
-    //draw_table_boot();
     draw_sidetag(map, !mapTabActive);
     //draw_or_defer_map(mapTabActive);
     $("#departamento").select2();
@@ -34,6 +33,73 @@ function check_url(){
     })
     return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
 }
+
+function draw_table() {
+
+    for(var i=0; i<SMV.TABLE_COLUMNS.length; i++){
+        $('#lista tfoot tr').append('<th></th>');
+    }
+
+    /*var columns = SMV.TABLE_COLUMNS.map(function(c, i){
+        return { 
+            "title": SMV.ATTR_TO_LABEL[c],
+            "data": c,
+            "visible": (i < SMV.DATA_COLUMNS),
+            "defaultContent": ""
+        };
+    });*/
+
+    var table = $("#lista").dataTable( {
+        "language": {
+          "sProcessing":     "Procesando...",
+          "sLengthMenu":     "Mostrar _MENU_ registros",
+          "sZeroRecords":    "No se encontraron resultados",
+          "sEmptyTable":     "Ningún dato disponible en esta tabla",
+          "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+          "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+          "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+          "sInfoPostFix":    "",
+          "sSearch":         "Buscar:",
+          "sUrl":            "",
+          "sInfoThousands":  ",",
+          "sLoadingRecords": "Cargando...",
+          "oPaginate": {
+              "sFirst":    "Primero",
+              "sLast":     "Último",
+              "sNext":     "Siguiente",
+              "sPrevious": "Anterior"
+          },
+          "oAria": {
+              "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+              "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+          }
+        },
+        //"columns": columns,
+        "processing": true,
+        "serverSide": true,
+        "ajax": "http://localhost/denguemaps/rest/notificacion"
+    } );
+
+    $('#lista tfoot th').each( function () {
+        var title = $('#lista thead th').eq( $(this).index() ).text();
+        $(this).html( '<input class="column-filter form-control input-sm" type="text" placeholder="Buscar '+title+'" />' );
+    });
+
+    // Apply the search
+    /*table.columns().eq(0).each( function (colIdx) {
+        $( 'input', table.column(colIdx).footer()).on( 'keyup change', function(){
+        table
+            .column(colIdx)
+            .search(this.value)
+            .draw();
+        });
+    });*/
+
+    $('tfoot').insertAfter('thead');
+    $('#download-footer').insertAfter('.row:last');
+    //SMV.table = table;    
+}
+
 
 function draw_or_defer_map(mapTabActive){
   if(mapTabActive){
@@ -570,34 +636,29 @@ function removeAccents(strAccents) {
 
 
 
+/* Ubicar aqui todo lo que tiene que ver con la tabla*/
+function draw_table_2 () {
 
-function draw_table () {
-
-  /*var dataset = viviendas.features.map(function(f){
-                  return SMV.TABLE_COLUMNS.map(function(c){
-                    return f.properties[c];
-                  });
-                });*/
     var dataset = viviendas.features.map(function(f){
-    var result = f.properties;
-    result.coordinates = f.geometry.coordinates;
-    return result;
-  });
+        var result = f.properties;
+        result.coordinates = f.geometry.coordinates;
+        return result;
+    });
 
-  for(var i=0; i<SMV.TABLE_COLUMNS.length + SMV.BUTTON_COLUMNS; i++){
-    $('#lista tfoot tr').append('<th></th>');
-  }
+    for(var i=0; i<SMV.TABLE_COLUMNS.length; i++){
+        $('#lista tfoot tr').append('<th></th>');
+    }
 
-  var columns = SMV.TABLE_COLUMNS.map(function(c, i){
-    return { 
-        "title": SMV.ATTR_TO_LABEL[c],
-        "data": c,
-        "visible": (i < SMV.DATA_COLUMNS),
-        "defaultContent": ""
-      };
-  });
+    var columns = SMV.TABLE_COLUMNS.map(function(c, i){
+        return { 
+            "title": SMV.ATTR_TO_LABEL[c],
+            "data": c,
+            "visible": (i < SMV.DATA_COLUMNS),
+            "defaultContent": ""
+        };
+    });
 
-  columns.unshift({
+    /*columns.unshift({
                 "class":          'details-control',
                 "orderable":      false,
                 "data":           null,
@@ -608,41 +669,17 @@ function draw_table () {
                 "orderable":      false,
                 "data":           null,
                 "defaultContent": ''
-            });
+            });*/
 
   // DataTable
   var table = $('#lista').DataTable({
-    "language": {
-      "sProcessing":     "Procesando...",
-      "sLengthMenu":     "Mostrar _MENU_ registros",
-      "sZeroRecords":    "No se encontraron resultados",
-      "sEmptyTable":     "Ningún dato disponible en esta tabla",
-      "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
-      "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
-      "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
-      "sInfoPostFix":    "",
-      "sSearch":         "Buscar:",
-      "sUrl":            "",
-      "sInfoThousands":  ",",
-      "sLoadingRecords": "Cargando...",
-      "oPaginate": {
-          "sFirst":    "Primero",
-          "sLast":     "Último",
-          "sNext":     "Siguiente",
-          "sPrevious": "Anterior"
-      },
-      "oAria": {
-          "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
-          "sSortDescending": ": Activar para ordenar la columna de manera descendente"
-      }
-    },
     "data": dataset,
     "columns": columns,
     "order": [[ 2, "asc" ]],
   });
 
   // Add event listener for opening and closing details
-  $('#lista tbody').on('click', 'td.details-control', function () {
+  /*$('#lista tbody').on('click', 'td.details-control', function () {
       var tr = $(this).closest('tr');
       var row = table.row(tr);
       var content = draw_table_details(row.data());
@@ -653,7 +690,7 @@ function draw_table () {
     var tr = $(this).closest('tr');
     draw_table_map(table, tr);
     //go_to_feature(row.data().coordinates);
-  });
+  });*/
 
   // Setup - add a text input to each footer cell
   $('#lista tfoot th:not(:first, :nth-of-type(2))').each( function () {
@@ -692,17 +729,6 @@ function get_unique_values(prop){
         .unique()
         .sortBy(function(d){ return d; })
         .value();
-}
-
-function draw_table_details (d) {
-    var table = '<table id="row-details" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-    for(var i = SMV.DATA_COLUMNS; i < SMV.TABLE_COLUMNS.length; i++){
-        var value = d[SMV.TABLE_COLUMNS[i]] || '-';
-        row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', SMV.ATTR_TO_LABEL[SMV.TABLE_COLUMNS[i]], value);
-        table += row;
-    }
-    table += '</table>';
-    return table;
 }
 
 /*function draw_table_boot() {
@@ -784,14 +810,7 @@ function setup_intro(){
     },
     {
       element: '#tab-mapa',
-      intro: "En esta sección, puedes ver las viviendas de acuerdo a su ubicación geográfica.",
-      position: "right"
-    },
-    {
-      intro: "<div id='demo-marker' class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-clickable' tabindex='0'><div><span>8</span></div></div> \
-      </br></br>Un conglomerado agrupa varias obras de acuerdo al nivel de zoom del mapa. \
-      </br></br>El número en el centro indica la cantidad de proyectos agrupados en el conglomerado. \
-      </br></br>Para ver más de cerca las obras, haz click en el ícono del conglomerado.",
+      intro: "En esta sección, puedes ver el mapa de riesgo del dengue en el Paraguay.",
       position: "right"
     },
     {
@@ -801,7 +820,7 @@ function setup_intro(){
     },
     {
       element: '.info-box',
-      intro: "Aquí puedes ver un resumen de las viviendas visibles en el mapa.",
+      intro: "Aquí puedes ver un resumen del departamento/dsitrito visible en el mapa.",
       position: "left"
     },
     {
@@ -811,12 +830,12 @@ function setup_intro(){
     },
     {
       element: '#tab-descargas',
-      intro: "Haciendo click aquí puedes descargar los datos en formato Excel, CSV y JSON.",
+      intro: "Haciendo click aquí puedes descargar los datos en formato CSV y JSON por año.",
       position: "right"
     },
     {
       element: '#tab-listado',
-      intro: "En la sección de listado, puedes ver datos de las viviendas de forma tabular. Visítala!",
+      intro: "En la sección de listado, puedes ver datos de las notificaciones de dengue de forma tabular. Visítala!",
       position: "right"
     }
   ];
@@ -828,14 +847,14 @@ function setup_intro(){
     },
     {
       element: '#tab-listado',
-      intro: "En esta sección, puedes ver datos de las viviendas de forma tabular.",
+      intro: "En esta sección, puedes ver datos de las notificaciones de dengue de forma tabular.",
       position: "right"
     },
-    {
+    /*{
       element: document.querySelector('#lista_length label'),
       intro: "Selecciona la cantidad de filas por página de la tabla.",
       position: 'right'
-    },
+    },*/
     {
       element: document.querySelector('#lista_filter label'),
       intro: "Filtra los resultados de acuerdo a los valores de cualquier campo.",

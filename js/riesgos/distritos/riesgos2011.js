@@ -1,117 +1,39 @@
 var riesgoDis11 = [
     {
         "semana": 1,
-        "cantidad": 48,
+        "cantidad": 46,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 1,
         "cantidad": 1,
-        "distrito": "ALTO PARANA-DOMINGO MARTINEZ DE IRALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 13,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 4,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 1,
-        "cantidad": 19,
+        "cantidad": 7,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
+        "riesgo": "RM"
     },
     {
         "semana": 1,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 19,
+        "cantidad": 9,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
         "riesgo": "RA"
     },
     {
         "semana": 1,
-        "cantidad": 8,
+        "cantidad": 1,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 1,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 7,
+        "cantidad": 2,
         "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-REPATRIACION",
         "riesgo": "RM"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-GENERAL MORINIGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-MACIEL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-TAVAI",
-        "riesgo": "RB"
     },
     {
         "semana": 1,
@@ -121,3650 +43,1490 @@ var riesgoDis11 = [
     },
     {
         "semana": 1,
-        "cantidad": 7,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
         "cantidad": 2,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "distrito": "CENTRAL-AREGUA",
         "riesgo": "RB"
     },
     {
         "semana": 1,
-        "cantidad": 24,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 168,
+        "cantidad": 1,
         "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 1,
-        "cantidad": 126,
+        "cantidad": 1,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 1,
-        "cantidad": 6,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 10,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 24,
+        "cantidad": 3,
         "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
+        "riesgo": "RB"
     },
     {
         "semana": 1,
-        "cantidad": 18,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 196,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 39,
+        "cantidad": 2,
         "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
+        "riesgo": "RB"
     },
     {
         "semana": 1,
-        "cantidad": 363,
+        "cantidad": 2,
         "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 1,
-        "cantidad": 40,
+        "cantidad": 29,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "RA"
     },
     {
         "semana": 1,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 1,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 1,
+        "cantidad": 4,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 1,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 1,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 1,
+        "cantidad": 2,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 1,
         "cantidad": 7,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 52,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 26,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 230,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 175,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 8,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 5,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 1,
-        "cantidad": 18,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 9,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 1,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 17,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 22,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 1,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITURBE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "GUAIRA-PASO YOBAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 3,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 5,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 12,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 6,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 6,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-999",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 14,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 112,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-ANTEQUERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 8,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 41,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-UNION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 1,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 123,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 12,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 8,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 46,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 47,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 12,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 2,
-        "cantidad": 8,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 2,
-        "cantidad": 6,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-YHU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-AVA´I",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-TAVAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 10,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-NUEVA ESPERANZA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 2,
-        "cantidad": 70,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 383,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 311,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 23,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 34,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 59,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 56,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 402,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 62,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 634,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 142,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 14,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 142,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 60,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 494,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 579,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 16,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 10,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 2,
-        "cantidad": 55,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-AZOTEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 53,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 11,
         "distrito": "CONCEPCION-HORQUETA",
         "riesgo": "RA"
     },
     {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 1,
         "distrito": "CONCEPCION-LORETO",
         "riesgo": "RB"
     },
     {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 1,
-        "distrito": "CONCEPCION-VALLEMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 42,
         "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 68,
         "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 16,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ISLA PUCU",
         "riesgo": "RB"
     },
     {
-        "semana": 2,
-        "cantidad": 7,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
+        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
         "riesgo": "RB"
     },
     {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 1,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 2,
-        "cantidad": 18,
         "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
         "riesgo": "RB"
     },
     {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 2,
-        "cantidad": 12,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ITAPUA-ALTO VERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 24,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 2,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ITAPUA-EDELIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 2,
-        "cantidad": 69,
         "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "ITAPUA-MAYOR OTAÑO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 1,
         "distrito": "ITAPUA-SAN RAFAEL DEL PARANA",
         "riesgo": "E"
     },
     {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN PATRICIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
+        "semana": 1,
         "cantidad": 2,
-        "distrito": "ÑEEMBUCU-HUMAITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-LAURELES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 14,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-TACUARAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 11,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 12,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 13,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 20,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 9,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 26,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 156,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO NORTE-ANTEQUERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 6,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-LIMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-NUEVA GERMANIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 42,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 15,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 2,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 194,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 26,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 13,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 85,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 4,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 64,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 8,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 11,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 13,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 3,
-        "cantidad": 7,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-YHU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-GENERAL MORINIGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-MACIEL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 6,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 18,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 84,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 427,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 367,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 43,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 67,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 60,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 98,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 430,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 69,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 454,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 199,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 4,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 3,
-        "cantidad": 239,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 99,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 519,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 503,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 28,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 17,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 86,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 3,
-        "cantidad": 69,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 4,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 3,
-        "cantidad": 8,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 38,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 14,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 41,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 13,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 16,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 10,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "GUAIRA-EUGENIO A GARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "GUAIRA-SAN SALVADOR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 27,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ITAPUA-ALTO VERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 35,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 68,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "ITAPUA-MAYOR OTAÑO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "ITAPUA-NUEVA ALBORADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "ITAPUA-TRINIDAD",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA MARIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-CERRITO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-GUAZUCUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-MAYOR MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 19,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-TACUARAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-CAAPUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 14,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 13,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 13,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 8,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 27,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 174,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-ANTEQUERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 16,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-CERRITO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-ITACURUBI DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 14,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 3,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-UNION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 5,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 211,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 27,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 16,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 65,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 7,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 76,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 22,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 17,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 9,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-BUENA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-YUTY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 9,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 8,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 108,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 367,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 359,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 47,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 80,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 90,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 67,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 423,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 37,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 4,
-        "cantidad": 313,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 123,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 13,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 271,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 72,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 578,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 430,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 29,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 28,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 69,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 51,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 4,
-        "cantidad": 22,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 7,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 4,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 60,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 7,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 13,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 7,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITURBE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "GUAIRA-SAN SALVADOR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 28,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 15,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 55,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "ITAPUA-HOHENAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-JESUS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "ITAPUA-LA PAZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "ITAPUA-MAYOR OTAÑO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NUEVA ALBORADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-OBLIGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-PIRAPO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "ITAPUA-TRINIDAD",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 6,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 5,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "MISIONES-SAN MIGUEL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "MISIONES-VILLA FLORIDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-CERRITO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ISLA UMBU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 19,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-TACUARAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-VILLA OLIVA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 10,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 9,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 14,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 9,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 6,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-999",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 13,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-GENERAL BRUGUEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 130,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-NUEVA GERMANIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 8,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 32,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-TACUATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-CAPIIBARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-ITACURUBI DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 17,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 4,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-FUERTE OLIMPO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 7,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 167,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-DOMINGO MARTINEZ DE IRALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 13,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 16,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-ÑACUNDAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 58,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 6,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 41,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 22,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 10,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 26,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-NUEVA LONDRES",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 5,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-YHU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 7,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 8,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 129,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 526,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 294,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 34,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 97,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 76,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 128,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 631,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 49,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 506,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 64,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 5,
-        "cantidad": 11,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 345,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 90,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 899,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 607,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 30,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 25,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 88,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 46,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 5,
-        "cantidad": 4,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 5,
-        "cantidad": 13,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 28,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 14,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 52,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 5,
-        "cantidad": 7,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 12,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 13,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-S/D",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ÑUMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "GUAIRA-SAN SALVADOR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 49,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 16,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 6,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 47,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ITAPUA-JESUS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ITAPUA-OBLIGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ITAPUA-YATYTAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 8,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 4,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN MIGUEL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTIAGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "MISIONES-YABEBYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-GUAZUCUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-LAURELES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 10,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
+        "semana": 1,
         "cantidad": 1,
         "distrito": "PARAGUARI-999",
         "riesgo": "E"
     },
     {
-        "semana": 5,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CAAPUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 6,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 25,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 14,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
+        "semana": 1,
         "cantidad": 5,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 9,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-GENERAL BRUGUEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 141,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-LIMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 15,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-TACUATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 5,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 175,
+        "semana": 2,
+        "cantidad": 77,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
-        "semana": 6,
-        "cantidad": 15,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-IRUÑA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 13,
+        "semana": 2,
+        "cantidad": 3,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
-        "semana": 6,
+        "semana": 2,
         "cantidad": 1,
         "distrito": "ALTO PARANA-NARANJAL",
         "riesgo": "E"
     },
     {
-        "semana": 6,
-        "cantidad": 50,
+        "semana": 2,
+        "cantidad": 6,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
-        "semana": 6,
+        "semana": 2,
+        "cantidad": 22,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 2,
         "cantidad": 1,
-        "distrito": "ALTO PARANA-RAUL PEÑA",
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 2,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 3,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 5,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 2,
+        "cantidad": 4,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 27,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 2,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 7,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 7,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 2,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 2,
+        "cantidad": 2,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 2,
+        "cantidad": 4,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 2,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 126,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 6,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 7,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 3,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 42,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 3,
+        "cantidad": 4,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-JOSE DOMINGO OCAMPOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 2,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 8,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 4,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 5,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 11,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 3,
+        "cantidad": 8,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 3,
+        "cantidad": 88,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 3,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 16,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 3,
+        "cantidad": 4,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-BELEN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 5,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 3,
+        "cantidad": 20,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 3,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-YBY YAU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 2,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "ITAPUA-GENERAL ARTIGAS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PASO DE PATRIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 4,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 3,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 3,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 180,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 11,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 30,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 5,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-KATUETE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-NUEVA ESPERANZA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 5,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 11,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 6,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 3,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 4,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 23,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 4,
+        "cantidad": 14,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 4,
+        "cantidad": 8,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 86,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 7,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 17,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 3,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 10,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 4,
+        "cantidad": 7,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 4,
+        "cantidad": 11,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-YBY YAU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "ITAPUA-GENERAL ARTIGAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-ESCOBAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 3,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 4,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GUAYAIBI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 341,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 14,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-JUAN E OLEARY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-JUAN L MALLORQUIN",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 12,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 15,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-SANTA RITA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 6,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 26,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 4,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CARAYAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 8,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-YHU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-NUEVA ESPERANZA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 6,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 18,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 12,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 7,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 26,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 18,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 13,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 113,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "CENTRAL-NUEVA ITALIA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 12,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 74,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 7,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 3,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 12,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 5,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 7,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-YBY YAU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-JUAN DE MENA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "GUAIRA-ITAPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 4,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ITAPUA-GENERAL ARTIGAS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ITAPUA-HOHENAU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ITAPUA-OBLIGADO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "MISIONES-AYOLAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-LAURELES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-MAYOR MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 3,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-VILLA OLIVA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-ESCOBAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-QUIINDY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-QUYQUYHO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 11,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GENERAL AQUINO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GUAYAIBI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 5,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-VILLA DEL ROSARIO",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
+        "cantidad": 328,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 10,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-JUAN E OLEARY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 11,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 27,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
@@ -3775,339 +1537,255 @@ var riesgoDis11 = [
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 7,
+        "cantidad": 3,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 67,
+        "cantidad": 17,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
+        "cantidad": 4,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 2,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 31,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 10,
+        "cantidad": 5,
         "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 6,
-        "cantidad": 27,
+        "cantidad": 11,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
         "cantidad": 4,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 4,
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RA"
+        "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-SAN JOAQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 6,
+        "cantidad": 11,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 2,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-YHU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 6,
+        "cantidad": 1,
         "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
         "riesgo": "RB"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "CAAZAPA-TAVAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-YUTY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 4,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 7,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-NUEVA ESPERANZA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 12,
+        "cantidad": 2,
         "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 196,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 632,
+        "cantidad": 21,
         "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 6,
-        "cantidad": 349,
+        "cantidad": 19,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 45,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 58,
+        "cantidad": 6,
         "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 6,
-        "cantidad": 91,
+        "cantidad": 10,
         "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 93,
+        "cantidad": 3,
         "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 6,
-        "cantidad": 758,
+        "cantidad": 34,
         "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 48,
+        "cantidad": 41,
         "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 841,
+        "cantidad": 23,
         "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 177,
+        "cantidad": 120,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 7,
+        "cantidad": 4,
         "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 280,
+        "cantidad": 19,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 69,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 918,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 342,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 38,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 38,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 93,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
+        "distrito": "CENTRAL-SAN ANTONIO",
         "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 18,
+        "cantidad": 64,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 6,
+        "cantidad": 11,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 6,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 6,
+        "cantidad": 6,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 6,
+        "cantidad": 5,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 6,
+        "cantidad": 11,
         "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 2,
+        "cantidad": 7,
         "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
-        "cantidad": 2,
+        "cantidad": 17,
         "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RM"
+        "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 8,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-SAN CARLOS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 1,
         "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 24,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 8,
+        "cantidad": 4,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 8,
+        "cantidad": 1,
         "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 57,
+        "cantidad": 4,
         "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 6,
@@ -4117,81 +1795,21 @@ var riesgoDis11 = [
     },
     {
         "semana": 6,
-        "cantidad": 7,
+        "cantidad": 1,
         "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 8,
+        "cantidad": 1,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 6,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
         "riesgo": "RB"
     },
     {
         "semana": 6,
         "cantidad": 3,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 11,
         "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 6,
@@ -4202,414 +1820,174 @@ var riesgoDis11 = [
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "GUAIRA-CORONEL MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
         "distrito": "GUAIRA-ITAPE",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 2,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "GUAIRA-SAN MIGUEL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 48,
+        "cantidad": 8,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 2,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
         "cantidad": 1,
-        "distrito": "ITAPUA-BELLA VISTA",
+        "distrito": "ITAPUA-CAMBYRETA",
         "riesgo": "RB"
     },
     {
         "semana": 6,
-        "cantidad": 13,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
         "cantidad": 2,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CARMEN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 14,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 52,
+        "cantidad": 6,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "ITAPUA-HOHENAU",
+        "distrito": "ITAPUA-FRAM",
         "riesgo": "RB"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "ITAPUA-NUEVA ALBORADA",
+        "distrito": "ITAPUA-GENERAL ARTIGAS",
         "riesgo": "RB"
     },
     {
         "semana": 6,
         "cantidad": 2,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
+        "distrito": "ITAPUA-JESUS",
         "riesgo": "E"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
-        "riesgo": "E"
+        "distrito": "ITAPUA-TRINIDAD",
+        "riesgo": "RM"
     },
     {
         "semana": 6,
-        "cantidad": 2,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 6,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 5,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 4,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-LAURELES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 9,
+        "cantidad": 3,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 8,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-CAAPUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
         "cantidad": 2,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 5,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 7,
+        "cantidad": 6,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 14,
+        "cantidad": 1,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 18,
+        "cantidad": 1,
         "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-SAPUCAI",
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
+        "distrito": "PARAGUARI-TEBICUARYMI",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 7,
+        "cantidad": 3,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-999",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 10,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-GENERAL BRUGUEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. IRALA FERNANDEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 96,
+        "cantidad": 9,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 6,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
+        "cantidad": 7,
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 6,
+        "cantidad": 3,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
         "riesgo": "E"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 6,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
     },
     {
-        "semana": 6,
-        "cantidad": 8,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-ITACURUBI DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 6,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 6,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
+        "semana": 7,
+        "cantidad": 4,
+        "distrito": "ALTO PARAGUAY-CARMELO PERALTA",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 2,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 137,
+        "cantidad": 392,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-DOMINGO MARTINEZ DE IRALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 7,
-        "cantidad": 19,
+        "cantidad": 14,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 15,
+        "cantidad": 14,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 36,
+        "cantidad": 16,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-RAUL PEÑA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 32,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
@@ -4621,39 +1999,27 @@ var riesgoDis11 = [
     },
     {
         "semana": 7,
-        "cantidad": 101,
+        "cantidad": 19,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 3,
+        "cantidad": 2,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
+        "distrito": "CAAGUAZU-999",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 3,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 33,
+        "cantidad": 6,
         "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
@@ -4663,345 +2029,261 @@ var riesgoDis11 = [
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 7,
-        "cantidad": 15,
+        "cantidad": 19,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 7,
-        "cantidad": 4,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 8,
-        "distrito": "CAAGUAZU-REPATRIACION",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
         "riesgo": "RB"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-S/D",
+        "distrito": "CAAGUAZU-JOSE DOMINGO OCAMPOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 12,
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 7,
+        "cantidad": 14,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 2,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
+        "distrito": "CAAGUAZU-YHU",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
+        "distrito": "CAAZAPA-ABAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 2,
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 2,
-        "distrito": "CAAGUAZU-VAQUERIA",
+        "distrito": "CAAZAPA-YUTY",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 13,
+        "cantidad": 1,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 7,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 7,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "cantidad": 1,
+        "distrito": "CANINDEYU-NUEVA ESPERANZA",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 9,
+        "distrito": "CENTRAL-999",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 179,
+        "cantidad": 6,
         "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 7,
-        "cantidad": 592,
+        "cantidad": 26,
         "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
-        "cantidad": 299,
+        "cantidad": 27,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
+        "riesgo": "RA"
+    },
+    {
+        "semana": 7,
+        "cantidad": 11,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 7,
+        "cantidad": 9,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 7,
+        "cantidad": 2,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
     },
     {
         "semana": 7,
         "cantidad": 56,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 42,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 43,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 89,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 513,
         "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
-        "cantidad": 44,
+        "cantidad": 54,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 742,
+        "cantidad": 37,
         "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
-        "cantidad": 143,
+        "cantidad": 156,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 5,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 289,
+        "cantidad": 26,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
-        "cantidad": 82,
+        "cantidad": 5,
         "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 7,
-        "cantidad": 689,
+        "cantidad": 86,
         "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
-        "cantidad": 282,
+        "cantidad": 6,
         "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 7,
-        "cantidad": 20,
+        "cantidad": 4,
         "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 7,
-        "cantidad": 25,
+        "cantidad": 5,
         "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 7,
-        "cantidad": 116,
+        "cantidad": 3,
         "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
         "riesgo": "RB"
     },
     {
         "semana": 7,
-        "cantidad": 11,
+        "cantidad": 18,
         "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "RA"
     },
     {
         "semana": 7,
-        "cantidad": 7,
+        "cantidad": 2,
         "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RA"
+        "riesgo": "RB"
     },
     {
         "semana": 7,
-        "cantidad": 12,
+        "cantidad": 43,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 7,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-SAN LAZARO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 4,
         "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 18,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 11,
+        "cantidad": 2,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 47,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 7,
         "cantidad": 2,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 7,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 10,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RM"
     },
     {
         "semana": 7,
         "cantidad": 5,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 7,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 3,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "distrito": "CORDILLERA-JUAN DE MENA",
         "riesgo": "RB"
     },
     {
         "semana": 7,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 4,
+        "cantidad": 2,
         "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 7,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "RB"
+        "riesgo": "RA"
     },
     {
         "semana": 7,
@@ -5012,79 +2294,49 @@ var riesgoDis11 = [
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
+        "distrito": "GUAIRA-EUGENIO A GARAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 7,
+        "cantidad": 1,
+        "distrito": "GUAIRA-JOSE FASSARDI",
         "riesgo": "RB"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "GUAIRA-SAN SALVADOR",
-        "riesgo": "E"
+        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
+        "riesgo": "RB"
     },
     {
         "semana": 7,
-        "cantidad": 65,
+        "cantidad": 9,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 3,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 21,
+        "cantidad": 1,
         "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAPITAN MEZA",
         "riesgo": "RB"
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CARMEN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 7,
-        "cantidad": 43,
+        "cantidad": 6,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
+        "distrito": "ITAPUA-JESUS",
         "riesgo": "RB"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "ITAPUA-OBLIGADO",
+        "distrito": "ITAPUA-NATALIO",
         "riesgo": "RB"
     },
     {
@@ -5096,72 +2348,48 @@ var riesgoDis11 = [
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN RAFAEL DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
         "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
         "riesgo": "RB"
     },
     {
         "semana": 7,
-        "cantidad": 4,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "ITAPUA-TRINIDAD",
+        "riesgo": "RM"
     },
     {
         "semana": 7,
-        "cantidad": 6,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 3,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "cantidad": 1,
+        "distrito": "ITAPUA-YATYTAY",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "MISIONES-SANTIAGO",
+        "distrito": "MISIONES-AYOLAS",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 9,
+        "cantidad": 1,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA",
+        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA DE ÑEEMBUCU",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "ÑEEMBUCU-VILLALBIN",
+        "distrito": "ÑEEMBUCU-VILLA OLIVA",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 8,
+        "cantidad": 1,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
@@ -5173,55 +2401,25 @@ var riesgoDis11 = [
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 15,
+        "cantidad": 9,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 6,
+        "cantidad": 1,
         "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 11,
+        "cantidad": 5,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
@@ -5233,567 +2431,447 @@ var riesgoDis11 = [
     },
     {
         "semana": 7,
-        "cantidad": 6,
+        "cantidad": 3,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 108,
+        "cantidad": 22,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 7,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
+        "cantidad": 5,
+        "distrito": "SAN PEDRO-CAPIIBARY",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RB"
     },
     {
         "semana": 7,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-NUEVA GERMANIA",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-LIMA",
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 7,
+        "cantidad": 3,
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
         "semana": 7,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-UNION",
+        "riesgo": "RB"
     },
     {
-        "semana": 7,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
+        "semana": 8,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-CAPIIBARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 7,
-        "cantidad": 10,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
+        "distrito": "ALTO PARAGUAY-CARMELO PERALTA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 2,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 156,
+        "cantidad": 600,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-DOMINGO MARTINEZ DE IRALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 26,
+        "cantidad": 35,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "ALTO PARANA-ITAKYRY",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "ALTO PARANA-JUAN E OLEARY",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-JUAN L MALLORQUIN",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MBARACAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 14,
+        "cantidad": 16,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 43,
+        "cantidad": 33,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 42,
+        "cantidad": 7,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 1,
+        "cantidad": 4,
         "distrito": "AMAMBAY-CAPITAN BADO",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 112,
+        "cantidad": 24,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 8,
-        "cantidad": 5,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 4,
+        "cantidad": 17,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 5,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 62,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 6,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 11,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-VAQUERIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 4,
-        "distrito": "CAAZAPA-CAAZAPA",
+        "distrito": "BOQUERON-LOMA PLATA",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 2,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 14,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 7,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-LA PALOMA",
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-999",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 9,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 185,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 760,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 312,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 74,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 62,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 67,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 157,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 581,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 141,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 572,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 207,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 5,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 411,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 82,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 932,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 313,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 33,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 49,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 138,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 19,
-        "distrito": "CONCEPCION-CONCEPCION",
+        "distrito": "CAAGUAZU-CAAGUAZU",
         "riesgo": "RA"
     },
     {
         "semana": 8,
         "cantidad": 3,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-YBY YAU",
+        "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-1RO DE MARZO",
+        "cantidad": 29,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 13,
-        "distrito": "CORDILLERA-ALTOS",
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-REPATRIACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 10,
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 15,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 93,
-        "distrito": "CORDILLERA-CAACUPE",
+        "cantidad": 16,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "CORDILLERA-CARAGUATAY",
+        "distrito": "CAAGUAZU-YHU",
         "riesgo": "RB"
     },
     {
         "semana": 8,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-EMBOSCADA",
+        "cantidad": 2,
+        "distrito": "CAAZAPA-CAAZAPA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "cantidad": 1,
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-TAVAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-KATUETE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-LA PALOMA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 21,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 6,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 8,
+        "cantidad": 50,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 82,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 4,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 8,
+        "cantidad": 16,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 22,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 10,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 100,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 85,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 55,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 232,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 3,
+        "distrito": "CENTRAL-NUEVA ITALIA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 49,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 10,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 158,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 12,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 14,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 10,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 18,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 5,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 8,
+        "cantidad": 33,
+        "distrito": "CONCEPCION-LORETO",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 8,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 8,
+        "cantidad": 12,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 8,
+        "cantidad": 5,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "GUAIRA-BORJA",
         "riesgo": "RB"
     },
     {
         "semana": 8,
         "cantidad": 3,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 10,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 7,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 12,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
         "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "GUAIRA-CORONEL MARTINEZ",
         "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITURBE",
-        "riesgo": "RA"
     },
     {
         "semana": 8,
@@ -5810,56 +2888,68 @@ var riesgoDis11 = [
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "GUAIRA-ÑUMI",
-        "riesgo": "E"
+        "distrito": "GUAIRA-PASO YOBAI",
+        "riesgo": "RB"
     },
     {
         "semana": 8,
-        "cantidad": 97,
+        "cantidad": 1,
+        "distrito": "GUAIRA-TEBICUARY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 13,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 9,
-        "distrito": "ITAPUA-CAMBYRETA",
+        "cantidad": 2,
+        "distrito": "GUAIRA-YATAITY",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "ITAPUA-COLONIA FRAM",
+        "distrito": "ITAPUA-BELLA VISTA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CARMEN DEL PARANA",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 6,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
-        "distrito": "ITAPUA-EDELIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 23,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 2,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
-        "distrito": "ITAPUA-GENERAL DELGADO",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
     },
     {
         "semana": 8,
@@ -5869,111 +2959,69 @@ var riesgoDis11 = [
     },
     {
         "semana": 8,
-        "cantidad": 1,
-        "distrito": "ITAPUA-OBLIGADO",
+        "cantidad": 2,
+        "distrito": "ITAPUA-NATALIO",
         "riesgo": "RB"
     },
     {
         "semana": 8,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "ITAPUA-SAN JUAN DEL PARANA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 2,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
-        "distrito": "ITAPUA-TRINIDAD",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
+        "cantidad": 4,
         "distrito": "MISIONES-AYOLAS",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 8,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN MIGUEL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 3,
+        "cantidad": 2,
         "distrito": "MISIONES-SANTA ROSA",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "MISIONES-SANTIAGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 3,
-        "distrito": "MISIONES-VILLA FLORIDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
         "distrito": "ÑEEMBUCU-ALBERDI",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 11,
+        "cantidad": 3,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA",
+        "distrito": "PARAGUARI-999",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-VILLALBIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "PARAGUARI-ACAHAY",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 12,
+        "cantidad": 2,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-GENERAL BERNARDINO CABALLERO",
+        "riesgo": "RB"
     },
     {
         "semana": 8,
@@ -5983,218 +3031,206 @@ var riesgoDis11 = [
     },
     {
         "semana": 8,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 20,
+        "cantidad": 17,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 11,
+        "cantidad": 5,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "PARAGUARI-QUYQUYHO",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "PARAGUARI-SAPUCAI",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 8,
+        "cantidad": 3,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 8,
+        "cantidad": 4,
         "distrito": "PARAGUARI-YBYCUI",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 12,
+        "cantidad": 3,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-IRALA FERNANDEZ",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 130,
+        "cantidad": 15,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
+        "cantidad": 7,
+        "distrito": "SAN PEDRO-CAPIIBARY",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RM"
     },
     {
         "semana": 8,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
+        "distrito": "SAN PEDRO-ITACURUBI DEL ROSARIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-NUEVA GERMANIA",
         "riesgo": "E"
     },
     {
         "semana": 8,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
+        "cantidad": 3,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 8,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
         "semana": 8,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-UNION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 8,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
+        "riesgo": "RB"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 152,
+        "cantidad": 864,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 41,
+        "cantidad": 39,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 10,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 59,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 8,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
         "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
+        "distrito": "ALTO PARANA-ITAKYRY",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 2,
-        "distrito": "ALTO PARANA-YGUAZU",
+        "distrito": "ALTO PARANA-JUAN E OLEARY",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 35,
-        "distrito": "AMAMBAY-BELLA VISTA",
+        "cantidad": 31,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 3,
+        "distrito": "ALTO PARANA-MINGA PORA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 43,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 16,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
         "distrito": "AMAMBAY-CAPITAN BADO",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 161,
+        "cantidad": 20,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 6,
+        "cantidad": 15,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
+        "distrito": "CAAGUAZU-999",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 64,
+        "cantidad": 19,
         "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 6,
+        "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "E"
     },
     {
@@ -6205,57 +3241,45 @@ var riesgoDis11 = [
     },
     {
         "semana": 9,
-        "cantidad": 10,
+        "cantidad": 31,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RA"
+        "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 3,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-LA PASTORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 9,
-        "cantidad": 9,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
         "cantidad": 2,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
+        "distrito": "CAAGUAZU-REPATRIACION",
         "riesgo": "RB"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
+        "distrito": "CAAGUAZU-SAN JOAQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 8,
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-VAQUERIA",
-        "riesgo": "RB"
+        "cantidad": 5,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
+        "riesgo": "E"
     },
     {
         "semana": 9,
@@ -6266,169 +3290,175 @@ var riesgoDis11 = [
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "CAAZAPA-GENERAL MORINIGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-TAVAI",
+        "distrito": "CAAZAPA-YUTY",
         "riesgo": "RB"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "distrito": "CANINDEYU-999",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 7,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 3,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 2,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 6,
         "distrito": "CANINDEYU-LA PALOMA",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 9,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 183,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 644,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 263,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 95,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 79,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 91,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 143,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 331,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 175,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 535,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 184,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "cantidad": 1,
+        "distrito": "CANINDEYU-NUEVA ESPERANZA",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 4,
-        "distrito": "CENTRAL-NUEVA ITALIA",
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
         "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 502,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 44,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 16,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 9,
+        "cantidad": 107,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 9,
+        "cantidad": 123,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 25,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 27,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 28,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 9,
+        "cantidad": 6,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 9,
+        "cantidad": 111,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 114,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 99,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 9,
+        "cantidad": 362,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 9,
+        "distrito": "CENTRAL-NUEVA ITALIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 83,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 154,
+        "cantidad": 18,
         "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 914,
+        "cantidad": 249,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 364,
+        "cantidad": 22,
         "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 48,
+        "cantidad": 8,
         "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 71,
+        "cantidad": 20,
         "distrito": "CENTRAL-YPACARAI",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 207,
+        "cantidad": 22,
         "distrito": "CENTRAL-YPANE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 9,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-999",
         "riesgo": "E"
     },
     {
@@ -6439,69 +3469,69 @@ var riesgoDis11 = [
     },
     {
         "semana": 9,
-        "cantidad": 14,
+        "cantidad": 42,
         "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 2,
+        "cantidad": 20,
         "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 8,
+        "cantidad": 38,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 3,
         "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
+        "distrito": "CORDILLERA-999",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 14,
+        "cantidad": 1,
         "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 9,
-        "cantidad": 10,
+        "cantidad": 2,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 9,
-        "cantidad": 10,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 94,
+        "cantidad": 7,
         "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 8,
+        "cantidad": 1,
         "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 9,
-        "cantidad": 6,
+        "cantidad": 2,
         "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 6,
+        "cantidad": 3,
         "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 9,
@@ -6511,63 +3541,63 @@ var riesgoDis11 = [
     },
     {
         "semana": 9,
-        "cantidad": 14,
+        "cantidad": 10,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
         "cantidad": 1,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "distrito": "CORDILLERA-LOMA GRANDE",
         "riesgo": "RB"
     },
     {
         "semana": 9,
-        "cantidad": 33,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 6,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 8,
+        "cantidad": 3,
         "distrito": "CORDILLERA-SAN BERNARDINO",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 5,
+        "cantidad": 6,
         "distrito": "CORDILLERA-SANTA ELENA",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 27,
+        "cantidad": 1,
         "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 3,
+        "distrito": "GUAIRA-999",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "GUAIRA-BORJA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 9,
-        "cantidad": 4,
         "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
+        "cantidad": 2,
+        "distrito": "GUAIRA-EUGENIO A GARAY",
+        "riesgo": "E"
     },
     {
         "semana": 9,
@@ -6577,69 +3607,63 @@ var riesgoDis11 = [
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITURBE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "GUAIRA-JOSE FASSARDI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 9,
-        "cantidad": 2,
-        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
+        "cantidad": 3,
+        "distrito": "GUAIRA-PASO YOBAI",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
+        "cantidad": 2,
+        "distrito": "GUAIRA-TEBICUARY",
+        "riesgo": "RA"
     },
     {
         "semana": 9,
-        "cantidad": 81,
+        "cantidad": 23,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "ITAPUA-ALTO VERA",
-        "riesgo": "E"
+        "distrito": "GUAIRA-YATAITY",
+        "riesgo": "RB"
     },
     {
         "semana": 9,
-        "cantidad": 10,
+        "cantidad": 1,
         "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 3,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "ITAPUA-CARMEN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 2,
         "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 9,
-        "cantidad": 16,
+        "cantidad": 5,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 4,
-        "distrito": "ITAPUA-GENERAL DELGADO",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
     },
     {
         "semana": 9,
@@ -6650,36 +3674,60 @@ var riesgoDis11 = [
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
+        "distrito": "ITAPUA-JOSE LEANDRO OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 2,
+        "distrito": "ITAPUA-NATALIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
+        "distrito": "ITAPUA-NUEVA ALBORADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 2,
+        "distrito": "ITAPUA-SAN RAFAEL DEL PARANA",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 3,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 4,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "distrito": "ITAPUA-YATYTAY",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 2,
+        "distrito": "MISIONES-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 2,
+        "distrito": "MISIONES-AYOLAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 5,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
         "distrito": "MISIONES-SAN MIGUEL",
         "riesgo": "E"
     },
@@ -6691,44 +3739,20 @@ var riesgoDis11 = [
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "MISIONES-VILLA FLORIDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-DESMOCHADOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-MAYOR MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 8,
-        "distrito": "ÑEEMBUCU-PILAR",
+        "cantidad": 2,
+        "distrito": "ÑEEMBUCU-999",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 4,
-        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA",
+        "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "PARAGUARI-ACAHAY",
+        "distrito": "ÑEEMBUCU-TACUARAS",
         "riesgo": "E"
     },
     {
@@ -6739,247 +3763,229 @@ var riesgoDis11 = [
     },
     {
         "semana": 9,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 23,
+        "cantidad": 1,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
+        "cantidad": 2,
+        "distrito": "PARAGUARI-ESCOBAR",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "PARAGUARI-MBUYAPEY",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 18,
+        "cantidad": 25,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 17,
+        "cantidad": 11,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 7,
+        "cantidad": 2,
         "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 6,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 4,
+        "cantidad": 2,
         "distrito": "PARAGUARI-SAPUCAI",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 20,
+        "cantidad": 5,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 13,
+        "cantidad": 5,
         "distrito": "PARAGUARI-YBYCUI",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 10,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 9,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-JOSE FALCON",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
+        "distrito": "PRESIDENTE HAYES-POZO COLORADO",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. IRALA FERNANDEZ",
+        "distrito": "PRESIDENTE HAYES-PUERTO PINASCO",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 99,
+        "cantidad": 13,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 9,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 5,
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 9,
+        "cantidad": 5,
+        "distrito": "SAN PEDRO-CHORE",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 9,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
+        "riesgo": "RB"
     },
     {
         "semana": 9,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-CERRITO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 12,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 9,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
     },
     {
         "semana": 10,
-        "cantidad": 2,
-        "distrito": "ALTO PARAGUAY-BAHIA NEGRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-FUERTE OLIMPO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 176,
+        "cantidad": 854,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 36,
+        "cantidad": 66,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-ITAKYRY",
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-IGUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-IRUÑA",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 3,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 2,
         "distrito": "ALTO PARANA-JUAN E OLEARY",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 3,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
+        "distrito": "ALTO PARANA-LOS CEDRALES",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 5,
+        "cantidad": 19,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 75,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 81,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "ALTO PARANA-SAN ALBERTO",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 3,
-        "distrito": "ALTO PARANA-SANTA RITA",
+        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 28,
+        "cantidad": 4,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
@@ -6991,19 +3997,19 @@ var riesgoDis11 = [
     },
     {
         "semana": 10,
-        "cantidad": 229,
+        "cantidad": 20,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "AMAMBAY-ZANJA PYTA",
+        "distrito": "BOQUERON-999",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 1,
+        "cantidad": 23,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
@@ -7015,404 +4021,392 @@ var riesgoDis11 = [
     },
     {
         "semana": 10,
-        "cantidad": 2,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
+        "cantidad": 3,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 89,
+        "cantidad": 10,
         "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 9,
+        "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
+        "riesgo": "RA"
     },
     {
         "semana": 10,
-        "cantidad": 17,
+        "cantidad": 38,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 4,
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 2,
         "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-MCAL. LOPEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 21,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
         "cantidad": 2,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
+        "distrito": "CAAGUAZU-LA PASTORA",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-TEMBIAPORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-YHU",
+        "distrito": "CAAGUAZU-NUEVA LONDRES",
         "riesgo": "RB"
     },
     {
         "semana": 10,
-        "cantidad": 1,
+        "cantidad": 11,
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 4,
         "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 2,
-        "distrito": "CAAZAPA-YUTY",
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
-        "riesgo": "E"
+        "distrito": "CAAZAPA-YUTY",
+        "riesgo": "RB"
     },
     {
         "semana": 10,
-        "cantidad": 17,
+        "cantidad": 5,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 3,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 9,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 4,
         "distrito": "CANINDEYU-LA PALOMA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "CANINDEYU-NUEVA ESPERANZA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 12,
+        "cantidad": 9,
         "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 4,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 163,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 600,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 291,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 64,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 74,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 94,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 127,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 253,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 173,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 541,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 166,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 7,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 378,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 117,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 791,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 178,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 15,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 64,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 140,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 9,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 16,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 10,
-        "cantidad": 4,
-        "distrito": "CONCEPCION-SAN LAZARO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 6,
-        "distrito": "CONCEPCION-YBY YAU",
+        "cantidad": 13,
+        "distrito": "CENTRAL-999",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 23,
-        "distrito": "CORDILLERA-ALTOS",
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 114,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 103,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 18,
+        "distrito": "CENTRAL-GUARAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 15,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "cantidad": 28,
+        "distrito": "CENTRAL-ITA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-ATYRA",
+        "cantidad": 48,
+        "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 64,
-        "distrito": "CORDILLERA-CAACUPE",
+        "cantidad": 9,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 114,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 136,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 118,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 491,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 5,
-        "distrito": "CORDILLERA-CARAGUATAY",
+        "distrito": "CENTRAL-NUEVA ITALIA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-EMBOSCADA",
+        "cantidad": 114,
+        "distrito": "CENTRAL-ÑEMBY",
         "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 30,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 188,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 37,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RA"
     },
     {
         "semana": 10,
         "cantidad": 4,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 10,
+        "cantidad": 29,
+        "distrito": "CENTRAL-YPACARAI",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
+        "cantidad": 18,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RA"
     },
     {
         "semana": 10,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 19,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "cantidad": 1,
+        "distrito": "CONCEPCION-999",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
+        "distrito": "CONCEPCION-BELEN",
         "riesgo": "RB"
     },
     {
         "semana": 10,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-SANTA ELENA",
+        "cantidad": 54,
+        "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-TOBATI",
+        "cantidad": 21,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 19,
+        "distrito": "CONCEPCION-LORETO",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 2,
-        "distrito": "GUAIRA-BORJA",
+        "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 8,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 16,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CARAGUATAY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 5,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 12,
+        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-LOMA GRANDE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 6,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-SANTA ELENA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-VALENZUELA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
         "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 3,
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
         "distrito": "GUAIRA-JOSE FASSARDI",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "GUAIRA-ÑUMI",
-        "riesgo": "E"
+        "distrito": "GUAIRA-MBOCAYATY",
+        "riesgo": "RB"
     },
     {
         "semana": 10,
-        "cantidad": 1,
-        "distrito": "GUAIRA-SAN SALVADOR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 57,
+        "cantidad": 22,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAMBYRETA",
+        "cantidad": 1,
+        "distrito": "ITAPUA-ALTO VERA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 4,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 2,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
         "riesgo": "E"
     },
     {
@@ -7423,62 +4417,44 @@ var riesgoDis11 = [
     },
     {
         "semana": 10,
-        "cantidad": 18,
+        "cantidad": 6,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 17,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 2,
-        "distrito": "ITAPUA-GENERAL DELGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
         "cantidad": 1,
-        "distrito": "ITAPUA-OBLIGADO",
+        "distrito": "ITAPUA-FRAM",
         "riesgo": "RB"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
+        "distrito": "ITAPUA-NATALIO",
         "riesgo": "RB"
     },
     {
         "semana": 10,
-        "cantidad": 2,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TRINIDAD",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
+        "cantidad": 8,
         "distrito": "MISIONES-AYOLAS",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 3,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN IGNACIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 4,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 2,
-        "distrito": "MISIONES-SAN MIGUEL",
+        "cantidad": 1,
+        "distrito": "MISIONES-SANTA MARIA",
         "riesgo": "E"
     },
     {
@@ -7489,14 +4465,20 @@ var riesgoDis11 = [
     },
     {
         "semana": 10,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
+        "cantidad": 2,
+        "distrito": "MISIONES-SANTIAGO",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "ÑEEMBUCU-HUMAITA",
+        "distrito": "MISIONES-VILLA FLORIDA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-ALBERDI",
         "riesgo": "E"
     },
     {
@@ -7508,25 +4490,25 @@ var riesgoDis11 = [
     {
         "semana": 10,
         "cantidad": 1,
+        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA DE ÑEEMBUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 1,
         "distrito": "PARAGUARI-ACAHAY",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
+        "cantidad": 2,
+        "distrito": "PARAGUARI-CAAPUCU",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 16,
+        "cantidad": 3,
         "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
         "riesgo": "E"
     },
     {
@@ -7537,19 +4519,19 @@ var riesgoDis11 = [
     },
     {
         "semana": 10,
-        "cantidad": 15,
+        "cantidad": 23,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 6,
+        "cantidad": 12,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 4,
+        "cantidad": 3,
         "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
@@ -7561,98 +4543,122 @@ var riesgoDis11 = [
     },
     {
         "semana": 10,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 11,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
+        "cantidad": 3,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 3,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 5,
+        "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-YBYTYMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 2,
+        "distrito": "PRESIDENTE HAYES-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
+        "cantidad": 8,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-GENERAL BRUGUEZ",
+        "distrito": "PRESIDENTE HAYES-POZO COLORADO",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 5,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 10,
-        "cantidad": 93,
+        "cantidad": 49,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 10,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-25 DE DICIEMBRE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 10,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 4,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 10,
         "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-CHORE",
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
+        "distrito": "SAN PEDRO-NUEVA GERMANIA",
         "riesgo": "E"
     },
     {
         "semana": 10,
         "cantidad": 6,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 10,
+        "cantidad": 3,
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
         "semana": 10,
-        "cantidad": 10,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-FUERTE OLIMPO",
+        "distrito": "ALTO PARAGUAY-999",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 179,
+        "cantidad": 963,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 42,
+        "cantidad": 67,
         "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-IGUAZU",
         "riesgo": "E"
     },
     {
@@ -7669,8 +4675,8 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 12,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-JUAN L MALLORQUIN",
         "riesgo": "E"
     },
     {
@@ -7681,68 +4687,56 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 29,
+        "cantidad": 13,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "ALTO PARANA-MINGA PORA",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "ALTO PARANA-NARANJAL",
+        "distrito": "ALTO PARANA-ÑACUNDAY",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 103,
+        "cantidad": 78,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SANTA RITA",
+        "cantidad": 6,
+        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 49,
+        "cantidad": 5,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "AMAMBAY-CAPITAN BADO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 326,
+        "cantidad": 18,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 7,
-        "distrito": "AMAMBAY-ZANJA PYTA",
+        "cantidad": 8,
+        "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
@@ -7753,63 +4747,57 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 3,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
+        "cantidad": 4,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 84,
+        "cantidad": 4,
         "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 11,
+        "cantidad": 10,
+        "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 2,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 11,
-        "cantidad": 1,
         "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
+        "riesgo": "RM"
     },
     {
         "semana": 11,
-        "cantidad": 28,
+        "cantidad": 45,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-MCAL. LOPEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 14,
-        "distrito": "CAAGUAZU-REPATRIACION",
+        "cantidad": 4,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
+        "distrito": "CAAGUAZU-MCAL FRANCISCO SOLANO LOPEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 4,
+        "distrito": "CAAGUAZU-SAN JOAQUIN",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 6,
         "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 11,
@@ -7819,133 +4807,133 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-YHU",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-BUENA VISTA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 11,
-        "cantidad": 4,
+        "cantidad": 5,
         "distrito": "CAAZAPA-CAAZAPA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "cantidad": 3,
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 35,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 10,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 10,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 10,
+        "cantidad": 3,
         "distrito": "CANINDEYU-LA PALOMA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 32,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-NUEVA ESPERANZA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 14,
         "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "CANINDEYU-YGATIMI",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YPEHU",
+        "cantidad": 3,
+        "distrito": "CENTRAL-999",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 282,
+        "cantidad": 18,
         "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 1076,
+        "cantidad": 142,
         "distrito": "CENTRAL-CAPIATA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 394,
+        "cantidad": 83,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 81,
+        "cantidad": 11,
         "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 166,
+        "cantidad": 20,
         "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 210,
+        "cantidad": 47,
         "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 218,
+        "cantidad": 19,
         "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 530,
+        "cantidad": 187,
         "distrito": "CENTRAL-LAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 168,
+        "cantidad": 112,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 684,
+        "cantidad": 126,
         "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 282,
+        "cantidad": 427,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
@@ -7957,115 +4945,121 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 623,
+        "cantidad": 99,
         "distrito": "CENTRAL-ÑEMBY",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 113,
+        "cantidad": 19,
         "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 1251,
+        "cantidad": 195,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 260,
+        "cantidad": 28,
         "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 40,
+        "cantidad": 10,
         "distrito": "CENTRAL-VILLETA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 128,
+        "cantidad": 28,
         "distrito": "CENTRAL-YPACARAI",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 223,
+        "cantidad": 17,
         "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 11,
-        "cantidad": 16,
-        "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-SAN LAZARO",
-        "riesgo": "RB"
+        "cantidad": 4,
+        "distrito": "CONCEPCION-BELEN",
+        "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 4,
-        "distrito": "CONCEPCION-YBY YAU",
+        "cantidad": 90,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 19,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 15,
+        "distrito": "CONCEPCION-LORETO",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 19,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 19,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "distrito": "CONCEPCION-SAN CARLOS",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 6,
+        "distrito": "CONCEPCION-YBY YAU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 11,
+        "cantidad": 9,
+        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 2,
         "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 11,
-        "cantidad": 102,
+        "cantidad": 11,
         "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 5,
+        "cantidad": 3,
         "distrito": "CORDILLERA-CARAGUATAY",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 22,
+        "cantidad": 2,
         "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 17,
+        "cantidad": 7,
         "distrito": "CORDILLERA-EUSEBIO AYALA",
         "riesgo": "E"
     },
@@ -8077,25 +5071,31 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 11,
+        "cantidad": 9,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "RB"
     },
     {
         "semana": 11,
-        "cantidad": 22,
+        "cantidad": 5,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 10,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 4,
         "distrito": "CORDILLERA-SAN BERNARDINO",
         "riesgo": "E"
     },
@@ -8113,93 +5113,123 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 17,
+        "cantidad": 4,
         "distrito": "CORDILLERA-TOBATI",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 3,
-        "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
+        "cantidad": 2,
+        "distrito": "CORDILLERA-VALENZUELA",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
+        "distrito": "GUAIRA-BORJA",
         "riesgo": "RB"
     },
     {
         "semana": 11,
         "cantidad": 2,
-        "distrito": "GUAIRA-ITURBE",
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 3,
-        "distrito": "GUAIRA-JOSE FASSARDI",
+        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "GUAIRA-SAN SALVADOR",
-        "riesgo": "E"
+        "distrito": "GUAIRA-ITURBE",
+        "riesgo": "RA"
     },
     {
         "semana": 11,
-        "cantidad": 105,
+        "cantidad": 1,
+        "distrito": "GUAIRA-MBOCAYATY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 11,
+        "cantidad": 1,
+        "distrito": "GUAIRA-PASO YOBAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 11,
+        "cantidad": 40,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 6,
+        "cantidad": 1,
         "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 11,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAPITAN MEZA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 11,
+        "cantidad": 5,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 2,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "ITAPUA-CORONEL BOGADO",
+        "distrito": "ITAPUA-CARMEN DEL PARANA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 1,
+        "distrito": "ITAPUA-EDELIRA",
         "riesgo": "RB"
     },
     {
         "semana": 11,
-        "cantidad": 30,
+        "cantidad": 5,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 7,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
         "cantidad": 1,
-        "distrito": "ITAPUA-HOHENAU",
+        "distrito": "ITAPUA-FRAM",
         "riesgo": "RB"
     },
     {
         "semana": 11,
-        "cantidad": 3,
+        "cantidad": 1,
+        "distrito": "ITAPUA-LA PAZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 4,
         "distrito": "ITAPUA-MAYOR OTAÑO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
+        "cantidad": 2,
+        "distrito": "ITAPUA-PIRAPO",
+        "riesgo": "RB"
     },
     {
         "semana": 11,
@@ -8209,73 +5239,67 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 11,
+        "cantidad": 6,
+        "distrito": "MISIONES-AYOLAS",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "MISIONES-SAN IGNACIO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN MIGUEL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA MARIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 2,
+        "cantidad": 3,
         "distrito": "MISIONES-SANTA ROSA",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "ÑEEMBUCU-ALBERDI",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ISLA UMBU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 5,
+        "cantidad": 12,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 3,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-TACUARAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 1,
         "distrito": "PARAGUARI-ACAHAY",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
+        "distrito": "PARAGUARI-CAAPUCU",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 7,
+        "cantidad": 8,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
@@ -8287,254 +5311,236 @@ var riesgoDis11 = [
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 29,
+        "cantidad": 19,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 8,
+        "cantidad": 2,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 3,
+        "cantidad": 4,
         "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 27,
+        "cantidad": 5,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 7,
+        "cantidad": 11,
         "distrito": "PARAGUARI-YBYCUI",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 8,
+        "cantidad": 11,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-IRALA FERNANDEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 2,
         "distrito": "PRESIDENTE HAYES-NANAWA",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO PINAZCO",
+        "distrito": "PRESIDENTE HAYES-PUERTO PINASCO",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 91,
+        "cantidad": 57,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 11,
-        "cantidad": 7,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-25 DE DICIEMBRE",
+        "riesgo": "RB"
     },
     {
         "semana": 11,
         "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 11,
+        "cantidad": 11,
+        "distrito": "SAN PEDRO-CHORE",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
     },
     {
         "semana": 11,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-LIMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 7,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 11,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
+        "cantidad": 4,
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 11,
         "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RM"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-VILLA DEL ROSARIO",
+        "riesgo": "RB"
     },
     {
         "semana": 11,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
     },
     {
         "semana": 12,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-FUERTE OLIMPO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 2,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 179,
+        "cantidad": 891,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 56,
+        "cantidad": 45,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "ALTO PARANA-ITAKYRY",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 2,
+        "cantidad": 4,
         "distrito": "ALTO PARANA-JUAN E OLEARY",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 12,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-JUAN L MALLORQUIN",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MBARACAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 22,
+        "cantidad": 18,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 94,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 72,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-TAVAPY",
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-SANTA RITA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 35,
-        "distrito": "AMAMBAY-BELLA VISTA",
+        "cantidad": 8,
+        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 7,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 314,
+        "cantidad": 34,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 12,
+        "cantidad": 9,
+        "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 2,
         "distrito": "BOQUERON-LOMA PLATA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 114,
-        "distrito": "CAAGUAZU-CAAGUAZU",
+        "cantidad": 3,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 22,
+        "cantidad": 1,
+        "distrito": "BOQUERON-NEULAND",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 5,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 12,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-CARAYAO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-CECILIO BAEZ",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 12,
+        "cantidad": 36,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 20,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
@@ -8545,21 +5551,9 @@ var riesgoDis11 = [
     },
     {
         "semana": 12,
-        "cantidad": 17,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-R I 3 CORRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 2,
+        "cantidad": 6,
         "distrito": "CAAGUAZU-SAN JOAQUIN",
-        "riesgo": "RM"
+        "riesgo": "E"
     },
     {
         "semana": 12,
@@ -8570,19 +5564,19 @@ var riesgoDis11 = [
     {
         "semana": 12,
         "cantidad": 1,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-SIMON BOLIVAR",
         "riesgo": "RB"
     },
     {
         "semana": 12,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-YHU",
+        "distrito": "CAAZAPA-ABAI",
         "riesgo": "RB"
     },
     {
@@ -8593,290 +5587,326 @@ var riesgoDis11 = [
     },
     {
         "semana": 12,
+        "cantidad": 2,
+        "distrito": "CAAZAPA-MOISES BERTONI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 2,
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-TAVAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
         "cantidad": 1,
         "distrito": "CAAZAPA-YUTY",
         "riesgo": "RB"
     },
     {
         "semana": 12,
-        "cantidad": 4,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 34,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 24,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 7,
         "distrito": "CANINDEYU-KATUETE",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 16,
+        "cantidad": 1,
         "distrito": "CANINDEYU-LA PALOMA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "CANINDEYU-NUEVA ESPERANZA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 40,
+        "cantidad": 20,
         "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 2,
-        "distrito": "CANINDEYU-YPEHU",
+        "distrito": "CANINDEYU-YGATIMI",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 354,
+        "cantidad": 3,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 56,
         "distrito": "CENTRAL-AREGUA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1225,
+        "cantidad": 195,
         "distrito": "CENTRAL-CAPIATA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 371,
+        "cantidad": 182,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 102,
+        "cantidad": 36,
         "distrito": "CENTRAL-GUARAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 151,
+        "cantidad": 49,
         "distrito": "CENTRAL-ITA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 269,
+        "cantidad": 72,
         "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 196,
+        "cantidad": 21,
         "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 12,
-        "cantidad": 502,
+        "cantidad": 182,
         "distrito": "CENTRAL-LAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 145,
+        "cantidad": 115,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 589,
+        "cantidad": 115,
         "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 12,
-        "cantidad": 331,
+        "cantidad": 466,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 16,
+        "cantidad": 11,
         "distrito": "CENTRAL-NUEVA ITALIA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 488,
+        "cantidad": 75,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 12,
-        "cantidad": 92,
+        "cantidad": 32,
         "distrito": "CENTRAL-SAN ANTONIO",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1206,
+        "cantidad": 321,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 324,
+        "cantidad": 55,
         "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 12,
-        "cantidad": 26,
+        "cantidad": 17,
         "distrito": "CENTRAL-VILLETA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 116,
+        "cantidad": 37,
         "distrito": "CENTRAL-YPACARAI",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 140,
+        "cantidad": 39,
         "distrito": "CENTRAL-YPANE",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 2,
+        "cantidad": 6,
         "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RM"
+        "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 14,
+        "cantidad": 107,
         "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RA"
+        "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 2,
+        "cantidad": 31,
         "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1,
+        "cantidad": 13,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 3,
         "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 24,
+        "cantidad": 9,
         "distrito": "CORDILLERA-ALTOS",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 12,
+        "cantidad": 3,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 12,
-        "cantidad": 14,
+        "cantidad": 2,
         "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 12,
-        "cantidad": 81,
+        "cantidad": 19,
         "distrito": "CORDILLERA-CAACUPE",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1,
+        "cantidad": 8,
         "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 10,
+        "cantidad": 4,
         "distrito": "CORDILLERA-EMBOSCADA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 10,
+        "cantidad": 14,
         "distrito": "CORDILLERA-EUSEBIO AYALA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 7,
+        "cantidad": 15,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 2,
+        "cantidad": 4,
         "distrito": "CORDILLERA-LOMA GRANDE",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 27,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 9,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 9,
+        "cantidad": 2,
         "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 12,
-        "cantidad": 3,
+        "cantidad": 4,
         "distrito": "CORDILLERA-SANTA ELENA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 19,
+        "cantidad": 4,
         "distrito": "CORDILLERA-TOBATI",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 3,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-VALENZUELA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
         "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1,
-        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "cantidad": 4,
+        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
         "riesgo": "E"
     },
     {
@@ -8893,39 +5923,57 @@ var riesgoDis11 = [
     },
     {
         "semana": 12,
-        "cantidad": 1,
+        "cantidad": 6,
         "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 12,
-        "cantidad": 3,
-        "distrito": "GUAIRA-NATALICIO TALAVERA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 99,
+        "cantidad": 1,
+        "distrito": "GUAIRA-NATALICIO TALAVERA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 2,
+        "distrito": "GUAIRA-PASO YOBAI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
+        "distrito": "GUAIRA-TEBICUARY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 46,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 7,
+        "cantidad": 2,
+        "distrito": "GUAIRA-YATAITY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 3,
         "distrito": "ITAPUA-CAMBYRETA",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
     },
     {
         "semana": 12,
-        "cantidad": 1,
+        "cantidad": 4,
         "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 12,
@@ -8935,21 +5983,15 @@ var riesgoDis11 = [
     },
     {
         "semana": 12,
-        "cantidad": 1,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 1,
-        "distrito": "ITAPUA-EDELIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 12,
-        "cantidad": 20,
+        "cantidad": 8,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 2,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
     },
     {
         "semana": 12,
@@ -8960,204 +6002,276 @@ var riesgoDis11 = [
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
+        "distrito": "ITAPUA-HOHENAU",
+        "riesgo": "RB"
     },
     {
         "semana": 12,
         "cantidad": 2,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
+        "distrito": "ITAPUA-JESUS",
         "riesgo": "E"
     },
     {
         "semana": 12,
+        "cantidad": 10,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
+        "distrito": "ITAPUA-NATALIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
         "cantidad": 2,
+        "distrito": "ITAPUA-PIRAPO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
         "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 12,
         "cantidad": 3,
+        "distrito": "MISIONES-AYOLAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
         "distrito": "MISIONES-SAN IGNACIO",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 5,
+        "cantidad": 3,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA MARIA",
+        "cantidad": 4,
+        "distrito": "MISIONES-SANTA ROSA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 1,
-        "distrito": "MISIONES-VILLA FLORIDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-HUMAITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 5,
+        "cantidad": 30,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 24,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 37,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 12,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-TACUARAS",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
+        "distrito": "ÑEEMBUCU-VILLA OLIVA",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 20,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-ACAHAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 7,
+        "distrito": "PARAGUARI-CAAPUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 10,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-LA COLMENA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-MBUYAPEY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 21,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 19,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 7,
+        "distrito": "PARAGUARI-QUIINDY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-QUYQUYHO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-SAPUCAI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 2,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 15,
+        "cantidad": 9,
         "distrito": "PARAGUARI-YBYCUI",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
+        "distrito": "PRESIDENTE HAYES-999",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 5,
+        "cantidad": 8,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 5,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-JOSE FALCON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 1,
         "distrito": "PRESIDENTE HAYES-NANAWA",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. ESTEBAN MARTINEZ",
+        "distrito": "PRESIDENTE HAYES-PUERTO PINASCO",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 79,
+        "cantidad": 69,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 12,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
         "cantidad": 6,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
+        "distrito": "SAN PEDRO-CHORE",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 12,
+        "cantidad": 6,
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 12,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-ITACURUBI DEL ROSARIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 8,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 12,
+        "cantidad": 5,
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
         "semana": 12,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-CERRITO",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-TACUATI",
+        "riesgo": "RB"
     },
     {
         "semana": 12,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-UNION",
+        "riesgo": "RB"
     },
     {
         "semana": 12,
-        "cantidad": 10,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ALTO PARAGUAY-FUERTE OLIMPO",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 149,
+        "cantidad": 484,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 27,
+        "cantidad": 14,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
@@ -9170,140 +6284,140 @@ var riesgoDis11 = [
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
+        "distrito": "ALTO PARANA-LOS CEDRALES",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-MBARACAYU",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 20,
+        "cantidad": 15,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 50,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-NARANJAL",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 39,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "ALTO PARANA-SANTA RITA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 6,
+        "cantidad": 8,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 225,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-3 DE FEBRERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 13,
-        "cantidad": 83,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
         "cantidad": 35,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 13,
+        "cantidad": 13,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 7,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "BOQUERON-NEULAND",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 9,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 13,
+        "cantidad": 6,
+        "distrito": "CAAGUAZU-CARAYAO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 10,
+        "distrito": "CAAGUAZU-CECILIO BAEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 54,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
+        "cantidad": 7,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-NUEVA LONDRES",
+        "distrito": "CAAGUAZU-JOSE DOMINGO OCAMPOS",
         "riesgo": "RB"
     },
     {
         "semana": 13,
-        "cantidad": 8,
-        "distrito": "CAAGUAZU-REPATRIACION",
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-MCAL FRANCISCO SOLANO LOPEZ",
         "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-R I 3 CORRALES",
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 5,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-VAQUERIA",
+        "riesgo": "RB"
     },
     {
         "semana": 13,
@@ -9313,175 +6427,187 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-AVA´I",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
         "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
+        "distrito": "CAAZAPA-BUENA VISTA",
         "riesgo": "RB"
     },
     {
         "semana": 13,
         "cantidad": 2,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "distrito": "CAAZAPA-CAAZAPA",
         "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "CAAZAPA-YEGROS",
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-999",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "cantidad": 8,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 21,
+        "cantidad": 32,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
+        "cantidad": 2,
+        "distrito": "CANINDEYU-ITANARA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 7,
+        "cantidad": 1,
         "distrito": "CANINDEYU-KATUETE",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 12,
+        "cantidad": 3,
         "distrito": "CANINDEYU-LA PALOMA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 30,
+        "cantidad": 5,
         "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 13,
+        "cantidad": 4,
+        "distrito": "CANINDEYU-YGATIMI",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 233,
+        "cantidad": 3,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 64,
         "distrito": "CENTRAL-AREGUA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 886,
+        "cantidad": 280,
         "distrito": "CENTRAL-CAPIATA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 374,
+        "cantidad": 234,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 115,
+        "cantidad": 27,
         "distrito": "CENTRAL-GUARAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 109,
+        "cantidad": 59,
         "distrito": "CENTRAL-ITA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 242,
+        "cantidad": 149,
         "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 136,
+        "cantidad": 52,
         "distrito": "CENTRAL-J A SALDIVAR",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 423,
+        "cantidad": 360,
         "distrito": "CENTRAL-LAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 106,
+        "cantidad": 99,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 453,
+        "cantidad": 196,
         "distrito": "CENTRAL-LUQUE",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 191,
+        "cantidad": 328,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 19,
+        "cantidad": 7,
         "distrito": "CENTRAL-NUEVA ITALIA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 558,
+        "cantidad": 88,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 13,
-        "cantidad": 83,
+        "cantidad": 45,
         "distrito": "CENTRAL-SAN ANTONIO",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 782,
+        "cantidad": 448,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 215,
+        "cantidad": 75,
         "distrito": "CENTRAL-VILLA ELISA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 37,
+        "cantidad": 35,
         "distrito": "CENTRAL-VILLETA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 130,
+        "cantidad": 48,
         "distrito": "CENTRAL-YPACARAI",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 140,
+        "cantidad": 54,
         "distrito": "CENTRAL-YPANE",
         "riesgo": "E"
     },
@@ -9493,87 +6619,81 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 20,
+        "cantidad": 138,
         "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 14,
+        "distrito": "CONCEPCION-HORQUETA",
         "riesgo": "RA"
     },
     {
         "semana": 13,
-        "cantidad": 4,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RM"
+        "cantidad": 11,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
+        "distrito": "CONCEPCION-SAN LAZARO",
         "riesgo": "RB"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
+        "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 20,
+        "cantidad": 17,
         "distrito": "CORDILLERA-ALTOS",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 2,
+        "cantidad": 7,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RM"
+        "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 7,
+        "cantidad": 3,
         "distrito": "CORDILLERA-ATYRA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 61,
+        "cantidad": 23,
         "distrito": "CORDILLERA-CAACUPE",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
+        "riesgo": "RB"
     },
     {
         "semana": 13,
-        "cantidad": 5,
+        "cantidad": 1,
         "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 13,
-        "cantidad": 6,
+        "cantidad": 8,
         "distrito": "CORDILLERA-EUSEBIO AYALA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 8,
+        "cantidad": 9,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
         "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "RB"
     },
     {
         "semana": 13,
@@ -9583,27 +6703,27 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 5,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 3,
         "distrito": "CORDILLERA-NUEVA COLOMBIA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 18,
+        "cantidad": 10,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 7,
+        "cantidad": 6,
         "distrito": "CORDILLERA-SAN BERNARDINO",
         "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "RB"
     },
     {
         "semana": 13,
@@ -9613,9 +6733,21 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 12,
+        "cantidad": 10,
         "distrito": "CORDILLERA-TOBATI",
         "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-VALENZUELA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "GUAIRA-BORJA",
+        "riesgo": "RB"
     },
     {
         "semana": 13,
@@ -9625,98 +6757,170 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
+        "cantidad": 2,
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
         "cantidad": 1,
+        "distrito": "GUAIRA-EUGENIO A GARAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 3,
         "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 2,
+        "distrito": "GUAIRA-ITURBE",
+        "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
+        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
         "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 4,
+        "distrito": "GUAIRA-MBOCAYATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 2,
+        "distrito": "GUAIRA-ÑUMI",
+        "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "GUAIRA-JOSE FASSARDI",
+        "distrito": "GUAIRA-PASO YOBAI",
         "riesgo": "RB"
     },
     {
         "semana": 13,
-        "cantidad": 43,
+        "cantidad": 2,
+        "distrito": "GUAIRA-TEBICUARYMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 67,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 5,
+        "cantidad": 1,
+        "distrito": "ITAPUA-BELLA VISTA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 7,
         "distrito": "ITAPUA-CAMBYRETA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 2,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CARMEN DEL PARANA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CORONEL BOGADO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ITAPUA-EDELIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 10,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL DELGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN RAFAEL DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 2,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
     },
     {
         "semana": 13,
         "cantidad": 3,
+        "distrito": "ITAPUA-GENERAL ARTIGAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 20,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ITAPUA-NATALIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ITAPUA-NUEVA ALBORADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ITAPUA-PIRAPO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN COSME Y DAMIAN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 13,
+        "cantidad": 2,
+        "distrito": "MISIONES-AYOLAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 6,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA MARIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 3,
+        "cantidad": 4,
         "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTIAGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-ALBERDI",
         "riesgo": "E"
     },
     {
@@ -9727,20 +6931,26 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 9,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-MAYOR MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 35,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA",
+        "cantidad": 2,
+        "distrito": "ÑEEMBUCU-TACUARAS",
         "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "ÑEEMBUCU-TACUARAS",
+        "distrito": "ÑEEMBUCU-VILLA OLIVA",
         "riesgo": "E"
     },
     {
@@ -9751,37 +6961,49 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 15,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-CAAPUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 8,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
     {
         "semana": 13,
         "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
+        "distrito": "PARAGUARI-GENERAL BERNARDINO CABALLERO",
+        "riesgo": "RB"
     },
     {
         "semana": 13,
-        "cantidad": 3,
+        "cantidad": 5,
         "distrito": "PARAGUARI-LA COLMENA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 24,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-MBUYAPEY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 28,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 8,
+        "cantidad": 16,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 3,
+        "cantidad": 7,
         "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
@@ -9794,7 +7016,7 @@ var riesgoDis11 = [
     {
         "semana": 13,
         "cantidad": 2,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
@@ -9805,14 +7027,20 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 16,
+        "cantidad": 12,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 7,
+        "cantidad": 9,
         "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-999",
         "riesgo": "E"
     },
     {
@@ -9823,57 +7051,69 @@ var riesgoDis11 = [
     },
     {
         "semana": 13,
-        "cantidad": 8,
+        "cantidad": 13,
         "distrito": "PRESIDENTE HAYES-NANAWA",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 49,
+        "cantidad": 72,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 13,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 11,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 13,
-        "cantidad": 10,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-25 DE DICIEMBRE",
+        "riesgo": "RB"
     },
     {
         "semana": 13,
         "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-UNION",
+        "distrito": "SAN PEDRO-ANTEQUERA",
         "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 3,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 4,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 6,
+        "distrito": "SAN PEDRO-GUAYAIBI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-NUEVA GERMANIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 8,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 13,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
     },
     {
         "semana": 14,
@@ -9883,91 +7123,91 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 189,
+        "cantidad": 291,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 38,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-DOMINGO MARTINEZ DE IRALA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 8,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 11,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-IRUÑA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
         "distrito": "ALTO PARANA-ITAKYRY",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "ALTO PARANA-JUAN E OLEARY",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-LOS CEDRALES",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 20,
+        "cantidad": 5,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MINGA PORA",
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 81,
+        "cantidad": 26,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "ALTO PARANA-SANTA RITA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
+        "cantidad": 12,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 228,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-CAPITAN BADO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 49,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 9,
+        "cantidad": 18,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
@@ -9979,39 +7219,51 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
+        "cantidad": 15,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
         "cantidad": 4,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
+        "distrito": "BOQUERON-NEULAND",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 80,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 7,
+        "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
+        "cantidad": 15,
         "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 43,
+        "cantidad": 60,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE DOMINGO OCAMPOS",
-        "riesgo": "RB"
+        "cantidad": 9,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-NUEVA LONDRES",
+        "riesgo": "E"
     },
     {
         "semana": 14,
@@ -10021,225 +7273,237 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 6,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 14,
-        "cantidad": 5,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-RI 3 CORRALES",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 4,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "distrito": "CAAGUAZU-SAN JOAQUIN",
         "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-S/D",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "RB"
     },
     {
         "semana": 14,
         "cantidad": 2,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
+        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 14,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-999",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 5,
+        "cantidad": 2,
         "distrito": "CAAZAPA-CAAZAPA",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 1,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 14,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "distrito": "CAAZAPA-MACIEL",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 22,
+        "cantidad": 7,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 43,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 6,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 6,
+        "cantidad": 1,
         "distrito": "CANINDEYU-LA PALOMA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 28,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "cantidad": 2,
+        "distrito": "CANINDEYU-NUEVA ESPERANZA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
         "distrito": "CANINDEYU-YGATIMI",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 6,
-        "distrito": "CANINDEYU-YPEHU",
+        "distrito": "CENTRAL-999",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 278,
+        "cantidad": 62,
         "distrito": "CENTRAL-AREGUA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1108,
+        "cantidad": 266,
         "distrito": "CENTRAL-CAPIATA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 408,
+        "cantidad": 280,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 87,
+        "cantidad": 30,
         "distrito": "CENTRAL-GUARAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 102,
+        "cantidad": 81,
         "distrito": "CENTRAL-ITA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 210,
+        "cantidad": 103,
         "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 148,
+        "cantidad": 50,
         "distrito": "CENTRAL-J A SALDIVAR",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 444,
+        "cantidad": 305,
         "distrito": "CENTRAL-LAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 133,
+        "cantidad": 67,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 636,
+        "cantidad": 206,
         "distrito": "CENTRAL-LUQUE",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 236,
+        "cantidad": 332,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 20,
+        "cantidad": 16,
         "distrito": "CENTRAL-NUEVA ITALIA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 672,
+        "cantidad": 102,
         "distrito": "CENTRAL-ÑEMBY",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 103,
+        "cantidad": 77,
         "distrito": "CENTRAL-SAN ANTONIO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1211,
+        "cantidad": 425,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 260,
+        "cantidad": 66,
         "distrito": "CENTRAL-VILLA ELISA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 43,
+        "cantidad": 22,
         "distrito": "CENTRAL-VILLETA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 80,
+        "cantidad": 28,
         "distrito": "CENTRAL-YPACARAI",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 157,
+        "cantidad": 48,
         "distrito": "CENTRAL-YPANE",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 9,
-        "distrito": "CONCEPCION-CONCEPCION",
+        "cantidad": 2,
+        "distrito": "CONCEPCION-BELEN",
         "riesgo": "RM"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
+        "cantidad": 104,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
+        "cantidad": 28,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 4,
         "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
+        "riesgo": "RA"
     },
     {
         "semana": 14,
@@ -10249,63 +7513,51 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 21,
+        "cantidad": 10,
         "distrito": "CORDILLERA-ALTOS",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 3,
+        "cantidad": 5,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 14,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 75,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CARAGUATAY",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RM"
     },
     {
         "semana": 14,
-        "cantidad": 10,
+        "cantidad": 21,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 9,
+        "distrito": "CORDILLERA-CARAGUATAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 5,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 8,
         "distrito": "CORDILLERA-EUSEBIO AYALA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
+        "cantidad": 8,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 14,
@@ -10315,44 +7567,74 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 14,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 18,
+        "cantidad": 5,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 20,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 7,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 6,
         "distrito": "CORDILLERA-SAN BERNARDINO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 14,
-        "cantidad": 25,
-        "distrito": "CORDILLERA-TOBATI",
+        "cantidad": 5,
+        "distrito": "CORDILLERA-SANTA ELENA",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 1,
+        "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-VALENZUELA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "GUAIRA-BORJA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
         "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "GUAIRA-EUGENIO A GARAY",
         "riesgo": "E"
     },
     {
@@ -10363,55 +7645,97 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 2,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 2,
-        "distrito": "GUAIRA-JOSE FASSARDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
         "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
+        "distrito": "GUAIRA-ITAPE",
         "riesgo": "RB"
     },
     {
         "semana": 14,
-        "cantidad": 47,
+        "cantidad": 2,
+        "distrito": "GUAIRA-ITURBE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 4,
+        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "GUAIRA-MBOCAYATY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "GUAIRA-PASO YOBAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "GUAIRA-TEBICUARY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 14,
+        "cantidad": 65,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 5,
+        "cantidad": 1,
+        "distrito": "GUAIRA-YATAITY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 4,
+        "distrito": "ITAPUA-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 6,
         "distrito": "ITAPUA-CAMBYRETA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
+        "cantidad": 4,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 5,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 1,
-        "distrito": "ITAPUA-COLONIA FRAM",
+        "distrito": "ITAPUA-CARMEN DEL PARANA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "ITAPUA-CORONEL BOGADO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "ITAPUA-EDELIRA",
         "riesgo": "RB"
     },
     {
         "semana": 14,
-        "cantidad": 27,
+        "cantidad": 12,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
@@ -10423,13 +7747,13 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "ITAPUA-HOHENAU",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "ITAPUA-ITAPUA POTY",
         "riesgo": "E"
     },
@@ -10441,14 +7765,20 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 1,
-        "distrito": "ITAPUA-LEANDRO OVIEDO",
+        "cantidad": 13,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 3,
+        "distrito": "ITAPUA-NATALIO",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 2,
-        "distrito": "ITAPUA-NATALIO KM10",
+        "distrito": "ITAPUA-SAN COSME Y DAMIAN",
         "riesgo": "E"
     },
     {
@@ -10460,24 +7790,18 @@ var riesgoDis11 = [
     {
         "semana": 14,
         "cantidad": 1,
-        "distrito": "ITAPUA-SAN RAFAEL DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 6,
         "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 14,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "MISIONES-AYOLAS",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "MISIONES-SAN IGNACIO",
         "riesgo": "E"
     },
@@ -10501,363 +7825,363 @@ var riesgoDis11 = [
     },
     {
         "semana": 14,
-        "cantidad": 5,
+        "cantidad": 1,
+        "distrito": "MISIONES-SANTIAGO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-ALBERDI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-GENERAL DIAZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-ISLA UMBU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 38,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 2,
+        "cantidad": 7,
         "distrito": "PARAGUARI-ACAHAY",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
+        "distrito": "PARAGUARI-CAAPUCU",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 21,
+        "cantidad": 10,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 35,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 9,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 15,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 5,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
+        "cantidad": 2,
+        "distrito": "PARAGUARI-GENERAL BERNARDINO CABALLERO",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-GENERAL BRUGUEZ",
+        "distrito": "PARAGUARI-LA COLMENA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-MBUYAPEY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 28,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 7,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 14,
+        "distrito": "PARAGUARI-QUIINDY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-QUYQUYHO",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 5,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 4,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 5,
+        "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YBYTYMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 6,
+        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
+        "riesgo": "E"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
         "distrito": "PRESIDENTE HAYES-NANAWA",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-TTE. ESTEBAN MARTINEZ",
+        "distrito": "PRESIDENTE HAYES-POZO COLORADO",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. IRALA FERNANDEZ",
+        "distrito": "PRESIDENTE HAYES-PUERTO PINASCO",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 71,
+        "cantidad": 47,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 7,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 14,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
+        "cantidad": 6,
+        "distrito": "SAN PEDRO-ANTEQUERA",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "RA"
     },
     {
         "semana": 14,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RM"
     },
     {
         "semana": 14,
-        "cantidad": 11,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GENERAL AQUINO",
         "riesgo": "E"
     },
     {
         "semana": 14,
         "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-CAPIIBARY",
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-ITACURUBI DEL ROSARIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-LIMA",
         "riesgo": "E"
     },
     {
         "semana": 14,
-        "cantidad": 12,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
+        "cantidad": 3,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RM"
     },
     {
         "semana": 14,
         "cantidad": 5,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
+        "semana": 14,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 14,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
+    },
+    {
         "semana": 15,
-        "cantidad": 13,
+        "cantidad": 1,
         "distrito": "ALTO PARAGUAY-LA VICTORIA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 187,
+        "cantidad": 491,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 43,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-DOMINGO MARTINEZ DE IRALA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 15,
+        "cantidad": 15,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-IGUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 2,
         "distrito": "ALTO PARANA-IRUÑA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 7,
+        "cantidad": 3,
         "distrito": "ALTO PARANA-ITAKYRY",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 16,
+        "cantidad": 4,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 101,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 53,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 10,
+        "cantidad": 11,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 4,
+        "cantidad": 2,
         "distrito": "AMAMBAY-CAPITAN BADO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 151,
+        "cantidad": 43,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 15,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 5,
+        "cantidad": 12,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 2,
-        "distrito": "BOQUERON-LOMA PLATA",
+        "cantidad": 12,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 5,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-3 DE FEBRERO",
+        "riesgo": "RB"
     },
     {
         "semana": 15,
-        "cantidad": 72,
+        "cantidad": 4,
         "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 15,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
+        "riesgo": "RM"
     },
     {
         "semana": 15,
-        "cantidad": 67,
+        "cantidad": 38,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
+        "cantidad": 5,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 14,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
+        "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
+        "riesgo": "RB"
     },
     {
         "semana": 15,
         "cantidad": 3,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
+        "distrito": "CAAGUAZU-REPATRIACION",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 15,
+        "cantidad": 8,
+        "distrito": "CAAZAPA-CAAZAPA",
         "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 9,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-S/D",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 5,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-VAQUERIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-BUENA VISTA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-TAVAI",
-        "riesgo": "RB"
     },
     {
         "semana": 15,
@@ -10867,195 +8191,153 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 40,
+        "cantidad": 37,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 9,
+        "cantidad": 2,
         "distrito": "CANINDEYU-KATUETE",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 6,
-        "distrito": "CANINDEYU-LA PALOMA",
+        "cantidad": 3,
+        "distrito": "CENTRAL-999",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 4,
-        "distrito": "CANINDEYU-NUEVA ESPERANZA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 39,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YASY CAÑY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YBYRAROVANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 6,
-        "distrito": "CANINDEYU-YPEHU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 292,
+        "cantidad": 34,
         "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 15,
-        "cantidad": 910,
+        "cantidad": 171,
         "distrito": "CENTRAL-CAPIATA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 340,
+        "cantidad": 207,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 97,
+        "cantidad": 32,
         "distrito": "CENTRAL-GUARAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 136,
+        "cantidad": 85,
         "distrito": "CENTRAL-ITA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 253,
+        "cantidad": 68,
         "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 123,
+        "cantidad": 38,
         "distrito": "CENTRAL-J A SALDIVAR",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 625,
+        "cantidad": 170,
         "distrito": "CENTRAL-LAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 190,
+        "cantidad": 58,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 614,
+        "cantidad": 141,
         "distrito": "CENTRAL-LUQUE",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 141,
+        "cantidad": 164,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 18,
+        "cantidad": 14,
         "distrito": "CENTRAL-NUEVA ITALIA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 632,
+        "cantidad": 92,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 15,
-        "cantidad": 166,
+        "cantidad": 38,
         "distrito": "CENTRAL-SAN ANTONIO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 520,
+        "cantidad": 366,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 258,
+        "cantidad": 35,
         "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 15,
-        "cantidad": 56,
+        "cantidad": 20,
         "distrito": "CENTRAL-VILLETA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 105,
+        "cantidad": 10,
         "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 15,
-        "cantidad": 121,
+        "cantidad": 32,
         "distrito": "CENTRAL-YPANE",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 16,
+        "cantidad": 83,
         "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RA"
+        "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 3,
+        "cantidad": 15,
         "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RM"
+        "riesgo": "E"
     },
     {
         "semana": 15,
@@ -11065,99 +8347,87 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
-        "cantidad": 2,
+        "cantidad": 1,
         "distrito": "CONCEPCION-YBY YAU",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 18,
+        "cantidad": 5,
         "distrito": "CORDILLERA-ALTOS",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 7,
+        "cantidad": 8,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 8,
+        "cantidad": 2,
         "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 15,
-        "cantidad": 84,
+        "cantidad": 22,
         "distrito": "CORDILLERA-CAACUPE",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 3,
+        "cantidad": 2,
         "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 15,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 10,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 15,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-LOMA GRANDE",
         "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 8,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 11,
+        "cantidad": 9,
+        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-LOMA GRANDE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 15,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 15,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 12,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 7,
+        "cantidad": 2,
         "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 15,
@@ -11167,27 +8437,33 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
-        "cantidad": 21,
+        "cantidad": 3,
         "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 15,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-VALENZUELA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "GUAIRA-BORJA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
         "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 1,
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 2,
         "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 15,
@@ -11203,57 +8479,63 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
+        "cantidad": 2,
+        "distrito": "GUAIRA-JOSE FASSARDI",
+        "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 1,
-        "distrito": "GUAIRA-NATALICIO TALAVERA",
+        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
         "riesgo": "RB"
     },
     {
         "semana": 15,
         "cantidad": 4,
-        "distrito": "GUAIRA-TEBICUARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 52,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "ITAPUA-BELLA VISTA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 7,
-        "distrito": "ITAPUA-CAMBYRETA",
+        "distrito": "GUAIRA-MBOCAYATY",
         "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 2,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
+        "distrito": "GUAIRA-TEBICUARY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 15,
+        "cantidad": 38,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 2,
+        "distrito": "GUAIRA-YATAITY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 4,
+        "distrito": "ITAPUA-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 3,
+        "distrito": "ITAPUA-CAMBYRETA",
         "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 1,
-        "distrito": "ITAPUA-CARMEN DEL PARANA",
-        "riesgo": "E"
+        "distrito": "ITAPUA-CAPITAN MEZA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 15,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
     },
     {
         "semana": 15,
@@ -11263,19 +8545,13 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "ITAPUA-EDELIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 15,
-        "cantidad": 29,
+        "cantidad": 12,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 4,
+        "cantidad": 3,
         "distrito": "ITAPUA-GENERAL ARTIGAS",
         "riesgo": "E"
     },
@@ -11287,39 +8563,33 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
+        "cantidad": 9,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
         "cantidad": 1,
-        "distrito": "ITAPUA-JESUS",
+        "distrito": "ITAPUA-NATALIO",
         "riesgo": "RB"
     },
     {
         "semana": 15,
-        "cantidad": 3,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
         "cantidad": 1,
-        "distrito": "ITAPUA-PIRAPO",
+        "distrito": "ITAPUA-OBLIGADO",
         "riesgo": "RB"
     },
     {
         "semana": 15,
-        "cantidad": 8,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
         "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 1,
-        "distrito": "ITAPUA-YATYTAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
+        "distrito": "ITAPUA-TRINIDAD",
+        "riesgo": "RM"
     },
     {
         "semana": 15,
@@ -11329,8 +8599,14 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
-        "cantidad": 2,
+        "cantidad": 9,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN MIGUEL",
         "riesgo": "E"
     },
     {
@@ -11347,177 +8623,147 @@ var riesgoDis11 = [
     },
     {
         "semana": 15,
-        "cantidad": 7,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-GUAZUCUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ISLA UMBU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 4,
+        "cantidad": 29,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-TACUARAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 3,
+        "cantidad": 4,
         "distrito": "PARAGUARI-ACAHAY",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 27,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CAAPUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 10,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "PARAGUARI-ESCOBAR",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
+        "cantidad": 3,
+        "distrito": "PARAGUARI-GENERAL BERNARDINO CABALLERO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 43,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-MBUYAPEY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 15,
+        "cantidad": 27,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 2,
+        "cantidad": 7,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
+        "cantidad": 6,
+        "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
+        "cantidad": 3,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 37,
+        "cantidad": 5,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 20,
+        "cantidad": 8,
         "distrito": "PARAGUARI-YBYCUI",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 7,
+        "cantidad": 2,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 12,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
+        "cantidad": 4,
+        "distrito": "PRESIDENTE HAYES-PUERTO PINASCO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 73,
+        "cantidad": 42,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CAPIIBARY",
+        "riesgo": "RB"
     },
     {
         "semana": 15,
         "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RM"
     },
     {
         "semana": 15,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
+        "cantidad": 6,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
         "riesgo": "E"
     },
     {
         "semana": 15,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-LIMA",
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-LIMA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 15,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 15,
+        "cantidad": 3,
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
         "semana": 15,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO SUR-CAPIIBARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 6,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 18,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 15,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
+        "riesgo": "RB"
     },
     {
         "semana": 16,
@@ -11527,189 +8773,105 @@ var riesgoDis11 = [
     },
     {
         "semana": 16,
-        "cantidad": 2,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-MAYOR PABLO LAGERENZA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 138,
+        "cantidad": 360,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-DOMINGO MARTINEZ DE IRALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 13,
+        "cantidad": 16,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 16,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-IGUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
         "cantidad": 7,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 10,
         "distrito": "ALTO PARANA-MINGA GUAZU",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 94,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 33,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 3,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 30,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 171,
+        "cantidad": 36,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
+        "cantidad": 27,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 2,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
+        "distrito": "BOQUERON-LOMA PLATA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 89,
-        "distrito": "CAAGUAZU-CAAGUAZU",
+        "cantidad": 13,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
+        "distrito": "BOQUERON-NEULAND",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 2,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RA"
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RM"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
+        "distrito": "CAAGUAZU-CARAYAO",
         "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 79,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-CECILIO BAEZ",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 16,
+        "cantidad": 23,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 6,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 5,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-VAQUERIA",
+        "distrito": "CAAZAPA-ABAI",
         "riesgo": "RB"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-YHU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 16,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-AVA´I",
-        "riesgo": "E"
     },
     {
         "semana": 16,
@@ -11719,39 +8881,45 @@ var riesgoDis11 = [
     },
     {
         "semana": 16,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-YUTY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 16,
         "cantidad": 2,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 37,
+        "cantidad": 21,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 9,
+        "cantidad": 1,
         "distrito": "CANINDEYU-KATUETE",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 10,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 2,
+        "cantidad": 3,
         "distrito": "CANINDEYU-NUEVA ESPERANZA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 38,
+        "cantidad": 2,
         "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 16,
@@ -11761,193 +8929,193 @@ var riesgoDis11 = [
     },
     {
         "semana": 16,
-        "cantidad": 4,
-        "distrito": "CANINDEYU-YPEHU",
+        "cantidad": 2,
+        "distrito": "CENTRAL-999",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 303,
+        "cantidad": 30,
         "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 1000,
+        "cantidad": 125,
         "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 361,
+        "cantidad": 189,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 124,
+        "cantidad": 20,
         "distrito": "CENTRAL-GUARAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 146,
+        "cantidad": 13,
         "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 157,
+        "cantidad": 66,
         "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 115,
+        "cantidad": 33,
         "distrito": "CENTRAL-J A SALDIVAR",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 687,
+        "cantidad": 87,
         "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 324,
+        "cantidad": 48,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 676,
+        "cantidad": 150,
         "distrito": "CENTRAL-LUQUE",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 216,
+        "cantidad": 134,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 12,
+        "cantidad": 9,
         "distrito": "CENTRAL-NUEVA ITALIA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 694,
+        "cantidad": 37,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 150,
+        "cantidad": 15,
         "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 841,
+        "cantidad": 245,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 231,
+        "cantidad": 26,
         "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 48,
+        "cantidad": 5,
         "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 16,
-        "cantidad": 103,
+        "cantidad": 25,
         "distrito": "CENTRAL-YPACARAI",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 164,
+        "cantidad": 15,
         "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 16,
-        "cantidad": 38,
-        "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "RA"
     },
     {
         "semana": 16,
-        "cantidad": 6,
-        "distrito": "CONCEPCION-HORQUETA",
+        "cantidad": 2,
+        "distrito": "CONCEPCION-BELEN",
         "riesgo": "RM"
     },
     {
         "semana": 16,
-        "cantidad": 5,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 26,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "cantidad": 65,
+        "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 13,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 16,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-SAN LAZARO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 16,
+        "cantidad": 9,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 5,
         "distrito": "CORDILLERA-ATYRA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 77,
+        "cantidad": 17,
         "distrito": "CORDILLERA-CAACUPE",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 2,
+        "cantidad": 5,
         "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
+        "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 6,
+        "cantidad": 3,
         "distrito": "CORDILLERA-EMBOSCADA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 12,
+        "cantidad": 6,
         "distrito": "CORDILLERA-EUSEBIO AYALA",
         "riesgo": "E"
     },
@@ -11959,15 +9127,15 @@ var riesgoDis11 = [
     },
     {
         "semana": 16,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 8,
+        "cantidad": 1,
         "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 16,
@@ -11977,19 +9145,31 @@ var riesgoDis11 = [
     },
     {
         "semana": 16,
-        "cantidad": 20,
+        "cantidad": 11,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
         "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 16,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 16,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-SANTA ELENA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 5,
         "distrito": "CORDILLERA-TOBATI",
         "riesgo": "E"
     },
@@ -12002,74 +9182,92 @@ var riesgoDis11 = [
     {
         "semana": 16,
         "cantidad": 1,
+        "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 4,
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
+        "distrito": "GUAIRA-EUGENIO A GARAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
+        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
+        "distrito": "GUAIRA-ITURBE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
         "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
         "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 5,
-        "distrito": "GUAIRA-MBOCAYATY",
+        "cantidad": 2,
+        "distrito": "GUAIRA-PASO YOBAI",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "GUAIRA-PASO YOBAI",
+        "distrito": "GUAIRA-TEBICUARY",
         "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 4,
-        "distrito": "GUAIRA-TEBICUARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 70,
+        "cantidad": 33,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 2,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "ITAPUA-BELLA VISTA",
+        "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
+        "cantidad": 1,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
+        "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 2,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 22,
+        "cantidad": 7,
         "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
-        "riesgo": "RB"
+        "cantidad": 7,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "E"
     },
     {
         "semana": 16,
@@ -12079,128 +9277,62 @@ var riesgoDis11 = [
     },
     {
         "semana": 16,
-        "cantidad": 1,
-        "distrito": "ITAPUA-JESUS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 16,
-        "cantidad": 4,
-        "distrito": "ITAPUA-NATALIO KM10",
+        "cantidad": 3,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "ITAPUA-NUEVA ALBORADA",
+        "distrito": "ITAPUA-NATALIO",
         "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 2,
-        "distrito": "ITAPUA-PIRAPO",
+        "cantidad": 1,
+        "distrito": "ITAPUA-OBLIGADO",
         "riesgo": "RB"
     },
     {
         "semana": 16,
-        "cantidad": 3,
+        "cantidad": 1,
         "distrito": "ITAPUA-SAN JUAN DEL PARANA",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN RAFAEL DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "MISIONES-AYOLAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 2,
         "distrito": "MISIONES-SAN IGNACIO",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 5,
+        "cantidad": 3,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "MISIONES-SANTA MARIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "MISIONES-SD",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 5,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-DESMOCHADOS",
+        "distrito": "MISIONES-SAN MIGUEL",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 2,
-        "distrito": "ÑEEMBUCU-GENERAL DIAZ",
+        "distrito": "ÑEEMBUCU-ALBERDI",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-GUAZUCUA",
+        "cantidad": 2,
+        "distrito": "ÑEEMBUCU-LAURELES",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 12,
+        "cantidad": 25,
         "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-VILLA OLIVA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-999",
         "riesgo": "E"
     },
     {
@@ -12211,223 +9343,133 @@ var riesgoDis11 = [
     },
     {
         "semana": 16,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-CAAPUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 28,
+        "cantidad": 7,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "PARAGUARI-LA COLMENA",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 58,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-MBUYAPEY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 9,
         "distrito": "PARAGUARI-PARAGUARI",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 10,
+        "cantidad": 5,
         "distrito": "PARAGUARI-PIRAYU",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 5,
+        "cantidad": 2,
         "distrito": "PARAGUARI-QUIINDY",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-SAPUCAI",
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
+        "distrito": "PARAGUARI-TEBICUARYMI",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 42,
+        "cantidad": 11,
         "distrito": "PARAGUARI-YAGUARON",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 17,
+        "cantidad": 4,
         "distrito": "PARAGUARI-YBYCUI",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 4,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
         "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-GENERAL BRUGUEZ",
+        "distrito": "PRESIDENTE HAYES-POZO COLORADO",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 13,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. ESTEBAN MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. IRALA FERNANDEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 57,
+        "cantidad": 39,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
         "semana": 16,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-ANTEQUERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 8,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 6,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RM"
     },
     {
         "semana": 16,
         "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-LIMA",
+        "distrito": "SAN PEDRO-GENERAL AQUINO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 16,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
         "semana": 16,
         "cantidad": 5,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-TACUATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO SUR-CERRITO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 13,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-ITACURUBI DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 24,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-UNION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 16,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RA"
     },
     {
         "semana": 16,
         "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
+        "distrito": "SAN PEDRO-SAN PEDRO",
         "riesgo": "E"
     },
     {
-        "semana": 17,
+        "semana": 16,
         "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-CARMELO PERALTA",
-        "riesgo": "E"
+        "distrito": "SAN PEDRO-UNION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 16,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
     },
     {
         "semana": 17,
-        "cantidad": 4,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 100,
+        "cantidad": 420,
         "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
         "riesgo": "E"
     },
@@ -12439,32 +9481,14 @@ var riesgoDis11 = [
     },
     {
         "semana": 17,
-        "cantidad": 15,
+        "cantidad": 9,
         "distrito": "ALTO PARANA-HERNANDARIAS",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 11,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
         "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
+        "distrito": "ALTO PARANA-IGUAZU",
         "riesgo": "E"
     },
     {
@@ -12475,459 +9499,369 @@ var riesgoDis11 = [
     },
     {
         "semana": 17,
-        "cantidad": 38,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-NARANJAL",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 43,
         "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 23,
+        "cantidad": 4,
         "distrito": "AMAMBAY-BELLA VISTA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 166,
+        "cantidad": 31,
         "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "BOQUERON-999",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
+        "cantidad": 39,
         "distrito": "BOQUERON-FILADELFIA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "BOQUERON-LOMA PLATA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 6,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
+        "cantidad": 35,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 49,
+        "cantidad": 5,
+        "distrito": "BOQUERON-NEULAND",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 17,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 17,
-        "cantidad": 63,
+        "cantidad": 30,
         "distrito": "CAAGUAZU-CORONEL OVIEDO",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE DOMINGO OCAMPOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-LA PASTORA",
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
         "riesgo": "RB"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-NUEVA LONDRES",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
         "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 17,
-        "cantidad": 5,
+        "cantidad": 1,
         "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "E"
+        "riesgo": "RB"
     },
     {
         "semana": 17,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 5,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-SIMON BOLIVAR",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "CAAGUAZU-S/D",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-YHU",
+        "distrito": "CAAZAPA-999",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "CAAZAPA-MACIEL",
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 2,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 28,
+        "cantidad": 20,
         "distrito": "CANINDEYU-CURUGUATY",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-NUEVA ESPERANZA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 24,
         "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 17,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-YGATIMI",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YASY CAÑY",
+        "cantidad": 2,
+        "distrito": "CENTRAL-999",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 188,
+        "cantidad": 26,
         "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 605,
+        "cantidad": 140,
         "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 333,
+        "cantidad": 167,
         "distrito": "CENTRAL-FERNANDO DE LA MORA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 44,
+        "cantidad": 18,
         "distrito": "CENTRAL-GUARAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 66,
+        "cantidad": 73,
         "distrito": "CENTRAL-ITA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 97,
+        "cantidad": 77,
         "distrito": "CENTRAL-ITAUGUA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 59,
+        "cantidad": 39,
         "distrito": "CENTRAL-J A SALDIVAR",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 441,
+        "cantidad": 189,
         "distrito": "CENTRAL-LAMBARE",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 204,
+        "cantidad": 110,
         "distrito": "CENTRAL-LIMPIO",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 327,
+        "cantidad": 152,
         "distrito": "CENTRAL-LUQUE",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 130,
+        "cantidad": 103,
         "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 15,
+        "cantidad": 5,
         "distrito": "CENTRAL-NUEVA ITALIA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 404,
+        "cantidad": 31,
         "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 84,
+        "cantidad": 13,
         "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 394,
+        "cantidad": 189,
         "distrito": "CENTRAL-SAN LORENZO",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 140,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
         "cantidad": 29,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 17,
+        "cantidad": 9,
         "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 39,
+        "cantidad": 15,
         "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 98,
+        "cantidad": 25,
         "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 17,
-        "cantidad": 23,
+        "cantidad": 41,
         "distrito": "CONCEPCION-CONCEPCION",
         "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 5,
+        "cantidad": 3,
         "distrito": "CONCEPCION-HORQUETA",
         "riesgo": "RM"
     },
     {
         "semana": 17,
-        "cantidad": 7,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
+        "cantidad": 2,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RM"
     },
     {
         "semana": 17,
-        "cantidad": 15,
+        "cantidad": 4,
         "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
+        "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 7,
+        "cantidad": 2,
         "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
+        "riesgo": "RM"
     },
     {
         "semana": 17,
-        "cantidad": 7,
+        "cantidad": 3,
         "distrito": "CORDILLERA-ATYRA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 46,
+        "cantidad": 22,
         "distrito": "CORDILLERA-CAACUPE",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 2,
+        "cantidad": 6,
         "distrito": "CORDILLERA-CARAGUATAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
         "riesgo": "RA"
     },
     {
         "semana": 17,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 17,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 1,
+        "cantidad": 9,
         "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 15,
+        "cantidad": 7,
         "distrito": "CORDILLERA-PIRIBEBUY",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-SANTA ELENA",
+        "cantidad": 3,
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "CORDILLERA-S/D",
-        "riesgo": "E"
+        "distrito": "CORDILLERA-SAN JOSE OBRERO",
+        "riesgo": "RB"
     },
     {
         "semana": 17,
-        "cantidad": 13,
+        "cantidad": 4,
         "distrito": "CORDILLERA-TOBATI",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 1,
+        "cantidad": 3,
         "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
+        "cantidad": 2,
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 1,
-        "distrito": "GUAIRA-INDEPENDENCIA",
-        "riesgo": "RB"
+        "cantidad": 2,
+        "distrito": "GUAIRA-JOSE FASSARDI",
+        "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 1,
+        "cantidad": 2,
         "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
-        "riesgo": "RB"
+        "riesgo": "E"
     },
     {
         "semana": 17,
@@ -12938,74 +9872,86 @@ var riesgoDis11 = [
     {
         "semana": 17,
         "cantidad": 1,
+        "distrito": "GUAIRA-ÑUMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
         "distrito": "GUAIRA-TEBICUARY",
         "riesgo": "RB"
     },
     {
         "semana": 17,
-        "cantidad": 46,
+        "cantidad": 15,
         "distrito": "GUAIRA-VILLARRICA",
         "riesgo": "E"
     },
     {
         "semana": 17,
-        "cantidad": 2,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
         "cantidad": 1,
-        "distrito": "ITAPUA-ALTO VERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 4,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 4,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 16,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
+        "distrito": "ITAPUA-BELLA VISTA",
         "riesgo": "RB"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "ITAPUA-LEANDRO OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 5,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
-        "riesgo": "E"
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "ITAPUA-YATYTAY",
+        "distrito": "ITAPUA-EDELIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 17,
+        "cantidad": 9,
+        "distrito": "ITAPUA-ENCARNACION",
         "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 4,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 4,
+        "distrito": "ITAPUA-ITAPUA POTY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 2,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "ITAPUA-OBLIGADO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
+        "riesgo": "RB"
     },
     {
         "semana": 17,
@@ -13015,20 +9961,14 @@ var riesgoDis11 = [
     },
     {
         "semana": 17,
-        "cantidad": 4,
+        "cantidad": 1,
         "distrito": "MISIONES-SAN JUAN BAUTISTA",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 6,
-        "distrito": "ÑEEMBUCU-ALBERDI",
+        "distrito": "MISIONES-SANTA MARIA",
         "riesgo": "E"
     },
     {
@@ -13039,14 +9979,14 @@ var riesgoDis11 = [
     },
     {
         "semana": 17,
-        "cantidad": 12,
+        "cantidad": 19,
         "distrito": "ÑEEMBUCU-PILAR",
         "riesgo": "E"
     },
     {
         "semana": 17,
         "cantidad": 1,
-        "distrito": "PARAGUARI-999",
+        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA DE ÑEEMBUCU",
         "riesgo": "E"
     },
     {
@@ -13057,19 +9997,7 @@ var riesgoDis11 = [
     },
     {
         "semana": 17,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CAAPUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 27,
+        "cantidad": 5,
         "distrito": "PARAGUARI-CARAPEGUA",
         "riesgo": "E"
     },
@@ -13081,11391 +10009,6615 @@ var riesgoDis11 = [
     },
     {
         "semana": 17,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 38,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 25,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 10,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 6,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 5,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-TTE. ESTEBAN MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 30,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 7,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-TACUATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 15,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 17,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 82,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 19,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 31,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SAN ALBERTO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 4,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 120,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 37,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 37,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-LA PASTORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-NUEVA LONDRES",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-S/D",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-MOISES BERTONI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 14,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 7,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 173,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 564,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 291,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 45,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 120,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 160,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 63,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 400,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 259,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 361,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 238,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 6,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 329,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 98,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 643,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 134,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 22,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 32,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 90,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 18,
-        "cantidad": 9,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 18,
-        "cantidad": 4,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 17,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 37,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 12,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 30,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ITAPUA-BELLA VISTA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 16,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ITAPUA-JESUS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ITAPUA-OBLIGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 9,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA MARIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-DESMOCHADOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 5,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CAAPUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 11,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 17,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 22,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 7,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO PINAZCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 24,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-LIMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 18,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 84,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 41,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-NARANJAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 34,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 13,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 98,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 4,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 44,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 19,
-        "cantidad": 46,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 10,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-VAQUERIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-YHU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-GENERAL MORINIGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 13,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-NUEVA ESPERANZA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 201,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 591,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 334,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 29,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 117,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 173,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 71,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 415,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 315,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 605,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 325,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 4,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 19,
-        "cantidad": 443,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 82,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 609,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 184,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 30,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 39,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 124,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 28,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 7,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 16,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 12,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 36,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 7,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 12,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "GUAIRA-CORONEL MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "GUAIRA-GENERAL GARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "GUAIRA-TEBICUARY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 19,
-        "cantidad": 23,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ITAPUA-ALTO VERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ITAPUA-EDELIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 19,
-        "cantidad": 13,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 15,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTIAGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "MISIONES-VILLA FLORIDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ISLA UMBU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 5,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 22,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
         "cantidad": 1,
         "distrito": "PARAGUARI-MBUYAPEY",
         "riesgo": "E"
     },
     {
-        "semana": 19,
+        "semana": 17,
+        "cantidad": 18,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 5,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 5,
+        "distrito": "PARAGUARI-QUIINDY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAPUCAI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 8,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 8,
+        "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-JOSE FALCON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-POZO COLORADO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 17,
         "cantidad": 31,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 10,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 12,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 38,
         "distrito": "PRESIDENTE HAYES-VILLA HAYES",
         "riesgo": "E"
     },
     {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 7,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 7,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 19,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 53,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 10,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 20,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-TAVAPY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 4,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 90,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 19,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 22,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 14,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YASY CAÑY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YBYRAROVANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 79,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 324,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 162,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 8,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 55,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 77,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 19,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 263,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 151,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 289,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 226,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 252,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 61,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 319,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 120,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 24,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 23,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 58,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 20,
-        "cantidad": 22,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 10,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 25,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-YPACARAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "GUAIRA-CORONEL MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITURBE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "GUAIRA-TEBICUARY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 11,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 20,
-        "cantidad": 12,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN RAFAEL DEL PARANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTIAGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 4,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-VILLA FRANCA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 11,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 22,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 10,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 13,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-GENERAL BRUGUEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. ESTEBAN MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 12,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-LIMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-TACUATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 20,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-CARMELO PERALTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 4,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 61,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 19,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 85,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 19,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 23,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-BUENA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 8,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 39,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 21,
-        "cantidad": 147,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 162,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 4,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 21,
-        "cantidad": 32,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 50,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 11,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 21,
-        "cantidad": 205,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 137,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 137,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 178,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 21,
-        "cantidad": 148,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 59,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 220,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 83,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 19,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 15,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 21,
-        "cantidad": 30,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 21,
-        "cantidad": 18,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 21,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 21,
-        "cantidad": 15,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-S/D",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "GUAIRA-GENERAL GARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ÑUMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 10,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "GUAIRA-YATAITY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 5,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "ITAPUA-MAYOR OTAÑO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NATALIO KM10",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ITAPUA-NUEVA ALBORADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "MISIONES-SANTA ROSA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "MISIONES-VILLA FLORIDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-DESMOCHADOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CAAPUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 9,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 17,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 8,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 6,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 21,
-        "cantidad": 16,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-CARMELO PERALTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 45,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 7,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 17,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 6,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 82,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 12,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 18,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SIMON BOLIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 9,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YASY CAÑY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YBYRAROVANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 28,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 127,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 110,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 18,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 39,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 12,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 99,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 108,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 165,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 75,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 22,
-        "cantidad": 92,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 42,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 127,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 59,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 13,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 17,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 9,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 22,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 22,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 4,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 5,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN COSME Y SAN DAMIAN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 11,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 5,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-CAPIIBARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 22,
-        "cantidad": 4,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 5,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 33,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 13,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 7,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 61,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 8,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 10,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 9,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 23,
-        "cantidad": 20,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 94,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 93,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 4,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 23,
-        "cantidad": 18,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 51,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 12,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 103,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 60,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 131,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 59,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 108,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 22,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 135,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 53,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 12,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 23,
-        "cantidad": 23,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 7,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 23,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 23,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 23,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "GUAIRA-BORJA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "GUAIRA-GENERAL GARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 4,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "ITAPUA-NUEVA ALBORADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TRINIDAD",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 11,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 3,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 23,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-TACUATI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-LA VICTORIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 20,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 9,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 13,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 6,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 45,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 10,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-YHU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 9,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YASY CAÑY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-YBYRAROVANA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 18,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 69,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 67,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 6,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 16,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 41,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 14,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 76,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 78,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 94,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 62,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 5,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 66,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 32,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 133,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 60,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 8,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 3,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 24,
-        "cantidad": 22,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 9,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 24,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "GUAIRA-CORONEL MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 3,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 4,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TRINIDAD",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-TACUARAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 24,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 12,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 25,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 37,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-ZANJA PYTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 6,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-LA PASTORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YASY CAÑY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 19,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 48,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 60,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 2,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 9,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 19,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 3,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 25,
-        "cantidad": 58,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 45,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 74,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 42,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 46,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 21,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 60,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 35,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 6,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 16,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 5,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 25,
-        "cantidad": 4,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 2,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "ITAPUA-OBLIGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 4,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 25,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 12,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 27,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOSE DE LOS ARROYOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 13,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 43,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 24,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 2,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 14,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 6,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 49,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 26,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 27,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 20,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 42,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 11,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 58,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 22,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 26,
-        "cantidad": 7,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-BELEN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO PINAZCO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 26,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 8,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 22,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-F. CABALLERO ALVAREZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 9,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 27,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 45,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 3,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 27,
-        "cantidad": 13,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 4,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 27,
-        "cantidad": 54,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 33,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 27,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 11,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 27,
-        "cantidad": 52,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 13,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 50,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 31,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 2,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 13,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 27,
-        "cantidad": 3,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITAPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYTYMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 27,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 26,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 5,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 9,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 28,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 32,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 2,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 28,
-        "cantidad": 15,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 28,
-        "cantidad": 55,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 24,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 19,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 28,
-        "cantidad": 10,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 28,
-        "cantidad": 32,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 7,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 28,
-        "cantidad": 66,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 13,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 28,
-        "cantidad": 6,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 28,
-        "cantidad": 3,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 28,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 28,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 28,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 17,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 4,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 29,
-        "cantidad": 9,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 37,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 3,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 2,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 15,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 29,
-        "cantidad": 13,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 29,
-        "cantidad": 16,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 29,
-        "cantidad": 6,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 29,
-        "cantidad": 21,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 29,
-        "cantidad": 4,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 50,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 29,
-        "cantidad": 7,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 29,
-        "cantidad": 3,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "ITAPUA-HOHENAU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 29,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 30,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 7,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 30,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 12,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 30,
-        "cantidad": 12,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 7,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 3,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 7,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 30,
-        "cantidad": 10,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 3,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 2,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 15,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 30,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 30,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SANTA ROSA DEL MONDAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 6,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-TEMBIAPORA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 2,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 17,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 31,
-        "cantidad": 19,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 11,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 31,
-        "cantidad": 3,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 15,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 31,
-        "cantidad": 5,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 31,
-        "cantidad": 11,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 31,
-        "cantidad": 3,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 29,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 31,
-        "cantidad": 3,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 31,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 32,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 32,
-        "cantidad": 7,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 3,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 14,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 13,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 4,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 10,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 4,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 8,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 15,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 32,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 33,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 5,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 33,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 6,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 6,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 3,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 33,
-        "cantidad": 5,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 3,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 7,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 11,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 3,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "ITAPUA-COLONIA FRAM",
-        "riesgo": "E"
-    },
-    {
-        "semana": 33,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 34,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-LA PALOMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 18,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 34,
-        "cantidad": 10,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 3,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 4,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 10,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL DELGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 34,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 35,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 35,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 35,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-SAN JOAQUIN",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 8,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 4,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 2,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 4,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 9,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 2,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 35,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 36,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 36,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 36,
-        "cantidad": 2,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-TAVAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 4,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 36,
-        "cantidad": 35,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 36,
-        "cantidad": 5,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 8,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 36,
-        "cantidad": 13,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 36,
-        "cantidad": 6,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 36,
-        "cantidad": 8,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 36,
-        "cantidad": 5,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 36,
-        "cantidad": 6,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 2,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 35,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 36,
-        "cantidad": 4,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 36,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "ALTO PARAGUAY-FUERTE OLIMPO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 2,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 37,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 37,
-        "cantidad": 11,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 2,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 4,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 7,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 8,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 2,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 8,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 5,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 35,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 37,
-        "cantidad": 7,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 4,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 37,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 37,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 38,
-        "cantidad": 8,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 38,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 5,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 38,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-KATUETE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 21,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 38,
-        "cantidad": 6,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 2,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 2,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 2,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 2,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 8,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 38,
-        "cantidad": 9,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 38,
-        "cantidad": 3,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 3,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 2,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 28,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 38,
-        "cantidad": 4,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 3,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 3,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 4,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 38,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 13,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 39,
-        "cantidad": 8,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 3,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 6,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 39,
-        "cantidad": 12,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 39,
-        "cantidad": 7,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 39,
-        "cantidad": 24,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 39,
-        "cantidad": 6,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 4,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 4,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 17,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 39,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-R I 3 CORRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 21,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 11,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 3,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 4,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 18,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 9,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 5,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 7,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 6,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 26,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 6,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-NANAWA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 40,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 14,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 10,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-VAQUERIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YASY CAÑY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 8,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 40,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 41,
-        "cantidad": 30,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 6,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 5,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 5,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 26,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 41,
-        "cantidad": 8,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 18,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 23,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 18,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 11,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 41,
-        "cantidad": 62,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 41,
-        "cantidad": 9,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 7,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-LIMA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 41,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 27,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 14,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN LEON MALLORQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-SANTA RITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 9,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 56,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 23,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 5,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 42,
-        "cantidad": 8,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 42,
-        "cantidad": 7,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 46,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 6,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 42,
-        "cantidad": 39,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 30,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 19,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 13,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 85,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 15,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 3,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 42,
-        "cantidad": 3,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 42,
-        "cantidad": 9,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 42,
-        "cantidad": 7,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 2,
-        "distrito": "MISIONES-SAN JUAN BAUTISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-SAN ESTANISLAO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 42,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 29,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 7,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 8,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 5,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-YHU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CORPUS CHRISTHI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 21,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 69,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 24,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 6,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 10,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 5,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 47,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 57,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 28,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 28,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 14,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 73,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 12,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 4,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 4,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 5,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-1RO DE MARZO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-NUEVA COLOMBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 4,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-MBUYAPEY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-TTE. ESTEBAN MARTINEZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 43,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YATAITY DEL NORTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 47,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 18,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MBARACAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 9,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 44,
-        "cantidad": 13,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 4,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 4,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 13,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 59,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 29,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 9,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 14,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 13,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 19,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 44,
-        "cantidad": 8,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 44,
-        "cantidad": 54,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 24,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 29,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 28,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 90,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 13,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 13,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 11,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN JOSE OBRERO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 8,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "ITAPUA-GENERAL ARTIGAS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-LIMA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 44,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 40,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 13,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-CAPITAN BADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 19,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 4,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE DOMINGO OCAMPOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-VAQUERIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 31,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 73,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 27,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 3,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 15,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 23,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 7,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 40,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 7,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 62,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 28,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 47,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 18,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 107,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 11,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 4,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 11,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 5,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 3,
-        "distrito": "GUAIRA-MBOCAYATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 15,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "ITAPUA-EDELIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "ITAPUA-JESUS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "MISIONES-VILLA FLORIDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-LA COLMENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 45,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 37,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-JUAN E OLEARY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 14,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 6,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 5,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-NUEVA ESPERANZA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 46,
-        "cantidad": 20,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 64,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 41,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 15,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 14,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 9,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 32,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 15,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 90,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 19,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 3,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 34,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 9,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 46,
-        "cantidad": 75,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 28,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 12,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-YBY YAU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 14,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 9,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-CARAGUATAY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ISLA PUCU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITURBE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "GUAIRA-TEBICUARY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 7,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 3,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 46,
-        "cantidad": 4,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUYQUYHO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 5,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 46,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-YRYBYCUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-999",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 25,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 12,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 12,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "BOQUERON-MCAL. ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 3,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-STA. ROSA DEL MBUTUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 4,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-YGATIMI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 18,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 64,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 28,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 8,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 9,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 10,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 57,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 12,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 47,
-        "cantidad": 59,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 17,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 23,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 8,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 47,
-        "cantidad": 92,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 22,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 3,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 47,
-        "cantidad": 13,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 5,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "GUAIRA-FELIX PEREZ CARDOZO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "GUAIRA-JOSE FASSARDI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 4,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 8,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-DESMOCHADOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-LIMA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 47,
-        "cantidad": 13,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 47,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 25,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 13,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 16,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "BOQUERON-LOMA PLATA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 7,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 48,
-        "cantidad": 42,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 32,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 21,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 17,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 2,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 41,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 6,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 48,
-        "cantidad": 43,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 16,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 33,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 16,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 48,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 19,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 5,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 48,
-        "cantidad": 12,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 6,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-MBOCAYATY DEL YHAGUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-VALENZUELA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 4,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 4,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "ITAPUA-JESUS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-GENERAL DIAZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-VILLA OLIVA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 5,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-999",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 4,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 11,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 48,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-CHORE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 28,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 3,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 8,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 5,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-REPATRIACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "CANINDEYU-CURUGUATY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 3,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 15,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 61,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 27,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 12,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 14,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 7,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 90,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 20,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 53,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 20,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 4,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 20,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 13,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 70,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 19,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 6,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-HORQUETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 8,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-JUAN DE MENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 3,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 3,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-GENERAL DIAZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ISLA UMBU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 4,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "PARAGUARI-PIRAYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 6,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-YBYCUI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 2,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 4,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-GRAL ELIZARDO AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 22,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 49,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-VILLA DEL ROSARIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 19,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-ITAKYRY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 10,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 11,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "BOQUERON-S/D",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CARAYAO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 6,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 2,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 10,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 58,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 37,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 22,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 7,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 4,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 66,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 9,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 56,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 16,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 23,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 10,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 83,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 28,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 5,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "GUAIRA-ITURBE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 4,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 5,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "ITAPUA-PIRAPO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-TEBICUARY MI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 4,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-GRAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-LIMA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO-NUEVA GERMANIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO-SAN PEDRO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 21,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-GENERAL AQUINO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 50,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-LIMA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-999",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 24,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-COLONIA YGUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "ALTO PARANA-LOS CEDRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 5,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "AMAMBAY-BELLA VISTA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 3,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "BOQUERON-FILADELFIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CECILIO BAEZ",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 8,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-R I 3 CORRALES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-GENERAL MORINIGO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 8,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 41,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 33,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 21,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 14,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 8,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 52,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 47,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 22,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 27,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 11,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 132,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 60,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 3,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 8,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 7,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-CONCEPCION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CONCEPCION-LORETO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-ALTOS",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-ATYRA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-LOMA GRANDE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SANTA ELENA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "GUAIRA-GENERAL GARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CORONEL BOGADO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "MISIONES-SAN IGNACIO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ACAHAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 6,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ESCOBAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 9,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 11,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 14,
-        "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO NORTE-SAN PEDRO DEL YCUAMANDIYU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO NORTE-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 51,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-GUAYAIBI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 23,
-        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 2,
-        "distrito": "ALTO PARANA-HERNANDARIAS",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 4,
-        "distrito": "ALTO PARANA-MINGA GUAZU",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 6,
-        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 5,
-        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CAAGUAZU",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-CORONEL OVIEDO",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CAAGUAZU-JOSE EULOGIO ESTIGARRIBIA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CAAZAPA-CAAZAPA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 10,
-        "distrito": "CENTRAL-AREGUA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 36,
-        "distrito": "CENTRAL-CAPIATA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 18,
-        "distrito": "CENTRAL-FERNANDO DE LA MORA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CENTRAL-GUARAMBARE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 10,
-        "distrito": "CENTRAL-ITA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 4,
-        "distrito": "CENTRAL-ITAUGUA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 4,
-        "distrito": "CENTRAL-J A SALDIVAR",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 23,
-        "distrito": "CENTRAL-LAMBARE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 4,
-        "distrito": "CENTRAL-LIMPIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 31,
-        "distrito": "CENTRAL-LUQUE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 30,
-        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CENTRAL-NUEVA ITALIA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 13,
-        "distrito": "CENTRAL-ÑEMBY",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 5,
-        "distrito": "CENTRAL-SAN ANTONIO",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 99,
-        "distrito": "CENTRAL-SAN LORENZO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 12,
-        "distrito": "CENTRAL-VILLA ELISA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 3,
-        "distrito": "CENTRAL-VILLETA",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CENTRAL-YPACARAI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 2,
-        "distrito": "CENTRAL-YPANE",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 11,
-        "distrito": "CORDILLERA-CAACUPE",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-EMBOSCADA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-EUSEBIO AYALA",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 4,
-        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 3,
-        "distrito": "CORDILLERA-PIRIBEBUY",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 2,
-        "distrito": "CORDILLERA-SAN BERNARDINO",
-        "riesgo": "RA"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "CORDILLERA-TOBATI",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 5,
-        "distrito": "GUAIRA-VILLARRICA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 2,
-        "distrito": "ITAPUA-CAMBYRETA",
-        "riesgo": "RB"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "ITAPUA-CAPITÁN MIRANDA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 9,
-        "distrito": "ITAPUA-ENCARNACION",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-ALBERDI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "ÑEEMBUCU-GENERAL DIAZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 2,
-        "distrito": "ÑEEMBUCU-PILAR",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-CABALLERO",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 3,
-        "distrito": "PARAGUARI-CARAPEGUA",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 7,
-        "distrito": "PARAGUARI-PARAGUARI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-QUIINDY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-ROQUE GONZALEZ DE SANTA CRUZ",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "PARAGUARI-SAPUCAI",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 4,
-        "distrito": "PARAGUARI-YAGUARON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 3,
-        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "PRESIDENTE HAYES-PUERTO FALCON",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 7,
-        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO-CHORE",
-        "riesgo": "RM"
-    },
-    {
-        "semana": 52,
-        "cantidad": 2,
-        "distrito": "SAN PEDRO-GRAL RESQUIN",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
+        "semana": 17,
         "cantidad": 1,
         "distrito": "SAN PEDRO-GUAYAIBI",
         "riesgo": "E"
     },
     {
-        "semana": 52,
+        "semana": 17,
+        "cantidad": 4,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 17,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-YATAITY DEL NORTE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 317,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 14,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 50,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 19,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 16,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 10,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 21,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 15,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-JOSE DOMINGO OCAMPOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-RAUL ARSENIO OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-BUENA VISTA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-CAAZAPA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 13,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YPEJHU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 27,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 78,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 88,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 6,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 28,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 38,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 20,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 120,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 36,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 92,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 33,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CENTRAL-NUEVA ITALIA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 18,
+        "cantidad": 20,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 18,
+        "cantidad": 101,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 15,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 7,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 22,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 21,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 8,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 18,
+        "cantidad": 18,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-CARAGUATAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-LOMA GRANDE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 8,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-SANTA ELENA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-VALENZUELA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "GUAIRA-TEBICUARY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 12,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAPITAN MIRANDA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 7,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-GENERAL ARTIGAS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-OBLIGADO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN PEDRO DEL PARANA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 4,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 9,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 9,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-ESCOBAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-MBUYAPEY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 11,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 5,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-QUIINDY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-SAPUCAI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-CHACO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-NANAWA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 16,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-GUAYAIBI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 18,
         "cantidad": 1,
         "distrito": "SAN PEDRO-LIMA",
         "riesgo": "RB"
     },
     {
+        "semana": 18,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 18,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 158,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 7,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 27,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 7,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 13,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 9,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 23,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CARAYAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 10,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-TEMBIAPORA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-CAAZAPA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 7,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-KATUETE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 10,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 49,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 35,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 7,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 11,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 8,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 10,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 28,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 12,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 49,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 21,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CENTRAL-NUEVA ITALIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 20,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 8,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 57,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 18,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 3,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 5,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 15,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-CARAGUATAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "GUAIRA-MBOCAYATY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 5,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 3,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 19,
+        "cantidad": 3,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "ITAPUA-HOHENAU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "ITAPUA-TOMAS ROMERO PEREIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN IGNACIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN PATRICIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-HUMAITA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 11,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-ACAHAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-ESCOBAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-LA COLMENA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 7,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAPUCAI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 2,
+        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-JOSE FALCON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 6,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 19,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-TACUATI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 118,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-LOS CEDRALES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 35,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 13,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 3,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 3,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 36,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "BOQUERON-NEULAND",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CARAYAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-REPATRIACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-CAAZAPA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 6,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 7,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 45,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 43,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 19,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 15,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 11,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 68,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 9,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 33,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 55,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 16,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 13,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 48,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 7,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 7,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 28,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 5,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ARROYOS Y ESTEROS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-SANTA ELENA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "GUAIRA-COLONIA INDEPENDENCIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "GUAIRA-MAURICIO JOSE TROCHE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "GUAIRA-YATAITY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 4,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ITAPUA-NUEVA ALBORADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-ISLA UMBU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 4,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 5,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-QUYQUYHO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-NANAWA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-PUERTO PINASCO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 7,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 20,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 68,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 5,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 7,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 4,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 18,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 8,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 32,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 25,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 8,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 22,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 4,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 24,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 9,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 29,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 48,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 14,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 10,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 35,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 7,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 6,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 21,
+        "cantidad": 5,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-BELEN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 5,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 4,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CARAGUATAY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-LOMA GRANDE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 3,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 4,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-ISLA UMBU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 6,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 4,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-LA COLMENA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 3,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-QUIINDY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-QUYQUYHO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-CHACO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 13,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 21,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 21,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-UNION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 55,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 7,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 7,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 6,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 6,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 12,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 8,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 18,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 18,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 22,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 22,
+        "cantidad": 24,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 22,
+        "cantidad": 6,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 21,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 6,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 5,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 8,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-NUEVA COLOMBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CAAPUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-QUIINDY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 5,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 22,
+        "cantidad": 2,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 38,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 8,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 4,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 23,
+        "cantidad": 3,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 4,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 10,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 4,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 6,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 8,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 23,
+        "cantidad": 7,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 7,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 8,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "GUAIRA-EUGENIO A GARAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-IRALA FERNANDEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 2,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 23,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "ALTO PARAGUAY-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 28,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-LOS CEDRALES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 24,
+        "cantidad": 3,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 6,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 2,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 2,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 4,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 3,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 5,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-YBY YAU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 24,
+        "cantidad": 2,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-ESTEBAN MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 6,
+        "distrito": "PRESIDENTE HAYES-IRALA FERNANDEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 2,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 24,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 15,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 3,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-CAAZAPA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-SAN JUAN NEPOMUCENO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 4,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 8,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 4,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 2,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN IGNACIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CAAPUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 25,
+        "cantidad": 8,
+        "distrito": "PRESIDENTE HAYES-IRALA FERNANDEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 26,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-KATUETE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 2,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 26,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YBYCUI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 26,
+        "cantidad": 3,
+        "distrito": "PRESIDENTE HAYES-IRALA FERNANDEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 27,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 3,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 27,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ITAPUA POTY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 28,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 28,
+        "cantidad": 2,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 2,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 7,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 28,
+        "cantidad": 2,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 2,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 28,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 28,
+        "cantidad": 2,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 29,
+        "cantidad": 8,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 3,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 2,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 4,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "ITAPUA-GENERAL DELGADO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 29,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "ALTO PARAGUAY-FORTIN TORRES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 30,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 30,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 30,
+        "cantidad": 3,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 30,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 31,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 31,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 31,
+        "cantidad": 2,
+        "distrito": "CAAZAPA-CAAZAPA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 31,
+        "cantidad": 2,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 31,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-NUEVA ESPERANZA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 32,
+        "cantidad": 2,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 4,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 3,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 32,
+        "cantidad": 1,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 2,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 2,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 33,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 33,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 3,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 34,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 35,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 35,
+        "cantidad": 3,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 2,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-YBY YAU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 35,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 35,
+        "cantidad": 3,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 36,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 36,
+        "cantidad": 7,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-SANTA ROSA DEL MBUTUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 4,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 4,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 6,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 6,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 36,
+        "cantidad": 1,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 6,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 37,
+        "cantidad": 3,
+        "distrito": "CAAZAPA-YUTY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-KATUETE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 4,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 3,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 5,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 3,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 7,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 37,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 37,
+        "cantidad": 1,
+        "distrito": "GUAIRA-CORONEL MARTINEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 37,
+        "cantidad": 2,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 38,
+        "cantidad": 16,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 38,
+        "cantidad": 8,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-JUAN L MALLORQUIN",
+        "riesgo": "E"
+    },
+    {
+        "semana": 38,
+        "cantidad": 9,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 38,
+        "cantidad": 4,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CORPUS CHRISTI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 2,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CORONEL BOGADO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 38,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 9,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 39,
+        "cantidad": 9,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 39,
+        "cantidad": 9,
+        "distrito": "BOQUERON-FILADELFIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 28,
+        "distrito": "BOQUERON-MARISCAL ESTIGARRIBIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "BOQUERON-NEULAND",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-CAAZAPA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-YEGROS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 2,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 6,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 4,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 4,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-LOMA GRANDE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 2,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CORONEL BOGADO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "MISIONES-SANTIAGO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-IRALA FERNANDEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-PUERTO PINASCO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 5,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 39,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-ANTEQUERA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 40,
+        "cantidad": 14,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 4,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CARAYAO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-LA PALOMA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 7,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 3,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 3,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 5,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 7,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-BELEN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CARAPEGUA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 40,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 41,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 41,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 41,
+        "cantidad": 4,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CABALLERO ALVAREZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 41,
+        "cantidad": 5,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 6,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 2,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 4,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 2,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "ITAPUA-YATYTAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 41,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-BENJAMIN ACEVAL",
+        "riesgo": "E"
+    },
+    {
+        "semana": 41,
+        "cantidad": 4,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-CAAZAPA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 5,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 7,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 4,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 5,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 42,
+        "cantidad": 4,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 10,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 42,
+        "cantidad": 2,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 42,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 15,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ITAKYRY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 43,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 6,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-ABAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CAAZAPA-TAVAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 7,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 6,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 5,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 4,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 8,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 4,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 43,
+        "cantidad": 6,
+        "distrito": "ITAPUA-OBLIGADO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 43,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 44,
+        "cantidad": 24,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 44,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 44,
+        "cantidad": 12,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 44,
+        "cantidad": 6,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 4,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 10,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 3,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 4,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 7,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 44,
+        "cantidad": 2,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 44,
+        "cantidad": 1,
+        "distrito": "PRESIDENTE HAYES-VILLA HAYES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 15,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-LOS CEDRALES",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 10,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 3,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 45,
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 4,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 9,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 3,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-CAAPUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 45,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 9,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 6,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 46,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 11,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 46,
+        "cantidad": 6,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 3,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 10,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 46,
+        "cantidad": 8,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 7,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "ITAPUA-SAN JUAN DEL PARANA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN PATRICIO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "MISIONES-SANTA ROSA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 46,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 47,
+        "cantidad": 5,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-JUAN MANUEL FRUTOS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 4,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 6,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 5,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 47,
+        "cantidad": 8,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 47,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 2,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 2,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ATYRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 2,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 47,
+        "cantidad": 2,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PIRAYU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 47,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 48,
+        "cantidad": 15,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 48,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 48,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 3,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 48,
+        "cantidad": 2,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 6,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 2,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 4,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CENTRAL-SAN ANTONIO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 5,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 3,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CENTRAL-VILLETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPACARAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 4,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "MISIONES-AYOLAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GENERAL RESQUIN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 48,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-SAN PEDRO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 49,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 49,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 49,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 49,
+        "cantidad": 3,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "BOQUERON-LOMA PLATA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 2,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 3,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 5,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 2,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 2,
+        "distrito": "CENTRAL-NUEVA ITALIA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 49,
+        "cantidad": 4,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 3,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "GUAIRA-VILLARRICA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 49,
+        "cantidad": 2,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 49,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 50,
+        "cantidad": 5,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 50,
+        "cantidad": 5,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 50,
+        "cantidad": 2,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-VAQUERIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CENTRAL-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 50,
+        "cantidad": 2,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 7,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 11,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 50,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 2,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 3,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 2,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 9,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-YBY YAU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PRIMERO DE MARZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-SAN BERNARDINO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 50,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-GUAYAIBI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "ALTO PARAGUAY-LA VICTORIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 4,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 3,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 2,
+        "distrito": "AMAMBAY-BELLA VISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "AMAMBAY-CAPITAN BADO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 3,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 51,
+        "cantidad": 4,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 7,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 6,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 6,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 51,
+        "cantidad": 3,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 3,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 7,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 6,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 2,
+        "distrito": "CENTRAL-VILLA ELISA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "CENTRAL-YPANE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 4,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 3,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-CARAGUATAY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EMBOSCADA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "GUAIRA-PASO YOBAI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "GUAIRA-TEBICUARY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "ITAPUA-FRAM",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "MISIONES-SAN JUAN BAUTISTA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-ESCOBAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-LA COLMENA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-SAN ROQUE GONZALEZ DE SANTACRUZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 51,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-NUEVA GERMANIA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 177,
+        "distrito": "ALTO PARANA-CIUDAD DEL ESTE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 9,
+        "distrito": "ALTO PARANA-HERNANDARIAS",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-JUAN L MALLORQUIN",
+        "riesgo": "E"
+    },
+    {
         "semana": 52,
         "cantidad": 4,
-        "distrito": "SAN PEDRO-SAN ESTANISLAO",
+        "distrito": "ALTO PARANA-MINGA GUAZU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-ÑACUNDAY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 21,
+        "distrito": "ALTO PARANA-PRESIDENTE FRANCO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 52,
+        "cantidad": 2,
+        "distrito": "ALTO PARANA-SAN ALBERTO",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ALTO PARANA-SANTA RITA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 6,
+        "distrito": "AMAMBAY-PEDRO JUAN CABALLERO",
         "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CAAGUAZU",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CECILIO BAEZ",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-CORONEL OVIEDO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-J EULOGIO ESTIGARRIBIA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CAAGUAZU-MCAL FRANCISCO SOLANO LOPEZ",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 8,
+        "distrito": "CANINDEYU-CURUGUATY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-KATUETE",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 3,
+        "distrito": "CANINDEYU-SALTOS DEL GUAIRA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CANINDEYU-YGATIMI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CENTRAL-AREGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 3,
+        "distrito": "CENTRAL-CAPIATA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 4,
+        "distrito": "CENTRAL-FERNANDO DE LA MORA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CENTRAL-GUARAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 2,
+        "distrito": "CENTRAL-ITAUGUA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CENTRAL-J A SALDIVAR",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 4,
+        "distrito": "CENTRAL-LAMBARE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 10,
+        "distrito": "CENTRAL-LIMPIO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CENTRAL-LUQUE",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 6,
+        "distrito": "CENTRAL-MARIANO ROQUE ALONSO",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 9,
+        "distrito": "CENTRAL-ÑEMBY",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 9,
+        "distrito": "CENTRAL-SAN LORENZO",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CONCEPCION-BELEN",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-CONCEPCION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 10,
+        "distrito": "CONCEPCION-HORQUETA",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 52,
+        "cantidad": 3,
+        "distrito": "CONCEPCION-LORETO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-999",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ALTOS",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 4,
+        "distrito": "CORDILLERA-CAACUPE",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-EUSEBIO AYALA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 2,
+        "distrito": "CORDILLERA-ITACURUBI DE LA CORDILLERA",
+        "riesgo": "RM"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-PIRIBEBUY",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "CORDILLERA-TOBATI",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CAMBYRETA",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ITAPUA-CARLOS ANTONIO LOPEZ",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 2,
+        "distrito": "ITAPUA-EDELIRA",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ENCARNACION",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ITAPUA-ITAPUA POTY",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ITAPUA-JESUS",
+        "riesgo": "RB"
+    },
+    {
+        "semana": 52,
+        "cantidad": 2,
+        "distrito": "ITAPUA-MAYOR OTAÑO",
+        "riesgo": "RA"
+    },
+    {
+        "semana": 52,
+        "cantidad": 3,
+        "distrito": "ÑEEMBUCU-PILAR",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "ÑEEMBUCU-SAN JUAN BAUTISTA DE ÑEEMBUCU",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 4,
+        "distrito": "PARAGUARI-PARAGUARI",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "PARAGUARI-YAGUARON",
+        "riesgo": "E"
+    },
+    {
+        "semana": 52,
+        "cantidad": 1,
+        "distrito": "SAN PEDRO-CHORE",
+        "riesgo": "RB"
     },
     {
         "semana": 52,
@@ -24475,20 +16627,8 @@ var riesgoDis11 = [
     },
     {
         "semana": 52,
-        "cantidad": 36,
+        "cantidad": 1,
         "distrito": "SAN PEDRO-SANTA ROSA DEL AGUARAY",
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": null,
-        "riesgo": "E"
-    },
-    {
-        "semana": 52,
-        "cantidad": 1,
-        "distrito": "SAN PEDRO SUR-25 DE DICIEMBRE",
-        "riesgo": "E"
+        "riesgo": "RB"
     }
 ];

@@ -1,7 +1,7 @@
 
 // Carga el map de los riesgos de la semana seleccionada
-function reloadMapSem(semana){
-    
+function reloadMapSem(){
+    var semana = SMV.semana;
     var rasu;
     var rcen;
     var mapSem = new Object();

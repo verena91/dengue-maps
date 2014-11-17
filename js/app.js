@@ -14,7 +14,9 @@ $(document).ready(function() {
         SMV.semana= event.target.innerText;
         reloadMapSem(event.target.innerText);
         SMV.geoJsonLayer.setStyle(getStyle);
-        SMV.layerActual.setStyle(getStyleDrillDown);
+        if(SMV.inzoom){
+            SMV.layerActual.setStyle(getStyleDrillDown);
+        }
         console.log('se movio el slide');
     });
 
@@ -166,8 +168,8 @@ function draw_map() {
     SMV.riesgoDisJson = riesgoDis13;
     SMV.riesgoAsuJson =  riesgoAsu13;
 
-    reloadMapSem($( "#slidersemana" ).data('value'));
     SMV.semana = $( "#slidersemana" ).data('value');
+    reloadMapSem();
     map.addLayer(mapbox);
     L.control.layers(baseMaps).addTo(map);
 
@@ -281,16 +283,23 @@ function draw_map() {
             var dis = props.DIST_DESC;
             var mapSem = SMV.mapNotifDis;
             var nroNS = '0';
-            var key = dep+'-'+dis;
-            try{
-                nroNS = mapSem[key]["cantidad"];
-            }catch(e){
-
-            }
+            
             var info;
-             if(dep == 'ASUNCION'){
+            if(dep == 'ASUNCION'){
+                var key = dep+'-'+props.BARLO_DESC;
+                try{
+                    nroNS = mapSem[key]["cantidad"];
+                }catch(e){
+
+                }
                 info = '<h2>Año: '+anio+'<\/h2><h2>Semana: '+semana+'<\/h2><h2>Dpto: '+dep+'<\/h2><h2>Distrito: '+dis+'<\/h2><h2>Barrio: '+props.BARLO_DESC+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
             } else {
+                var key = dep+'-'+dis;
+                try{
+                    nroNS = mapSem[key]["cantidad"];
+                }catch(e){
+
+                }
                 info = '<h2>Año: '+anio+'<\/h2><h2>Semana: '+semana+'<\/h2><h2>Dpto: '+dep+'<\/h2><h2>Distrito: '+dis+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
             }
           this._div.innerHTML =  info;
@@ -332,12 +341,13 @@ function update_filters() {
         riesgo = riesgo13;
         riesgoDistritos = riesgoDis13;
         riesgoAsu = riesgoAsu13;
+        console.log()
     }
 
     SMV.riesgoJson = riesgo;
     SMV.riesgoDisJson = riesgoDistritos;
     SMV.riesgoAsuJson = riesgoAsu;
-    reloadMapSem(SMV.semana);
+    reloadMapSem();
     if(SMV.inzoom){
         console.log('hay layer');
         SMV.layerActual.setStyle(getStyleDrillDown);

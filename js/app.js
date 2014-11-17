@@ -18,6 +18,11 @@ $(document).ready(function() {
         console.log('se movio el slide');
     });
 
+    // Pruebas con el slider
+    //var $slider2 = $("#slider2").slider({ max: 20 , value: 10 });
+    //$slider2.slider("pips");
+    //$('#slider2').slider().slider('pips').slider('pips');
+
 });
 
 function check_url(){
@@ -76,6 +81,19 @@ function draw_table() {
           }
         },
         //"columns": columns,
+        /*"aoColumnDefs" : [
+        {
+            "aTargets" : [ 0, 1, 5 , 6 ],
+            //"sWidth" : "50px",
+            "sClass" : "alignRight"
+        }],*/
+        "fnRowCallback"  : function(nRow,aData,iDisplayIndex) {
+                                  $('td:eq(0)', nRow).css( "text-align", "right" );
+                                  $('td:eq(1)', nRow).css( "text-align", "right" );
+                                  $('td:eq(5)', nRow).css( "text-align", "right" );
+                                  $('td:eq(6)', nRow).css( "text-align", "right" );
+                                  return nRow;
+        },
         "processing": true,
         "serverSide": true,
         "ajax": "http://localhost/denguemaps/rest/notificacion"
@@ -146,7 +164,7 @@ function draw_map() {
     SMV.inzoom = false;
     SMV.riesgoJson = riesgo13;
     SMV.riesgoDisJson = riesgoDis13;
-    
+
     reloadMapSem($( "#slidersemana" ).data('value'));
     SMV.semana = $( "#slidersemana" ).data('value');
     map.addLayer(mapbox);
@@ -241,6 +259,8 @@ function draw_map() {
     };
     info.update = function (props) {
         if(props){
+            var anio = SMV.anio;
+            var semana = SMV.semana;
             var dep = props.DPTO_DESC;
             var mapSem = SMV.mapNotif;
             var nroNS = '0';
@@ -249,11 +269,13 @@ function draw_map() {
             }catch(e){
 
             }
-          this._div.innerHTML =  '<h2>'+dep+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
+          this._div.innerHTML =  '<h2>Año: '+anio+'<\/h2><h2>Semana: '+semana+'<\/h2><h2>Dpto: '+dep+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
         }
     };
     info.updateDrillDown = function (props){
         if(props){
+            var anio = SMV.anio;
+            var semana = SMV.semana;
             var dep = props.DPTO_DESC;
             var dis = props.DIST_DESC;
             var mapSem = SMV.mapNotifDis;
@@ -263,9 +285,9 @@ function draw_map() {
             try{
                 nroNS = mapSem[key]["cantidad"];
             }catch(e){
-                
+
             }
-          this._div.innerHTML =  '<h2>'+dep+'<\/h2><h2>'+dis+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
+          this._div.innerHTML =  '<h2>Año: '+anio+'<\/h2><h2>Semana: '+semana+'<\/h2><h2>Dpto: '+dep+'<\/h2><h2>Distrito: '+dis+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
         }
     };
     info.addTo(map);
@@ -278,25 +300,26 @@ function draw_map() {
 // the selection of markers to be displayed.
 function update_filters() {
     var proyectos = get_selected_checkbox('#resultado li input');
-    var distrito = get_selected_combo('#distrito');
+    var anio = get_selected_combo('#distrito');
+    SMV.anio = anio;
 
     var riesgo;
     var riesgoDistritos;
-    if(distrito=='2009'){
+    if(anio=='2009'){
         riesgo = riesgo9;
-        riesgoDistritos = riesgoDis2009;
-    }else if (distrito=='2010'){
+        riesgoDistritos = riesgoDis9;
+    }else if (anio=='2010'){
         riesgo = riesgo10;
-        riesgoDistritos = riesgoDis2010;
-    }else if (distrito=='2011'){
+        riesgoDistritos = riesgoDis10;
+    }else if (anio=='2011'){
         riesgo = riesgo11;
-        riesgoDistritos = riesgoDis2011;
-    }else if (distrito=='2012'){
+        riesgoDistritos = riesgoDis11;
+    }else if (anio=='2012'){
         riesgo = riesgo12;
-        riesgoDistritos = riesgoDis2012;
-    }else if (distrito=='2013'){
+        riesgoDistritos = riesgoDis12;
+    }else if (anio=='2013'){
         riesgo = riesgo13;
-        riesgoDistritos = riesgoDis2013;
+        riesgoDistritos = riesgoDis13;
     }
 
     SMV.riesgoJson = riesgo;

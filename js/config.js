@@ -17,6 +17,8 @@ SMV.TABLE_COLUMNS = ["Anio", "Semana", "Fecha de notificacion", "Departamento", 
 
 SMV.DATA_COLUMNS = 8;
 
+SMV.anio='2013';
+
 SMV.LAYERS = function(){
     var mapbox = L.tileLayer(
         'http://api.tiles.mapbox.com/v4/rparra.jmk7g7ep/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg');
@@ -28,5 +30,5 @@ SMV.LAYERS = function(){
         OPEN_STREET_MAPS: osm,
         GOOGLE_HYBRID: gglHybrid,
         GOOGLE_ROADMAP: gglRoadmap
-    } 
+    }
 }

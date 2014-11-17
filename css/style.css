@@ -345,3 +345,7 @@ tr.shown td.details-control {
 .leaflet-control-command-interior:before {
   content: "Paraguay";
 }
+
+.alignRight {
+    text-align: right;
+}

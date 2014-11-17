@@ -10,13 +10,13 @@ $(document).ready(function() {
     add_filter_listeners(map);
     setup_modal_navigation();
     setup_intro();
-    $( "#slidersemana" ).on( 'change.bfhslider', function( event ) { 
+    $( "#slidersemana" ).on( 'change.bfhslider', function( event ) {
         SMV.semana= event.target.innerText;
         reloadMapSem(event.target.innerText);
         SMV.geoJsonLayer.setStyle(getStyle);
         console.log('se movio el slide');
     });
-    
+
 });
 
 function check_url(){
@@ -25,7 +25,7 @@ function check_url(){
     var hash = url.split('#')[1] || 'mapa';
     if (url.match('#')) {
         $('.navbar-nav a[href=#'+hash+']').tab('show') ;
-    } 
+    }
 
     // Change hash for page-reload
     $('.navbar-nav a').on('click', function (e) {
@@ -41,7 +41,7 @@ function draw_table() {
     }
 
     /*var columns = SMV.TABLE_COLUMNS.map(function(c, i){
-        return { 
+        return {
             "title": SMV.ATTR_TO_LABEL[c],
             "data": c,
             "visible": (i < SMV.DATA_COLUMNS),
@@ -97,7 +97,7 @@ function draw_table() {
 
     $('tfoot').insertAfter('thead');
     $('#download-footer').insertAfter('.row:last');
-    //SMV.table = table;    
+    //SMV.table = table;
 }
 
 
@@ -187,11 +187,41 @@ function draw_map() {
     map.addLayer(markers);
     SMV.markerLayer = markers;*/
     //SMV.geoJsonLayer = geoJson;
+
+    var MyControl = L.Control.extend({
+        options: {
+            position: 'topright'
+        },
+
+        onAdd: function (map) {
+            // create the control container with a particular class name
+            //var container = L.DomUtil.create('div', 'my-custom-control');
+
+            var controlDiv = L.DomUtil.create('div', 'leaflet-control-command');
+            L.DomEvent
+                .addListener(controlDiv, 'click', L.DomEvent.stopPropagation)
+                .addListener(controlDiv, 'click', L.DomEvent.preventDefault)
+            .addListener(controlDiv, 'click', function () { console.log("click en el boton") });
+
+            var controlUI = L.DomUtil.create('div', 'leaflet-control-command-interior', controlDiv);
+            //var label = L.DomUtil.create('input', 'leaflet-control-label', controlUI);
+            //label.value='prueba';
+            controlUI.title = 'Map Commands';
+            //var controlUI = L.DomUtil.create('button', 'leaflet-control-command-interior', controlDiv);
+            //controlUI.label='País';
+            return controlDiv;
+
+            //return container;
+        }
+    });
+
+    map.addControl(new MyControl());
+
     var legend = L.control({
         position: 'bottomright'
     });
     legend.onAdd = function(map) {
-        var div = L.DomUtil.create('div', 'info legend'), labels = [];    
+        var div = L.DomUtil.create('div', 'info legend'), labels = [];
         labels.push('<i style="background:' + getColor('E') + '"></i> ' + 'Epidemia');
         labels.push('<i style="background:' + getColor('RA') + '"></i> ' + 'Riesgo alto');
         labels.push('<i style="background:' + getColor('RM') + '"></i> ' + 'Riesgo medio');
@@ -214,7 +244,7 @@ function draw_map() {
             try{
                 nroNS = mapSem[dep]["cantidad"];
             }catch(e){
-                
+
             }
           this._div.innerHTML =  '<h2>'+dep+'<\/h2><h2>Notificaciones: '+nroNS+'<\/h2>';
         }
@@ -226,7 +256,7 @@ function draw_map() {
 }
 
 function reloadMapSem(semana){
-    
+
     var rasu;
     var rcen;
     var mapSem = new Object();
@@ -236,7 +266,7 @@ function reloadMapSem(semana){
     for(var i=0;i<riesgo.length;i++){
         var obj = riesgo[i];
         if(obj["semana"]==semana ){
-            
+
             mapSem[obj["departamento"]]= obj;
             if(obj["departamento"]=="CENTRAL"){
                 rcen = obj;
@@ -259,7 +289,7 @@ function reloadMapSem(semana){
     for(var i=0;i<riesgoDis.length;i++){
         var obj = riesgoDis[i];
         if(obj["semana"]==semana ){
-            
+
             mapSemDis[obj["distrito"]]= obj;
             /*if(obj["departamento"]=="CENTRAL"){
                 rcen = obj;
@@ -269,7 +299,7 @@ function reloadMapSem(semana){
             }
         }
     }
-   
+
     SMV.mapNotifDis = mapSemDis;
 
 }
@@ -293,7 +323,7 @@ function mouseover(e) {
         weight: 5,
         color: '#666',
         dashArray: ''
-        
+
     });
 
     if (!L.Browser.ie && !L.Browser.opera) {
@@ -306,7 +336,7 @@ function mouseover(e) {
 function mouseout(e) {
     SMV.geoJsonLayer.resetStyle(e.target);
     SMV.info.update();
-   
+
 }
 
 /*Zoom al hacer click en un departamento*/
@@ -319,7 +349,7 @@ function zoomToFeature(e) {
     }
     SMV.layerActual = L.geoJson(json,  {style: getStyleDrill, onEachFeature: onEachFeature}).addTo(SMV.map);
     SMV.map.fitBounds(target.getBounds());
-    
+
    // SMV.map.removeLayer(SMV.geoJsonLayer);
 }
 
@@ -340,13 +370,13 @@ function getStyle(feature) {
         color = mapSem[n]["riesgo"];
     }catch(e){
     }
-  
+
     return { weight: 2,
             opacity: 1,
             color: 'white',
             dashArray: '3',
-            fillOpacity: 0.7, 
-            fillColor: getColor(color) 
+            fillOpacity: 0.7,
+            fillColor: getColor(color)
         };
 }
 
@@ -361,13 +391,13 @@ function getStyleDrill(feature) {
         //console.log("hay valor");
     }catch(e){
     }
-  
+
     return { weight: 2,
             opacity: 1,
             color: 'white',
             dashArray: '3',
-            fillOpacity: 0.7, 
-            fillColor: getColor(color) 
+            fillOpacity: 0.7,
+            fillColor: getColor(color)
         };
 }
 
@@ -400,7 +430,7 @@ function loadDrillDownDep(){
 function update_filters() {
     var proyectos = get_selected_checkbox('#resultado li input');
     var distrito = get_selected_combo('#distrito');
-   
+
     var riesgo;
     var riesgoDistritos;
     if(distrito=='2009'){
@@ -452,7 +482,7 @@ function go_to_feature(target) {
 }
 
 function draw_sidetag(map, hide) {
-    $('#opener').on('click', function() {   
+    $('#opener').on('click', function() {
     var panel = $('#slide-panel');
     if (panel.hasClass("visible")) {
        panel.removeClass('visible').animate({'margin-left':'-300px'});
@@ -463,7 +493,7 @@ function draw_sidetag(map, hide) {
     }
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
-    return false; 
+    return false;
     });
 
     $('.navbar-nav>li>a').bind('click', function (e) {
@@ -650,7 +680,7 @@ function draw_table_2 () {
     }
 
     var columns = SMV.TABLE_COLUMNS.map(function(c, i){
-        return { 
+        return {
             "title": SMV.ATTR_TO_LABEL[c],
             "data": c,
             "visible": (i < SMV.DATA_COLUMNS),
@@ -804,7 +834,7 @@ function get_unique_values(prop){
 function setup_intro(){
     console.log('entro a setup_intro');
   var stepsMapa = [
-    { 
+    {
       intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
       </br></br>Haz click en siguiente para comenzar."
     },
@@ -841,7 +871,7 @@ function setup_intro(){
   ];
 
   var stepsListado = [
-    { 
+    {
       intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
       </br></br>Haz click en siguiente para comenzar."
     },

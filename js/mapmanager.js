@@ -11,7 +11,10 @@ function reloadMapSem(semana){
     var riesgo = SMV.riesgoJson;
     //riesgos de todas las semana de los distritos
     var riesgoDis = SMV.riesgoDisJson;
-    for(var i=0;i<riesgo.length;i++){
+    //riesgos de todas las semanas de los barrios de asuncion
+    var riesgoAsu = SMV.riesgoAsuJson;
+
+    for(var i=0; i<riesgo.length; i++){
         var obj = riesgo[i];
         if(obj["semana"]==semana ){
             
@@ -35,7 +38,7 @@ function reloadMapSem(semana){
     //Riesgo de los departamentos de la semana seleccionada
     SMV.mapNotif = mapSem;
 
-    for(var i=0;i<riesgoDis.length;i++){
+    for(var i=0; i<riesgoDis.length; i++){
         var obj = riesgoDis[i];
         if(obj["semana"]==semana ){
             
@@ -43,14 +46,22 @@ function reloadMapSem(semana){
             /*if(obj["departamento"]=="CENTRAL"){
                 rcen = obj;
             }*/
-            if(obj["distrito"]=="ASUNCION"){
+            if(obj["distrito"] == "ASUNCION"){
                 //rasu = obj;
             }
         }
     }
+    //Incluir en el mapSemDis los barrios de Asuncion
+    for(var i=0; i<riesgoAsu.length; i++){
+        var obj = riesgoAsu[i];
+        if(obj["semana"] == semana){
+            mapSemDis[obj["barrio"]] = obj;
+        }
+        
+    }
    	//Riesgos de los distritos de la semana seleccionada
     SMV.mapNotifDis = mapSemDis;
-
+    console.log('reload');
 }
 
  /*Eventos para cada departamento*/
@@ -147,8 +158,12 @@ function getStyleDrillDown(feature) {
     var n = prop.DPTO_DESC+'-'+prop.DIST_DESC;
     var mapSem = SMV.mapNotifDis;
     var color = 'NONE';
+    if(prop.DPTO_DESC == 'ASUNCION'){
+        n = prop.DPTO_DESC+'-'+prop.BARLO_DESC;
+        console.log('es asuncion');
+        console.log(n);
+    }
    try{
-        //color = mapSem[n]
         color = mapSem[n]["riesgo"];
         //console.log("hay valor");
     }catch(e){

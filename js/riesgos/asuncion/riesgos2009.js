@@ -1,4 +1,4 @@
-var riesgo9 = [
+var riesgoAsu9 = [
     {
         "semana": 1,
         "cantidad": 1,

@@ -1,4 +1,5 @@
-var riesgoAsu13 =  {
+var riesgoAsu13 =  [
+    {
         "semana": 1,
         "cantidad": 3,
         "riesgo": "E",

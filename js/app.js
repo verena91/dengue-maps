@@ -225,7 +225,7 @@ function draw_map() {
             L.DomEvent
                 .addListener(controlDiv, 'click', L.DomEvent.stopPropagation)
                 .addListener(controlDiv, 'click', L.DomEvent.preventDefault)
-            .addListener(controlDiv, 'click', function () { console.log("click en el boton") });
+            .addListener(controlDiv, 'click', drillUp);
 
             var controlUI = L.DomUtil.create('div', 'leaflet-control-command-interior', controlDiv);
             //var label = L.DomUtil.create('input', 'leaflet-control-label', controlUI);
@@ -238,8 +238,8 @@ function draw_map() {
             //return container;
         }
     });
-
-    map.addControl(new MyControl());
+    SMV.backClass = MyControl;
+    //map.addControl(new MyControl());
 
     var legend = L.control({
         position: 'bottomright'

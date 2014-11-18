@@ -103,6 +103,12 @@ function mouseout(e) {
 function zoomToFeature(e) {
     var target = e.target;
     var json = SMV.drillDown[target.feature.properties.DPTO_DESC];
+    if(!SMV.inzoom){
+        var button = new SMV.backClass();
+        SMV.map.addControl(button);
+        SMV.backButton = button;
+        console.log(SMV.backButton);    
+    }
    	SMV.inzoom = true;
    	SMV.geoJsonLayer.setStyle(getStyle);
     if(SMV.layerActual){
@@ -111,6 +117,7 @@ function zoomToFeature(e) {
     }
     SMV.layerActual = L.geoJson(json,  {style: getStyleDrillDown, onEachFeature: onEachFeatureDrillDown}).addTo(SMV.map);
     SMV.map.fitBounds(target.getBounds());
+
     
    // SMV.map.removeLayer(SMV.geoJsonLayer);
 }
@@ -230,4 +237,14 @@ function loadDrillDownDep(){
     drillDown['SAN PEDRO'] = sanpedro;
     SMV.drillDown = drillDown;
 
+}
+
+function drillUp(){
+    map = SMV.map;
+    map.fitBounds(SMV.geoJsonLayer.getBounds());
+    SMV.map.removeLayer(SMV.layerActual);
+    SMV.inzoom = false;
+    SMV.geoJsonLayer.setStyle(getStyle);
+    SMV.backButton.removeFrom(map);
+    SMV.map = map;
 }

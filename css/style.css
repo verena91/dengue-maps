@@ -317,7 +317,7 @@ tr.shown td.details-control {
 .leaflet-control-command-interior
 {
     /*background-image: url(images/command.png);*/
-    width: 70px;
+    width: 150px;
     height: 30px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -343,7 +343,7 @@ tr.shown td.details-control {
 }
 
 .leaflet-control-command-interior:before {
-  content: "Paraguay";
+  content: "Volver a Paraguay";
 }
 
 .alignRight {

@@ -19,6 +19,7 @@ $(document).ready(function() {
         }
         console.log('se movio el slide');
     });
+    setup_download_buttons();
 
     // Pruebas con el slider
     //var $slider2 = $("#slider2").slider({ max: 20 , value: 10 });
@@ -43,19 +44,6 @@ function check_url(){
 }
 
 function draw_table() {
-
-    for(var i=0; i<SMV.TABLE_COLUMNS.length; i++){
-        $('#lista tfoot tr').append('<th></th>');
-    }
-
-    /*var columns = SMV.TABLE_COLUMNS.map(function(c, i){
-        return {
-            "title": SMV.ATTR_TO_LABEL[c],
-            "data": c,
-            "visible": (i < SMV.DATA_COLUMNS),
-            "defaultContent": ""
-        };
-    });*/
 
     var table = $("#lista").dataTable( {
         "language": {
@@ -82,13 +70,27 @@ function draw_table() {
               "sSortDescending": ": Activar para ordenar la columna de manera descendente"
           }
         },
-        //"columns": columns,
-        /*"aoColumnDefs" : [
-        {
-            "aTargets" : [ 0, 1, 5 , 6 ],
-            //"sWidth" : "50px",
-            "sClass" : "alignRight"
-        }],*/
+        "columns": [
+            { "data": "anio" },
+            { "data": "semana" },
+            { "data": "fecha_notificacion" },
+            { "data": "departamento" },
+            { "data": "distrito" },
+            { "data": "edad" },
+            { "data": "sexo" },
+            { "data": "resultado" }
+        ],
+        /*"columnsDefs" : [
+            { sWidth: '100px' },
+            { sWidth: '100px' },
+            { sWidth: '150px' },
+            { sWidth: '250px' },
+            { sWidth: '250px' },
+            { sWidth: '100px' },
+            { sWidth: '100px' },
+            { sWidth: '250px' },
+            { sWidth: '250px' }
+        ], */
         "fnRowCallback"  : function(nRow,aData,iDisplayIndex) {
                                   $('td:eq(0)', nRow).css( "text-align", "right" );
                                   $('td:eq(1)', nRow).css( "text-align", "right" );
@@ -96,27 +98,33 @@ function draw_table() {
                                   $('td:eq(6)', nRow).css( "text-align", "right" );
                                   return nRow;
         },
-        "processing": true,
-        "serverSide": true,
-        "ajax": "http://localhost/denguemaps/rest/notificacion"
+        //"autoWidth": true,
+        "bProcessing": true,
+        "bServerSide": true,
+        "sAjaxSource":  "http://localhost/denguemaps/rest/notificacion"
     } );
+    $('#lista').dataTable()
+          .columnFilter({
+            aoColumns: [ { type: "text" },
+                     { type: "text" },
+                     { type: "text" },
+                     { type: "text" },
+                     { type: "text" },
+                     { type: "text" },
+                     { type: "text" },
+                     { type: "text" }
+                ]
 
-    $('#lista tfoot th').each( function () {
-        var title = $('#lista thead th').eq( $(this).index() ).text();
-        $(this).html( '<input class="column-filter form-control input-sm" type="text" placeholder="Buscar '+title+'" />' );
-    });
-
-    // Apply the search
-    /*table.columns().eq(0).each( function (colIdx) {
-        $( 'input', table.column(colIdx).footer()).on( 'keyup change', function(){
-        table
-            .column(colIdx)
-            .search(this.value)
-            .draw();
         });
-    });*/
 
-    $('tfoot').insertAfter('thead');
+    /*$('#lista tfoot th').each( function () {
+        var title = $('#lista thead th').eq( $(this).index() ).text();
+        $(this).html( '<input class="form-control" type="text" placeholder="Buscar '+title+'" />' );
+    });*/
+    /*$(window).bind('resize', function () {
+        table.fnAdjustColumnSizing();
+    });*/
+    
     $('#download-footer').insertAfter('.row:last');
     SMV.table = table;
 }
@@ -584,76 +592,6 @@ function get_unique_values(prop){
         .value();
 }
 
-/*function draw_table_boot() {
-    $(function() {
-        $('#table-javascript').bootstrapTable({
-            method: 'get',
-            //url:'http://localhost/denguemaps/rest/notificacion?page=' + page + '&limit=' + pagesize + '&sortField=id&sortOrder=asc',
-            url: 'dengue.json',
-            cache: false,
-            height: 400,
-            striped: true,
-            //serverSide: true,
-            pagination: true,
-            //pageNumber:page,
-            pageSize: 10,
-            //totalRows: 250000,
-            pageList: [10, 25, 50, 100, 200],
-            search: true,
-            showColumns: true,
-            showRefresh: true,
-            minimumCountColumns: 2,
-            clickToSelect: true,
-            //root:'list',
-            columns: [{
-                field: 'state',
-                valign: 'middle',
-                checkbox: true
-            }, {
-                field: 'id',
-                title: 'ID',
-                align: 'right',
-                sortable: true
-            }, {
-                field: 'semana',
-                title: 'Semana',
-                align: 'center',
-                sortable: true
-            }, {
-                field: 'anio',
-                title: 'Año',
-                align: 'center',
-                sortable: true
-            }, {
-                field: 'departamento',
-                title: 'Departamento',
-                align: 'center',
-                sortable: true
-            }, {
-                field: 'distrito',
-                title: 'Distrito',
-                align: 'center',
-                sortable: true
-            }, {
-                field: 'barrio',
-                title: 'Barrio',
-                align: 'center',
-                sortable: true
-            }, {
-                field: 'resultado',
-                title: 'Resultado',
-                align: 'center',
-                sortable: true
-            }, {
-                field: 'clasificacon_clinica',
-                title: 'Clasificación',
-                align: 'center',
-                sortable: true
-            }]
-        });
-    });
-}*/
-
 function setup_intro(){
     console.log('entro a setup_intro');
   var stepsMapa = [
@@ -766,4 +704,150 @@ function setup_intro(){
       steps: steps
     }).start();
   });
+}
+
+function descargarCSV(anio) {
+    console.log('entro a descargar csv');
+    var data;
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtro?anio=" + anio,
+        type:"get", //send it through get method
+        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
+        success: function(response) {
+            JSONData = response;
+            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+            var CSV = '';
+            var row = "";
+            // This loop will extract the label from 1st index of on array
+            for ( var index in arrData[0]) {
+                // Now convert each value to string and comma-seprated
+                row += index + ',';
+            }
+            row = row.slice(0, -1);
+            // append Label row with line break
+            CSV += row + '\r\n';
+            // 1st loop is to extract each row
+            for (var i = 0; i < arrData.length; i++) {
+                var row = "";
+
+                // 2nd loop will extract each column and convert it in string
+                // comma-seprated
+                for ( var index in arrData[i]) {
+                    row += '"' + arrData[i][index] + '",';
+                }
+                row.slice(0, row.length - 1);
+                // add a line break after each row
+                CSV += row + '\r\n';
+            }
+
+            if (CSV == '') {
+                alert("Invalid data");
+                return;
+            }
+            download(CSV, "notificaciones.csv", "text/csv");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+function descargarJSON(anio) {
+    console.log('entro a descargar json');
+    var data;
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtro?anio=" + anio,
+        type:"get", //send it through get method
+        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
+        success: function(response) {
+            console.log('responseee');
+            data = response;
+            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+function descargarFiltradosCSV(){
+    console.log('entro a descargar csv filtrado');
+    var data;
+    //mientras hasta leer los filtros de la tabla
+    var anio = '2009';
+    var semana = '15';
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtro?anio=" + anio + "&semana=" + semana,
+        type:"get", //send it through get method
+        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
+        success: function(response) {
+            JSONData = response;
+            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+            var CSV = '';
+            var row = "";
+            // This loop will extract the label from 1st index of on array
+            for ( var index in arrData[0]) {
+                // Now convert each value to string and comma-seprated
+                row += index + ',';
+            }
+            row = row.slice(0, -1);
+            // append Label row with line break
+            CSV += row + '\r\n';
+            // 1st loop is to extract each row
+            for (var i = 0; i < arrData.length; i++) {
+                var row = "";
+
+                // 2nd loop will extract each column and convert it in string
+                // comma-seprated
+                for ( var index in arrData[i]) {
+                    row += '"' + arrData[i][index] + '",';
+                }
+                row.slice(0, row.length - 1);
+                // add a line break after each row
+                CSV += row + '\r\n';
+            }
+
+            if (CSV == '') {
+                alert("Invalid data");
+                return;
+            }
+            download(CSV, "notificaciones.csv", "text/csv");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+function descargarFiltradosJSON(){
+    console.log('entro a descargar json filtrado');
+    var data;
+    //mientras hasta leer los filtros de la tabla
+    var anio = '2009';
+    var semana = '15';
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana,
+        type:"get", //send it through get method
+        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
+        success: function(response) {
+            console.log('responseee');
+            data = response;
+            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+// Ejemplos de descargas filtradas
+function setup_download_buttons(){
+  $('#filtered-csv').click(function(){
+    descargarFiltradosCSV();
+  });
+
+  $('#filtered-json').click(function(){
+    descargarFiltradosJSON();
+  });
+
 }

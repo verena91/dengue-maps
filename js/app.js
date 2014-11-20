@@ -421,6 +421,9 @@ function draw_sidetag(map, hide) {
     }
 
 }
+function handleClick(e) {
+    console.log(e.value);
+}
 
 function setup_modal() {
     $("#headerPreview").modal('show').css({

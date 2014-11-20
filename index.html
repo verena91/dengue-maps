@@ -29,7 +29,8 @@
   src="bower_components/bootstrap-filestyle/src/bootstrap-filestyle.js"></script>
 
 <!-- Prueba slide-->
-<script src="bower_components/jqueryui/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="bower_components/jquery-ui-1.11.2/jquery-ui.css">
+<script src="bower_components/jquery-ui-1.11.2/jquery-ui.js"></script>
 
 <script
   src="bower_components/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.js"></script>
@@ -83,8 +84,7 @@
 <script src="js/app.js"></script>
 
 <!-- Prueba slide-->
-<link rel="stylesheet"
-  href="bower_components/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.css">
+
 
 <link rel="stylesheet"
   href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -186,23 +186,14 @@
       <span id="opener-icon"
       class="glyphicon glyphicon-chevron-down arrow-right"></a>
     <ul class="nav nav-pills">
-      <li class="active"><a data-toggle="tab" href="#menuA">Filtros</a></li>
-      <li><a data-toggle="tab" href="#menuB">Leyenda</a></li>
+      <li class="active"><a id="riesgo" data-toggle="tab" href="#menuA">Riesgos</a></li>
+      <li><a id="notif" data-toggle="tab" href="#menuB">Notificaciones</a></li>
     </ul>
     <div id="menu-content" class="tab-content">
       <div id="menuA" class="tab-pane fade in active">
-        <div id="tab-1"
-          class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+        
           <br />
-          <h4>Mapa</h4>
-          <ul id="anio">
-            <li><input type="radio" name="visualizar"
-              value="mr" checked onclick="handleClick(this);">
-              Mapa de riesgo</li>
-            <li><input type="radio" name="visualizar"
-              value="mc" checked onclick="handleClick(this);">
-              Mapa de cantidades</li>
-          </ul>
+         
           <h4>Año</h4>
           <select id="distrito" style="width: 250px;">
             <option value="2009">2009</option>
@@ -211,6 +202,11 @@
             <option value="2012">2012</option>
             <option value="2013" selected>2013</option>
           </select>
+           <h4>Opacidad</h4>
+          
+             <div id="master"></div>
+           
+         
           <!--<h4>Resultado</h4>
           <ul id="resultado">
             <li><input id="chkTodosP" type="checkbox" value="Todos"
@@ -234,26 +230,21 @@
             <li><input type="checkbox" name="proj_check" value="DEN-4"
               checked="checked"> DEN-4</li>
           </ul> -->
-        </div>
+     
       </div>
       <div id="menuB" class="tab-pane fade">
         <div class="crop">
           <br />
-          <p>
-            <img
-              src="http://a.tiles.mapbox.com/v4/marker/pin-m+7e7e7e@2x.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg"
-              class="marker-icon">
-          </p>
-          <div class="legend-label">Guaira</div>
-        </div>
-        </br>
-        <div class="crop">
-          <p>
-            <img
-              src="http://a.tiles.mapbox.com/v4/marker/pin-m+ff8888@2x.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg"
-              class="marker-icon">
-          <div class="legend-label">Otros</div>
-          </p>
+         <h4>Sexo</h4>
+          <div id="sexo" class="btn-group-vertical" data-toggle="buttons">
+            <label class="btn btn-sm btn-primary"><input type="checkbox">Masculino</label>
+            <label class="btn btn-sm btn-primary"><input type="checkbox">Femenino</label>
+            </div>
+            <h4>Clasificacion</h4>
+          <div id="clasif" class="btn-group-vertical" data-toggle="buttons">
+            <label class="btn btn-sm btn-primary"><input type="checkbox">Confirmado</label>
+            <label class="btn btn-sm btn-primary"><input type="checkbox">Descartado</label>
+            </div>
         </div>
       </div>
     </div>

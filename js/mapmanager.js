@@ -153,7 +153,7 @@ function getStyle(feature) {
             opacity: 1,
             color: 'white',
             dashArray: '3',
-            fillOpacity: 0.7, 
+            fillOpacity: SMV.opacity, 
             fillColor: getColor(color) 
         };
   	}
@@ -180,7 +180,7 @@ function getStyleDrillDown(feature) {
             opacity: 1,
             color: 'white',
             dashArray: '3',
-            fillOpacity: 0.6, 
+            fillOpacity: SMV.opacity, 
             fillColor: getColor(color) 
         };
 }

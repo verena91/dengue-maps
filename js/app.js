@@ -20,13 +20,35 @@ $(document).ready(function() {
         console.log('se movio el slide');
     });
     setup_download_buttons();
-
+    
     // Pruebas con el slider
     //var $slider2 = $("#slider2").slider({ max: 20 , value: 10 });
     //$slider2.slider("pips");
     //$('#slider2').slider().slider('pips').slider('pips');
-
+$( "#master" ).slider({
+      value: 7,
+      orientation: "horizontal",
+      range: "min",
+       min: 0,
+      max: 10,
+      animate: true,
+      change: opacityChange
+    });
 });
+
+function opacityChange (e, ui) {
+
+    console.log(ui.value);
+    var opaci = ui.value * 0.1;
+    console.log(opaci);
+    SMV.opacity = opaci;
+    if(SMV.inzoom){
+        SMV.layerActual.setStyle(getStyleDrillDown);
+    }else{
+        SMV.geoJsonLayer.setStyle(getStyle);
+    }
+    
+}
 
 function check_url(){
     // Javascript to enable link to tab
@@ -71,15 +93,16 @@ function draw_table() {
           }
         },
         "columns": [
-            { "data": "anio" },
-            { "data": "semana" },
-            { "data": "fecha_notificacion" },
-            { "data": "departamento" },
-            { "data": "distrito" },
-            { "data": "edad" },
-            { "data": "sexo" },
-            { "data": "resultado" }
+            { "data": "anio", "width": "10%" },
+            { "data": "semana", "width": "20%" },
+            { "data": "fecha_notificacion", "width": "20%"  },
+            { "data": "departamento", "width": "20%"  },
+            { "data": "distrito", "width": "20%"  },
+            { "data": "edad", "width": "20%"  },
+            { "data": "sexo", "width": "20%"  },
+            { "data": "resultado","width": "20%"  }
         ],
+        "autoWidth": true,
         /*"columnsDefs" : [
             { sWidth: '100px' },
             { sWidth: '100px' },
@@ -143,6 +166,16 @@ function draw_or_defer_map(mapTabActive){
   }
 }
 
+$(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
+   console.log(e.target); // activated tab
+   console.log(e.target.id);
+   if(e.target.id == 'riesgo'){
+    SMV.map.addLayer(SMV.geoJsonLayer);
+   }else if (e.target.id == 'notif') {
+    SMV.map.removeLayer(SMV.geoJsonLayer);
+   }
+})
+
 function draw_map() {
     startLoading();
 
@@ -172,13 +205,15 @@ function draw_map() {
     "Calles Google Maps": gglRoadmap
     };
     SMV.inzoom = false;
+    SMV.opacity = 0.7;
     SMV.riesgoJson = riesgo13;
     SMV.riesgoDisJson = riesgoDis13;
     SMV.riesgoAsuJson =  riesgoAsu13;
+    SMV.mapatype = 'mr';
 
     SMV.semana = $( "#slidersemana" ).data('value');
     reloadMapSem();
-    map.addLayer(mapbox);
+    map.addLayer(gglRoadmap);
     L.control.layers(baseMaps).addTo(map);
 
    // var geoJson = L.mapbox.featureLayer(viviendas);
@@ -320,11 +355,18 @@ function draw_map() {
 }
 
 // This function is called whenever someone clicks on a checkbox and changes
-// the selection of markers to be displayed.
+// the selection of markers to be displayed. group by"
 function update_filters() {
     var proyectos = get_selected_checkbox('#resultado li input');
     var anio = get_selected_combo('#distrito');
+    var sexo = get_selected_checkbox2('#sexo label');
+    var clasif = get_selected_checkbox2('#clasif label');
+    console.log(sexo.Masculino);
+    console.log(clasif.Confirmado);
+    console.log(SMV.mapatype);
+    
     SMV.anio = anio;
+    
 
     var riesgo;
     var riesgoDistritos;
@@ -431,6 +473,12 @@ function draw_sidetag(map, hide) {
 }
 function handleClick(e) {
     console.log(e.value);
+    SMV.mapatype = e.value;
+    if(SMV.mapatype=='mc'){
+        $("#fcant").show();
+    }else {
+        $("#fcant").hide();
+    }
 }
 
 function setup_modal() {
@@ -542,7 +590,7 @@ function add_filter_listeners(map) {
         $("#resultado li input").prop('checked', this.checked);
     });
 
-    $('#resultado li input, #departamento, #distrito, #localidad').change(function() {
+    $('#resultado li input, #departamento, #distrito, #localidad, #sexo label input, #clasif label input').change(function() {
         update_filters(map);
     });
 
@@ -557,6 +605,15 @@ function get_selected_checkbox(selector) {
         if (checkboxes[i].checked) enabled[checkboxes[i].value] = true;
     }
     return enabled;
+}
+
+function get_selected_checkbox2(selector){
+  var labels = $(selector);
+  var enabled = {};
+
+  _.each(labels, function(l){ enabled[l.innerText] = l.children[0].checked; });
+
+  return enabled;
 }
 
 /*Utilitario para eliminar acentos de la cadena, para poder comparar las claves

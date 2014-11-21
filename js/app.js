@@ -309,7 +309,7 @@ function draw_map() {
     var legendNoti = L.control({position: 'bottomright'});
     legendNoti.onAdd = function (map) {
         var div = L.DomUtil.create('div', 'info legend'),
-            grades = [1, 10, 30, 50, 70, 90, 100, 200, 300, 400, 500, 600, 700],
+            grades = [1, 10, 20, 50, 100, 500, 1000/*, 200, 300, 400, 500, 600, 700*/],
             labels = [],
             from, to;
         labels.push('<i style="background:' + getColorNotificaciones(0) + '"></i> ' + '0');
@@ -521,6 +521,7 @@ function draw_sidetag(map, hide) {
 
     $('.navbar-nav>li>a').bind('click', function (e) {
         if($(this).attr('href') === '#mapa'){
+        $('#menu-content').show();
           $('#opener').show();
           $('body').css('overflow', 'hidden');
           $('#opener').click();
@@ -533,7 +534,9 @@ function draw_sidetag(map, hide) {
           if ($('#slide-panel').hasClass("visible")) {
             $('#opener').click();
           }
+          
           $('#opener').hide();
+          $('#menu-content').hide();
         }
       });
 

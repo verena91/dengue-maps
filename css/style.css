@@ -417,7 +417,7 @@ tr.shown td.details-control {
 /** Estilos en el slide **/
 
 .bfh-slider {
-    background-color: #f6a828 !important;
+    background-color: #fff !important;
     opacity: 0.7;
     height:14px !important; 
 }

@@ -30,6 +30,7 @@ function setup_anio_slider () {
         animate: true,
         change: anioChange
     });
+    $( "#amount" ).val( $( "#anio2" ).slider( "value" ) );
 }
 
 function setup_semana_slider() {
@@ -60,6 +61,7 @@ function setup_opacity_slider() {
 }
 function anioChange (e, ui) {
     $( "#amount" ).val( $( "#anio2" ).slider( "value" ) );
+    update_filters();
 }
 function opacityChange (e, ui) {
 
@@ -403,12 +405,10 @@ function draw_map() {
 // the selection of markers to be displayed. group by"
 function update_filters() {
     var proyectos = get_selected_checkbox('#resultado li input');
-    var anio = get_selected_combo('#distrito');
+    var anio = $( "#anio2" ).slider( "value" );
     var sexo = get_selected_checkbox2('#sexo label');
     var clasif = get_selected_checkbox2('#clasif label');
-    console.log(sexo.Masculino);
-    console.log(clasif.Confirmado);
-    console.log(SMV.mapatype);
+    console.log(anio);
     
     SMV.anio = anio;
     if(sexo.Masculino){

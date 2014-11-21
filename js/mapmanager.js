@@ -318,8 +318,8 @@ function getColorNotificaciones(d) {
             d > 100    ? '#FDCB43' :
             d > 90    ? '#FDE54E' :
             d > 70    ? '#FDFC58' :
-            d > 50    ? '#E9FD62' :
-            d > 30    ? '#D7FD6D' :
+            d > 30    ? '#E9FD62' :
+            d > 20    ? '#D7FD6D' :
             d > 10    ? '#C8FD77' :
             d > 1    ? '#BCFD82' :
                         '#FFFFFF';
@@ -339,7 +339,7 @@ function getStyleNotificaciones (feature) {
         opacity: 1,
         color: 'white',
         dashArray: '3',
-        fillOpacity: 0.7, 
+        fillOpacity: 0.8, 
         fillColor: getColorNotificaciones(color) 
     };
     

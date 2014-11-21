@@ -174,35 +174,28 @@
           <div style="width: 250px;
             margin-left: 13px;">
               <p>
-                <label for="amount">Año:</label>
-                <input type="text" id="amount" readonly style="border:0; color: #0B0B0B; background-color: #eee;">
+                <label for="amount" style="color: #333; ">Año </label>
+                <input type="text" id="amount" readonly style="border:0; color: #333; background-color: #eee;">
               </p>
               <div id="anio2"></div>
             </div>
         </div>
 
-    <ul class="nav nav-pills">
+    <ul class="nav nav-pills nav-justified">
       <li class="active"><a id="riesgo" data-toggle="tab" href="#menuA">Riesgos</a></li>
       <li><a id="notif" data-toggle="tab" href="#menuB">Notificaciones</a></li>
     </ul>
     
     <div id="menu-content" class="tab-content">
       <div id="menuA" class="tab-pane fade in active">
-        
+        <div class="crop">
           <br />
          
-          <h4>Año</h4>
-          <select id="distrito" style="width: 250px;">
-            <option value="2009">2009</option>
-            <option value="2010">2010</option>
-            <option value="2011">2011</option>
-            <option value="2012">2012</option>
-            <option value="2013" selected>2013</option>
-          </select>
+         
            <h4>Opacidad</h4>
           
              <div id="opacidad"></div>
-     
+        </div>
       </div>
       <div id="menuB" class="tab-pane fade">
         <div class="crop">

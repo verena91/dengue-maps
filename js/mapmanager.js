@@ -290,7 +290,6 @@ function descargarFiltradosJsonMap(){
         type:"get", //send it through get method
         //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
         success: function(response) {
-            console.log('responseee');
             SMV.resFiltro = response;
             console.log("volvio");
             reloadNotificaciones();

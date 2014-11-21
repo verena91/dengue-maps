@@ -10,6 +10,29 @@ $(document).ready(function() {
     add_filter_listeners(map);
     setup_modal_navigation();
     setup_intro();
+    setup_semana_slider();
+    setup_download_buttons();
+    setup_opacity_slider();
+    setup_anio_slider();
+
+    //var $slider2 = $("#slider2").slider({ max: 20 , value: 10 });
+    //$slider2.slider("pips");
+    //$('#slider2').slider().slider('pips').slider('pips');
+   
+});
+function setup_anio_slider () {
+    $( "#anio2" ).slider({
+        value: 2013,
+        orientation: "horizontal",
+        range: "min",
+        min: 2009,
+        max: 2013,
+        animate: true,
+        change: anioChange
+    });
+}
+
+function setup_semana_slider() {
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) {
         console.log('se movio el slide');
         SMV.semana= event.target.innerText;
@@ -22,23 +45,22 @@ $(document).ready(function() {
         }
         
     });
-    setup_download_buttons();
-    
-    // Pruebas con el slider
-    //var $slider2 = $("#slider2").slider({ max: 20 , value: 10 });
-    //$slider2.slider("pips");
-    //$('#slider2').slider().slider('pips').slider('pips');
-$( "#master" ).slider({
-      value: 7,
-      orientation: "horizontal",
-      range: "min",
-       min: 0,
-      max: 10,
-      animate: true,
-      change: opacityChange
-    });
-});
+}
 
+function setup_opacity_slider() {
+    $( "#opacidad" ).slider({
+        value: 7,
+        orientation: "horizontal",
+        range: "min",
+        min: 0,
+        max: 10,
+        animate: true,
+        change: opacityChange
+    }); 
+}
+function anioChange (e, ui) {
+    $( "#amount" ).val( $( "#anio2" ).slider( "value" ) );
+}
 function opacityChange (e, ui) {
 
     console.log(ui.value);
@@ -67,6 +89,8 @@ function check_url(){
     })
     return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
 }
+
+/** Tabla **/
 
 function draw_table() {
 
@@ -101,22 +125,10 @@ function draw_table() {
             { "data": "fecha_notificacion", "width": "20%"  },
             { "data": "departamento", "width": "20%"  },
             { "data": "distrito", "width": "20%"  },
-            { "data": "edad", "width": "20%"  },
             { "data": "sexo", "width": "20%"  },
+            { "data": "edad", "width": "20%"  },
             { "data": "resultado","width": "20%"  }
         ],
-        "autoWidth": true,
-        /*"columnsDefs" : [
-            { sWidth: '100px' },
-            { sWidth: '100px' },
-            { sWidth: '150px' },
-            { sWidth: '250px' },
-            { sWidth: '250px' },
-            { sWidth: '100px' },
-            { sWidth: '100px' },
-            { sWidth: '250px' },
-            { sWidth: '250px' }
-        ], */
         "fnRowCallback"  : function(nRow,aData,iDisplayIndex) {
                                   $('td:eq(0)', nRow).css( "text-align", "right" );
                                   $('td:eq(1)', nRow).css( "text-align", "right" );
@@ -124,33 +136,43 @@ function draw_table() {
                                   $('td:eq(6)', nRow).css( "text-align", "right" );
                                   return nRow;
         },
-        //"autoWidth": true,
+        "bAutoWidth": false,
         "bProcessing": true,
         "bServerSide": true,
         "sAjaxSource":  "http://localhost/denguemaps/rest/notificacion"
     } );
     $('#lista').dataTable()
-          .columnFilter({
+        .columnFilter({
             aoColumns: [ { type: "text" },
-                     { type: "text" },
-                     { type: "text" },
-                     { type: "text" },
-                     { type: "text" },
-                     { type: "text" },
-                     { type: "text" },
-                     { type: "text" }
-                ]
+                 { type: "text" },
+                 { type: "text" },
+                 { type: "text" },
+                 { type: "text" },
+                 { type: "text" },
+                 { type: "text" },
+                 { type: "text" }
+            ]
 
-        });
+    });
 
-    /*$('#lista tfoot th').each( function () {
-        var title = $('#lista thead th').eq( $(this).index() ).text();
-        $(this).html( '<input class="form-control" type="text" placeholder="Buscar '+title+'" />' );
-    });*/
-    /*$(window).bind('resize', function () {
-        table.fnAdjustColumnSizing();
-    });*/
-    
+    $('#anioH').css("width","8%");
+    $('#semanaH').css("width","9%");
+    $('#fechaH').css("width","13%");
+    $('#departamentoH').css("width","14%");
+    $('#distritoH').css("width","25%");
+    $('#sexoH').css("width","7%");
+    $('#edadH').css("width","7%");
+    $('#resultadoH').css("width","25%");
+
+    $('#anioF').children().children().css("width","100%");
+    $('#semanaF').children().children().css("width","100%");
+    $('#fechaF').children().children().css("width","100%");
+    $('#departamentoF').children().children().css("width","100%");
+    $('#distritoF').children().children().css("width","100%");
+    $('#sexoF').children().children().css("width","100%");
+    $('#edadF').children().children().css("width","100%");
+    $('#resultadoF').children().children().css("width","100%");
+
     $('#download-footer').insertAfter('.row:last');
     SMV.table = table;
 }
@@ -197,22 +219,7 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
    }
 })
 
-/*function actualizarMapaNotif (argument) {
-    if(SMV.firstTime){
-        descargarFiltradosJsonMap();
-        reloadMapSem();
-        SMV.firtsTime = false;
-        SMV.anioDeDatos = SMV.anio;
-        var statesLayer = L.geoJson(departamentos,  {style: getStyleNotificaciones}).addTo(map);
-        SMV.layerNotif = statesLayer;
-    }else{
-        if(SMV.anioDeDatos != SMV.anio){
-            descargarFiltradosJsonMap();
-            reloadMapSem();
-            SMV.layerNotif.setStyle(getStyleNotificaciones);
-        }
-    }
-}*/
+
 
 function draw_map() {
     startLoading();
@@ -680,24 +687,6 @@ function get_selected_checkbox2(selector){
   return enabled;
 }
 
-/*Utilitario para eliminar acentos de la cadena, para poder comparar las claves
-(nombre del departamento) del servicio (BD MEC) con las del GEOJSON*/
-function removeAccents(strAccents) {
-    var strAccents = strAccents.split('');
-    var strAccentsOut = new Array();
-    var strAccentsLen = strAccents.length;
-    var accents = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñÿý';
-    var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
-    for (var y = 0; y < strAccentsLen; y++) {
-        if (accents.indexOf(strAccents[y]) != -1) {
-            strAccentsOut[y] = accentsOut.substr(accents.indexOf(strAccents[y]), 1);
-        } else
-            strAccentsOut[y] = strAccents[y];
-    }
-    strAccentsOut = strAccentsOut.join('');
-    return strAccentsOut;
-}
-
 function setup_checkbox_values(name, selector){
     var values = get_unique_values(name);
 
@@ -715,6 +704,8 @@ function get_unique_values(prop){
         .sortBy(function(d){ return d; })
         .value();
 }
+
+/** Ayuda **/
 
 function setup_intro(){
     console.log('entro a setup_intro');
@@ -830,141 +821,8 @@ function setup_intro(){
   });
 }
 
-function descargarCSV(anio) {
-    console.log('entro a descargar csv');
-    var data;
-    $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtro?anio=" + anio,
-        type:"get", //send it through get method
-        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
-        success: function(response) {
-            JSONData = response;
-            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
-            var CSV = '';
-            var row = "";
-            // This loop will extract the label from 1st index of on array
-            for ( var index in arrData[0]) {
-                // Now convert each value to string and comma-seprated
-                row += index + ',';
-            }
-            row = row.slice(0, -1);
-            // append Label row with line break
-            CSV += row + '\r\n';
-            // 1st loop is to extract each row
-            for (var i = 0; i < arrData.length; i++) {
-                var row = "";
+/** Descarga de archivos **/
 
-                // 2nd loop will extract each column and convert it in string
-                // comma-seprated
-                for ( var index in arrData[i]) {
-                    row += '"' + arrData[i][index] + '",';
-                }
-                row.slice(0, row.length - 1);
-                // add a line break after each row
-                CSV += row + '\r\n';
-            }
-
-            if (CSV == '') {
-                alert("Invalid data");
-                return;
-            }
-            download(CSV, "notificaciones.csv", "text/csv");
-        },
-        error: function(xhr) {
-            console.log('errror');
-        }
-    });
-}
-
-function descargarJSON(anio) {
-    console.log('entro a descargar json');
-    var data;
-    $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtro?anio=" + anio,
-        type:"get", //send it through get method
-        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
-        success: function(response) {
-            console.log('responseee');
-            data = response;
-            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
-        },
-        error: function(xhr) {
-            console.log('errror');
-        }
-    });
-}
-
-function descargarFiltradosCSV(){
-    console.log('entro a descargar csv filtrado');
-    var data;
-    //mientras hasta leer los filtros de la tabla
-    var anio = '2009';
-    var semana = '15';
-    $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtro?anio=" + anio + "&semana=" + semana,
-        type:"get", //send it through get method
-        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
-        success: function(response) {
-            JSONData = response;
-            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
-            var CSV = '';
-            var row = "";
-            // This loop will extract the label from 1st index of on array
-            for ( var index in arrData[0]) {
-                // Now convert each value to string and comma-seprated
-                row += index + ',';
-            }
-            row = row.slice(0, -1);
-            // append Label row with line break
-            CSV += row + '\r\n';
-            // 1st loop is to extract each row
-            for (var i = 0; i < arrData.length; i++) {
-                var row = "";
-
-                // 2nd loop will extract each column and convert it in string
-                // comma-seprated
-                for ( var index in arrData[i]) {
-                    row += '"' + arrData[i][index] + '",';
-                }
-                row.slice(0, row.length - 1);
-                // add a line break after each row
-                CSV += row + '\r\n';
-            }
-
-            if (CSV == '') {
-                alert("Invalid data");
-                return;
-            }
-            download(CSV, "notificaciones.csv", "text/csv");
-        },
-        error: function(xhr) {
-            console.log('errror');
-        }
-    });
-}
-
-function descargarFiltradosJSON(){
-    console.log('entro a descargar json filtrado');
-    var data;
-    //mientras hasta leer los filtros de la tabla
-    var anio = '2009';
-    var semana = '15';
-    $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana,
-        type:"get", //send it through get method
-        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
-        success: function(response) {
-            console.log('responseee');
-            data = response;
-            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
-        },
-        error: function(xhr) {
-            console.log('errror');
-        }
-    });
-}
-
-// Ejemplos de descargas filtradas
 function setup_download_buttons(){
   $('#filtered-csv').click(function(){
     descargarFiltradosCSV();
@@ -974,4 +832,158 @@ function setup_download_buttons(){
     descargarFiltradosJSON();
   });
 
+}
+
+function descargarCSV(anio) {
+    //console.log('entro a descargar csv');
+    startLoading();
+    var data;
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio,
+        type:"get",
+        success: function(response) {
+            JSONData = response;
+            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+            var CSV = '';
+            var row = "";
+            // This loop will extract the label from 1st index of on array
+            for ( var index in arrData[0]) {
+                // Now convert each value to string and comma-seprated
+                row += index + ',';
+            }
+            row = row.slice(0, -1);
+            // append Label row with line break
+            CSV += row + '\r\n';
+            // 1st loop is to extract each row
+            for (var i = 0; i < arrData.length; i++) {
+                var row = "";
+
+                // 2nd loop will extract each column and convert it in string
+                // comma-seprated
+                for ( var index in arrData[i]) {
+                    row += '"' + arrData[i][index] + '",';
+                }
+                row.slice(0, row.length - 1);
+                // add a line break after each row
+                CSV += row + '\r\n';
+            }
+
+            if (CSV == '') {
+                alert("Invalid data");
+                return;
+            }
+            finishedLoading();
+            download(CSV, "notificaciones.csv", "text/csv");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+function descargarJSON(anio) {
+    //console.log('entro a descargar json');
+    startLoading();
+    var data;
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio,
+        type:"get",
+        success: function(response) {
+            //console.log('responseee');
+            data = response;
+            finishedLoading();
+            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+function descargarFiltradosCSV(){
+    //console.log('entro a descargar json filtrado');
+    startLoading();
+    var data;
+    var anio = $("#anioF").children().children().val();
+    var semana = $("#semanaF").children().children().val();
+    var fechaNotificacion = $("#fechaF").children().children().val();
+    var departamento = $("#departamentoF").children().children().val();
+    var distrito = $("#distritoF").children().children().val();
+    var sexo = $("#sexoF").children().children().val();
+    var edad = $("#edadF").children().children().val();
+    var resultado = $("#resultadoF").children().children().val();
+
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
+        + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento 
+        + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
+        type:"get",
+        success: function(response) {
+            JSONData = response;
+            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+            var CSV = '';
+            var row = "";
+            // This loop will extract the label from 1st index of on array
+            for ( var index in arrData[0]) {
+                // Now convert each value to string and comma-seprated
+                row += index + ',';
+            }
+            row = row.slice(0, -1);
+            // append Label row with line break
+            CSV += row + '\r\n';
+            // 1st loop is to extract each row
+            for (var i = 0; i < arrData.length; i++) {
+                var row = "";
+
+                // 2nd loop will extract each column and convert it in string
+                // comma-seprated
+                for ( var index in arrData[i]) {
+                    row += '"' + arrData[i][index] + '",';
+                }
+                row.slice(0, row.length - 1);
+                // add a line break after each row
+                CSV += row + '\r\n';
+            }
+
+            if (CSV == '') {
+                alert("Invalid data");
+                return;
+            }
+            finishedLoading();
+            download(CSV, "notificaciones.csv", "text/csv");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+function descargarFiltradosJSON(){
+    //console.log('entro a descargar json filtrado');
+    startLoading();
+    var data;
+    var anio = $("#anioF").children().children().val();
+    var semana = $("#semanaF").children().children().val();
+    var fechaNotificacion = $("#fechaF").children().children().val();
+    var departamento = $("#departamentoF").children().children().val();
+    var distrito = $("#distritoF").children().children().val();
+    var sexo = $("#sexoF").children().children().val();
+    var edad = $("#edadF").children().children().val();
+    var resultado = $("#resultadoF").children().children().val();
+
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
+        + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento 
+        + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
+        type:"get",
+        success: function(response) {
+            //console.log('responseee');
+            data = response;
+            finishedLoading();
+            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
 }

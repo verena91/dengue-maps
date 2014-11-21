@@ -260,6 +260,7 @@ function loadDrillDownDep(){
 }
 
 function drillUp(){
+    console.log('Volver a vista de departamentos');
     map = SMV.map;
     map.fitBounds(SMV.geoJsonLayer.getBounds());
     SMV.map.removeLayer(SMV.layerActual);
@@ -371,5 +372,4 @@ function mouseoverNotificaciones(e) {
 function mouseoutNotificaciones(e) {
     SMV.layerNotif.resetStyle(e.target);
     SMV.info.update();
-   
 }

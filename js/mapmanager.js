@@ -262,11 +262,12 @@ function loadDrillDownDep(){
 function drillUp(){
     console.log('Volver a vista de departamentos');
     map = SMV.map;
-    map.fitBounds(SMV.geoJsonLayer.getBounds());
+    //map.fitBounds(SMV.geoJsonLayer.getBounds());
     SMV.map.removeLayer(SMV.layerActual);
     SMV.inzoom = false;
     SMV.geoJsonLayer.setStyle(getStyle);
     SMV.backButton.removeFrom(map);
+    SMV.map.setView([-23.388, -60.189], 7);
     SMV.map = map;
 }
 

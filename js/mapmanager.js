@@ -146,8 +146,7 @@ function getColor(d) {
     return d == 'E' ? '#FE0516' :
         d == 'RA' ? '#FF6905' :
         d == 'RM' ? '#FFB905' :
-        d == 'RB' ? '#FFF96D' :
-        '#FFFFFF';
+        '#FFF96D';
 }
 /*Estilo de la capa de departamento de acuedo a los valores de riesgo*/
 function getStyle(feature) {
@@ -309,7 +308,15 @@ function descargarFiltradosJsonMap(){
 
 function getColorNotificaciones(d) {
     
-    return    d > 700    ? '#FE0516' :
+    return    d > 1000    ? '#FE0516' :
+            d > 500    ? '#FD6C24' :
+            d > 100    ? '#FFC56E' :
+            d > 50    ? '#FDFC58' :
+            d > 20    ? '#DBFB69' :
+            d > 10    ? '#BCFD82' :
+            d > 1    ? '#8EF435' :
+                        '#FFFFFF';
+    /* return    d > 700    ? '#FE0516' :
             d > 600    ? '#FD1E0F' :
             d > 500    ? '#FD4619' :
             d > 400    ? '#FD6C24' :
@@ -322,7 +329,7 @@ function getColorNotificaciones(d) {
             d > 20    ? '#D7FD6D' :
             d > 10    ? '#C8FD77' :
             d > 1    ? '#BCFD82' :
-                        '#FFFFFF';
+                        '#FFFFFF';*/
 }
 
 function getStyleNotificaciones (feature) {

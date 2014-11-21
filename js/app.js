@@ -76,10 +76,12 @@ function setup_opacity_slider() {
         change: opacityChange
     }); 
 }
+
 function anioChange (e, ui) {
     $( "#amount" ).val( $( "#anio2" ).slider( "value" ) );
     update_filters();
 }
+
 function opacityChange (e, ui) {
 
     var opaci = ui.value * 0.1;
@@ -144,7 +146,7 @@ function draw_table() {
             { "data": "distrito", "width": "20%"  },
             { "data": "sexo", "width": "20%"  },
             { "data": "edad", "width": "20%"  },
-            { "data": "resultado","width": "20%"  }
+            { "data": "clasificacon_clinica","width": "20%"  }
         ],
         "fnRowCallback"  : function(nRow,aData,iDisplayIndex) {
                                   $('td:eq(0)', nRow).css( "text-align", "right" );
@@ -782,7 +784,7 @@ function setup_intro(){
       position: "left"
     },
     {
-      element: document.querySelectorAll('.column-filter')[0],
+      element: document.querySelectorAll('#departamentoF')[0],
       intro: "O filtra de acuerdo a los valores de una columna en particular.",
     },
     {
@@ -853,7 +855,7 @@ function descargarCSV(anio) {
     startLoading();
     var data;
     $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio,
+        url: "/denguemaps/rest/notificacion/filtros?anio=" + anio,
         type:"get",
         success: function(response) {
             JSONData = response;
@@ -899,7 +901,7 @@ function descargarJSON(anio) {
     startLoading();
     var data;
     $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio,
+        url: "/denguemaps/rest/notificacion/filtros?anio=" + anio,
         type:"get",
         success: function(response) {
             data = response;
@@ -925,43 +927,50 @@ function descargarFiltradosCSV(){
     var resultado = $("#resultadoF").children().children().val();
 
     $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
+        url: "/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
         + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento 
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            JSONData = response;
-            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
-            var CSV = '';
-            var row = "";
-            // This loop will extract the label from 1st index of on array
-            for ( var index in arrData[0]) {
-                // Now convert each value to string and comma-seprated
-                row += index + ',';
-            }
-            row = row.slice(0, -1);
-            // append Label row with line break
-            CSV += row + '\r\n';
-            // 1st loop is to extract each row
-            for (var i = 0; i < arrData.length; i++) {
+            console.log(response);
+            if (!response){
+                alert("Debe indicar al menos un filtro.");
+            } else {
+                JSONData = response;
+                var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+                var CSV = '';
                 var row = "";
-
-                // 2nd loop will extract each column and convert it in string
-                // comma-seprated
-                for ( var index in arrData[i]) {
-                    row += '"' + arrData[i][index] + '",';
+                // This loop will extract the label from 1st index of on array
+                for ( var index in arrData[0]) {
+                    // Now convert each value to string and comma-seprated
+                    row += index + ',';
                 }
-                row.slice(0, row.length - 1);
-                // add a line break after each row
+                row = row.slice(0, -1);
+                // append Label row with line break
                 CSV += row + '\r\n';
-            }
+                // 1st loop is to extract each row
+                for (var i = 0; i < arrData.length; i++) {
+                    var row = "";
 
-            if (CSV == '') {
-                alert("Invalid data");
-                return;
+                    // 2nd loop will extract each column and convert it in string
+                    // comma-seprated
+                    for ( var index in arrData[i]) {
+                        row += '"' + arrData[i][index] + '",';
+                    }
+                    row.slice(0, row.length - 1);
+                    // add a line break after each row
+                    CSV += row + '\r\n';
+                }
+
+                if (CSV == '') {
+                    alert("Invalid data");
+                    return;
+                }
+                download(CSV, "notificaciones.csv", "text/csv");
             }
             finishedLoading();
-            download(CSV, "notificaciones.csv", "text/csv");
+            $("#filtered-csv").button('reset');
+            
         },
         error: function(xhr) {
             console.log('errror');
@@ -982,14 +991,19 @@ function descargarFiltradosJSON(){
     var resultado = $("#resultadoF").children().children().val();
 
     $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
+        url: "/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
         + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento 
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            data = response;
-            finishedLoading();
-            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+            console.log(response);
+            if (!response){
+                alert("Debe indicar al menos un filtro.");
+            } else {
+                data = response;
+                download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+            }
+            finishedLoading();    
         },
         error: function(xhr) {
             console.log('errror');

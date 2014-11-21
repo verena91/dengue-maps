@@ -772,7 +772,8 @@ function setup_download_buttons(){
 }
 
 function descargarCSV(anio) {
-    console.log('entro a descargar csv');
+    //console.log('entro a descargar csv');
+    startLoading();
     var data;
     $.ajax({
         url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio,
@@ -808,6 +809,7 @@ function descargarCSV(anio) {
                 alert("Invalid data");
                 return;
             }
+            finishedLoading();
             download(CSV, "notificaciones.csv", "text/csv");
         },
         error: function(xhr) {
@@ -818,13 +820,15 @@ function descargarCSV(anio) {
 
 function descargarJSON(anio) {
     //console.log('entro a descargar json');
+    startLoading();
     var data;
     $.ajax({
         url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio,
         type:"get",
         success: function(response) {
-            console.log('responseee');
+            //console.log('responseee');
             data = response;
+            finishedLoading();
             download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
         },
         error: function(xhr) {
@@ -835,6 +839,7 @@ function descargarJSON(anio) {
 
 function descargarFiltradosCSV(){
     //console.log('entro a descargar json filtrado');
+    startLoading();
     var data;
     var anio = $("#anioF").children().children().val();
     var semana = $("#semanaF").children().children().val();
@@ -881,6 +886,7 @@ function descargarFiltradosCSV(){
                 alert("Invalid data");
                 return;
             }
+            finishedLoading();
             download(CSV, "notificaciones.csv", "text/csv");
         },
         error: function(xhr) {
@@ -891,6 +897,7 @@ function descargarFiltradosCSV(){
 
 function descargarFiltradosJSON(){
     //console.log('entro a descargar json filtrado');
+    startLoading();
     var data;
     var anio = $("#anioF").children().children().val();
     var semana = $("#semanaF").children().children().val();
@@ -907,8 +914,9 @@ function descargarFiltradosJSON(){
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            console.log('responseee');
+            //console.log('responseee');
             data = response;
+            finishedLoading();
             download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
         },
         error: function(xhr) {

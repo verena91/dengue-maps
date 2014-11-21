@@ -6,6 +6,7 @@ function reloadMapSem(){
     var rcen;
     var mapSem = new Object();
     var mapSemDis = new Object();
+    
     //Cargar el json de los riesgos por semana
     //riesgos de todas las semanas de los departamentos
     var riesgo = SMV.riesgoJson;
@@ -62,8 +63,27 @@ function reloadMapSem(){
    	//Riesgos de los distritos de la semana seleccionada
     SMV.mapNotifDis = mapSemDis;
     console.log('reload');
+
+    //if(!SMV.firstTime){
+       
+    //}
 }
 
+function reloadNotificaciones () {
+    var semana = SMV.semana;
+    var mapSemFil = new Object();
+    var resFiltro = SMV.resFiltro;
+        for(var i=0; i<resFiltro.length; i++){
+            var obj = resFiltro[i];
+
+            if(obj["semana"] == semana){
+                mapSemFil[obj["departamento"]] = obj;
+            }
+        }
+
+        SMV.mapSemFil = mapSemFil;
+        console.log(SMV.mapSemFil);
+}
  /*Eventos para cada departamento*/
 function onEachFeature(feature, layer) {
     layer.on({
@@ -247,4 +267,109 @@ function drillUp(){
     SMV.geoJsonLayer.setStyle(getStyle);
     SMV.backButton.removeFrom(map);
     SMV.map = map;
+}
+
+
+function descargarFiltradosJsonMap(){
+    console.log('entro a descargar json filtrado mapa');
+    var data;
+    //mientras hasta leer los filtros de la tabla
+    var anio = SMV.anio;
+
+    var variables = "&confirmado="+SMV.c+"&descartado="+SMV.d+"&sospechoso="+SMV.s;
+    if(SMV.f==1 && SMV.m==1){
+        variables =  variables + "&f=0&m=0";
+    }else{
+        variables =  variables + "&f="+SMV.f+"&m="+SMV.m;
+    }
+    console.log(variables);
+    $.ajax({
+        url: "http://localhost/denguemaps/rest/notificacion/filtrosmapa?anio=" + anio + variables,
+        type:"get", //send it through get method
+        //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
+        success: function(response) {
+            console.log('responseee');
+            SMV.resFiltro = response;
+            console.log("volvio");
+            reloadNotificaciones();
+            if(SMV.layerNotif){
+                SMV.layerNotif.setStyle(getStyleNotificaciones);
+            }else{
+                SMV.layerNotif = L.geoJson(departamentos,  {style: getStyleNotificaciones, onEachFeature:onEachFeatureNotificaciones});   
+            }
+            
+        },
+        error: function(xhr) {
+            console.log('errror');
+        }
+    });
+}
+
+
+function getColorNotificaciones(d) {
+    
+    return    d > 700    ? '#FE0516' :
+            d > 600    ? '#FD1E0F' :
+            d > 500    ? '#FD4619' :
+            d > 400    ? '#FD6C24' :
+            d > 300    ? '#FD8E2E' :
+            d > 200    ? '#FDAE39' :
+            d > 100    ? '#FDCB43' :
+            d > 90    ? '#FDE54E' :
+            d > 70    ? '#FDFC58' :
+            d > 50    ? '#E9FD62' :
+            d > 30    ? '#D7FD6D' :
+            d > 10    ? '#C8FD77' :
+            d > 1    ? '#BCFD82' :
+                        '#FFFFFF';
+}
+
+function getStyleNotificaciones (feature) {
+    var n = feature.properties.DPTO_DESC;
+    var mapSem = SMV.mapSemFil;    
+    var color = 'NONE';
+
+    try{
+        color = mapSem[n]["cantidad"];
+    }catch(e){
+    }
+ 
+    return { weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7, 
+        fillColor: getColorNotificaciones(color) 
+    };
+    
+}
+
+
+function onEachFeatureNotificaciones(feature, layer) {
+    layer.on({
+        mouseover: mouseoverNotificaciones,
+        mouseout: mouseoutNotificaciones,
+    });
+}
+/*Evento al ubicarse el puntero sobre un distrito*/
+function mouseoverNotificaciones(e) {
+    var layer = e.target;
+     layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: ''
+        
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera) {
+        layer.bringToFront();
+    }
+    SMV.info.update(layer.feature.properties);
+}
+
+/*Evento al salir el puntero de un distrito*/
+function mouseoutNotificaciones(e) {
+    SMV.layerNotif.resetStyle(e.target);
+    SMV.info.update();
+   
 }

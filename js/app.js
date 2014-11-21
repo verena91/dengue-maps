@@ -11,13 +11,16 @@ $(document).ready(function() {
     setup_modal_navigation();
     setup_intro();
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) {
+        console.log('se movio el slide');
         SMV.semana= event.target.innerText;
-        reloadMapSem(event.target.innerText);
+        reloadMapSem();
+        reloadNotificaciones();
+        SMV.layerNotif.setStyle(getStyleNotificaciones);
         SMV.geoJsonLayer.setStyle(getStyle);
         if(SMV.inzoom){
             SMV.layerActual.setStyle(getStyleDrillDown);
         }
-        console.log('se movio el slide');
+        
     });
     setup_download_buttons();
     
@@ -170,11 +173,46 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
    console.log(e.target); // activated tab
    console.log(e.target.id);
    if(e.target.id == 'riesgo'){
-    SMV.map.addLayer(SMV.geoJsonLayer);
+        SMV.onriesgo = true;
+        SMV.map.removeLayer(SMV.layerNotif);
+        SMV.map.removeControl(SMV.legendNoti);
+        SMV.map.addLayer(SMV.geoJsonLayer);
+        SMV.map.addControl(SMV.legendRiesgo);
+        if(SMV.inzoom){
+            SMV.map.addLayer(SMV.layerActual);
+        }
+        
+        console.log('remove del layerNotif');
+        
    }else if (e.target.id == 'notif') {
-    SMV.map.removeLayer(SMV.geoJsonLayer);
+        SMV.onriesgo = false;
+        SMV.map.removeControl(SMV.legendRiesgo);
+        SMV.map.removeLayer(SMV.geoJsonLayer);
+        if(SMV.inzoom){
+            SMV.map.removeLayer(SMV.layerActual);
+        }
+        SMV.map.addLayer(SMV.layerNotif);
+        SMV.map.addControl(SMV.legendNoti);
+        //actualizarMapaNotif();
    }
 })
+
+/*function actualizarMapaNotif (argument) {
+    if(SMV.firstTime){
+        descargarFiltradosJsonMap();
+        reloadMapSem();
+        SMV.firtsTime = false;
+        SMV.anioDeDatos = SMV.anio;
+        var statesLayer = L.geoJson(departamentos,  {style: getStyleNotificaciones}).addTo(map);
+        SMV.layerNotif = statesLayer;
+    }else{
+        if(SMV.anioDeDatos != SMV.anio){
+            descargarFiltradosJsonMap();
+            reloadMapSem();
+            SMV.layerNotif.setStyle(getStyleNotificaciones);
+        }
+    }
+}*/
 
 function draw_map() {
     startLoading();
@@ -204,12 +242,21 @@ function draw_map() {
     "Satélite": gglHybrid,
     "Calles Google Maps": gglRoadmap
     };
+    SMV.anio='2013';
     SMV.inzoom = false;
     SMV.opacity = 0.7;
+    SMV.firstTime = true;
     SMV.riesgoJson = riesgo13;
     SMV.riesgoDisJson = riesgoDis13;
     SMV.riesgoAsuJson =  riesgoAsu13;
     SMV.mapatype = 'mr';
+    SMV.onriesgo = true;
+    SMV.f=0;
+    SMV.m=0;
+    SMV.c=0;
+    SMV.d=0;
+    SMV.s=0;
+    descargarFiltradosJsonMap();
 
     SMV.semana = $( "#slidersemana" ).data('value');
     reloadMapSem();
@@ -218,42 +265,9 @@ function draw_map() {
 
    // var geoJson = L.mapbox.featureLayer(viviendas);
     /*Se añade capa de departamentos*/
+    
     var statesLayer = L.geoJson(departamentos,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
     SMV.geoJsonLayer = statesLayer;
-
-/*
-    geoJson.on('layeradd', function(e) {
-        var marker = e.layer,
-            feature = marker.feature;
-
-        var icon_color = SMV.COLOR_MAP[feature.properties.departamento];
-        var icon = L.mapbox.marker.icon();
-
-        if (icon_color) {
-            icon = L.mapbox.marker.icon({
-                'marker-color': icon_color
-            });
-        }
-        marker.setIcon(icon);
-    });
-*/
-
-   /* var markers = new L.MarkerClusterGroup({
-        minZoom: 6
-    });
-    markers.addLayer(geoJson);
-    markers.on('click', draw_popup);*/
-
-    /*geoJson.setFilter(function(f) {
-            console.log(f);
-            return f.properties['distrito'] === 'PASO YOBAI';
-        });
-
-    markers.clearLayers();
-    markers.addLayer(geoJson);
-    map.addLayer(markers);
-    SMV.markerLayer = markers;*/
-    //SMV.geoJsonLayer = geoJson;
 
     var MyControl = L.Control.extend({
         options: {
@@ -283,6 +297,24 @@ function draw_map() {
     });
     SMV.backClass = MyControl;
     //map.addControl(new MyControl());
+    var legendNoti = L.control({position: 'bottomright'});
+    legendNoti.onAdd = function (map) {
+        var div = L.DomUtil.create('div', 'info legend'),
+            grades = [1, 10, 30, 50, 70, 90, 100, 200, 300, 400, 500, 600, 700],
+            labels = [],
+            from, to;
+        labels.push('<i style="background:' + getColorNotificaciones(0) + '"></i> ' + '0');
+        for (var i = 0; i < grades.length; i++) {
+            from = grades[i];
+            to = grades[i + 1];
+            labels.push(
+                '<i style="background:' + getColorNotificaciones(from + 1) + '"></i> ' +
+                from + (to ? '&ndash;' + to : '+'));
+        }
+        div.innerHTML = '<span>N&uacutemero de Notificaciones</span><br>' + labels.join('<br>')
+        return div;
+    };
+    SMV.legendNoti = legendNoti;
 
     var legend = L.control({
         position: 'bottomright'
@@ -296,6 +328,7 @@ function draw_map() {
         div.innerHTML = '<span>Umbrales de riesgo</span><br>' + labels.join('<br>')
         return div;
     };
+    SMV.legendRiesgo = legend;
     legend.addTo(map);
     var info = L.control();
     info.onAdd = function (map) {
@@ -308,7 +341,12 @@ function draw_map() {
             var anio = SMV.anio;
             var semana = SMV.semana;
             var dep = props.DPTO_DESC;
-            var mapSem = SMV.mapNotif;
+            if(SMV.onriesgo){
+                var mapSem = SMV.mapNotif;
+            }else{
+                var mapSem = SMV.mapSemFil;
+            }
+            
             var nroNS = '0';
             try{
                 nroNS = mapSem[dep]["cantidad"];
@@ -350,7 +388,7 @@ function draw_map() {
     };
     info.addTo(map);
     SMV.info = info;
-
+   
     return map;
 }
 
@@ -366,7 +404,31 @@ function update_filters() {
     console.log(SMV.mapatype);
     
     SMV.anio = anio;
-    
+    if(sexo.Masculino){
+        SMV.m = 1;
+    }else{
+        SMV.m = 0;
+    }
+    if(sexo.Femenino){
+        SMV.f = 1;
+    }else{
+        SMV.f = 0;
+    }
+    if(clasif.Confirmado){
+        SMV.c = 1;
+    }else{
+        SMV.c = 0;
+    }
+    if(clasif.Descartado){
+        SMV.d = 1;
+    }else{
+        SMV.d = 0;
+    }
+    if(clasif.Sospechoso){
+        SMV.s = 1;
+    }else{
+        SMV.s = 0;
+    }
 
     var riesgo;
     var riesgoDistritos;
@@ -393,18 +455,20 @@ function update_filters() {
         riesgoAsu = riesgoAsu13;
         console.log()
     }
-
+    descargarFiltradosJsonMap();
     SMV.riesgoJson = riesgo;
     SMV.riesgoDisJson = riesgoDistritos;
     SMV.riesgoAsuJson = riesgoAsu;
     reloadMapSem();
+
     if(SMV.inzoom){
         console.log('hay layer');
         SMV.layerActual.setStyle(getStyleDrillDown);
     }else{
          SMV.geoJsonLayer.setStyle(getStyle);     
     }
-   
+    
+
     
 }
 

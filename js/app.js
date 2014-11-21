@@ -101,10 +101,10 @@ function check_url(){
     }
 
     // Change hash for page-reload
-    $('.navbar-nav a').on('click', function (e) {
+    /*$('.navbar-nav a').on('click', function (e) {
         window.location.hash = e.target.hash;
-    })
-    return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
+    })*/
+    return !_(['listado', 'acerca-de']).contains(hash);
 }
 
 /** Tabla **/

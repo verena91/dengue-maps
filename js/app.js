@@ -131,7 +131,7 @@ function draw_table() {
             { "data": "distrito", "width": "20%"  },
             { "data": "sexo", "width": "20%"  },
             { "data": "edad", "width": "20%"  },
-            { "data": "resultado","width": "20%"  }
+            { "data": "clasificacon_clinica","width": "20%"  }
         ],
         "fnRowCallback"  : function(nRow,aData,iDisplayIndex) {
                                   $('td:eq(0)', nRow).css( "text-align", "right" );

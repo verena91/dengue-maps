@@ -82,7 +82,7 @@ function reloadNotificaciones () {
         }
 
         SMV.mapSemFil = mapSemFil;
-        console.log(SMV.mapSemFil);
+        //console.log(SMV.mapSemFil);
 }
  /*Eventos para cada departamento*/
 function onEachFeature(feature, layer) {

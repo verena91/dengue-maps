@@ -35,7 +35,7 @@ function setup_anio_slider () {
 
 function setup_semana_slider() {
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) {
-        console.log('se movio el slide');
+        //console.log('se movio el slide');
         SMV.semana= event.target.innerText;
         reloadMapSem();
         reloadNotificaciones();
@@ -46,6 +46,35 @@ function setup_semana_slider() {
         }
         
     });
+/*
+    $( "#slidersemana" ).on('dragstart', function (e) {
+          e.preventDefault();  // cancel the native drag event chain
+          containsole.log("dragstart");
+    });
+
+        $( "#slidersemana" ).on('dragstart', function (e) {
+          e.preventDefault();  // cancel the native drag event chain
+          console.log("dragstart");
+    });
+/*/
+
+        $('#slidersemana').on('mousedown', function (e) {
+          console.log("mousedown");
+          $('html').disableSelection();
+        });
+
+        $('html').on('mouseup', function (e) {
+          console.log("mouseup");
+            $('html').enableSelection();
+        });
+
+    /*
+    $('.bfh-slider-handle').bind('dragstart', function(event) { console.log('asdf handle'); event.preventDefault(); });
+
+    $('#slidersemana').bind('dragstart', function(event) { console.log('asdf slidersemana'); event.preventDefault(); });
+    */
+
+
 }
 
 function setup_opacity_slider() {

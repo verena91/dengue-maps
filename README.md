@@ -1,7 +1,7 @@
 dengue-maps
 ===========
 
-Este trabajo se llevó a cabo en la Materia Electiva 6 – Datos Abiertos de la Carrera Ingeniería en Informática de la Facultad Politécnica de la Universidad Nacional de Asunción, cátedra del Dr. Prof. Juan Pane y ayudante de cátedra Ing. Rodrigo Parra. El Ministerio de Salud Pública y Bienestar Social publica semanalmente a través de su Portal Web los mapas de riesgo correspondientes a la enfermedad epidemiológica **Dengue**. El objetivo del trabajo fue realizar un aporte a la sociedad, proveyendo la misma información en mapas interactivos que permitan realizar las consultas y visualizar la información de una manera más dinámica y comprensible para el usuario final.
+Este trabajo se llevó a cabo en la Materia **Electiva 6 Datos Abiertos** de la Carrera Ingeniería en Informática de la Facultad Politécnica de la Universidad Nacional de Asunción, cátedra del Dr. Prof. Juan Pane y ayudante de cátedra Ing. Rodrigo Parra. El Ministerio de Salud Pública y Bienestar Social publica semanalmente a través de su Portal Web los mapas de riesgo correspondientes a la enfermedad epidemiológica **Dengue**. El objetivo del trabajo fue realizar un aporte a la sociedad, proveyendo la misma información en mapas interactivos que permitan realizar las consultas y visualizar la información de una manera más dinámica y comprensible para el usuario final.
 
 Autores
 -------
@@ -16,7 +16,7 @@ Instalación
     
 3. Clonar este repositorio:
 
- `$ git clone https://github.com/verena91/electiva6_mec`
+  `$ git clone https://github.com/verena91/dengue-maps.git`
 
 4. Acceder desde el navegador, en la dirección donde se despliega el Apache seguido del nombre del proyecto.
 

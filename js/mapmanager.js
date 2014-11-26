@@ -261,11 +261,12 @@ function loadDrillDownDep(){
 function drillUp(){
     console.log('Volver a vista de departamentos');
     map = SMV.map;
-    map.fitBounds(SMV.geoJsonLayer.getBounds());
+    //map.fitBounds(SMV.geoJsonLayer.getBounds());
     SMV.map.removeLayer(SMV.layerActual);
     SMV.inzoom = false;
     SMV.geoJsonLayer.setStyle(getStyle);
     SMV.backButton.removeFrom(map);
+    SMV.map.setView([-23.388, -60.189], 7);
     SMV.map = map;
 }
 
@@ -288,7 +289,6 @@ function descargarFiltradosJsonMap(){
         type:"get", //send it through get method
         //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
         success: function(response) {
-            console.log('responseee');
             SMV.resFiltro = response;
             console.log("volvio");
             reloadNotificaciones();

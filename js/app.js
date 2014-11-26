@@ -88,10 +88,12 @@ function setup_opacity_slider() {
         change: opacityChange
     }); 
 }
+
 function anioChange (e, ui) {
     $( "#amount" ).val( $( "#anio2" ).slider( "value" ) );
     update_filters();
 }
+
 function opacityChange (e, ui) {
 
     console.log(ui.value);
@@ -115,10 +117,10 @@ function check_url(){
     }
 
     // Change hash for page-reload
-    $('.navbar-nav a').on('click', function (e) {
+    /*$('.navbar-nav a').on('click', function (e) {
         window.location.hash = e.target.hash;
-    })
-    return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
+    })*/
+    return !_(['listado', 'acerca-de']).contains(hash);
 }
 
 /** Tabla **/
@@ -158,7 +160,7 @@ function draw_table() {
             { "data": "distrito", "width": "20%"  },
             { "data": "sexo", "width": "20%"  },
             { "data": "edad", "width": "20%"  },
-            { "data": "resultado","width": "20%"  }
+            { "data": "clasificacon_clinica","width": "20%"  }
         ],
         "fnRowCallback"  : function(nRow,aData,iDisplayIndex) {
                                   $('td:eq(0)', nRow).css( "text-align", "right" );
@@ -951,38 +953,44 @@ function descargarFiltradosCSV(){
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            JSONData = response;
-            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
-            var CSV = '';
-            var row = "";
-            // This loop will extract the label from 1st index of on array
-            for ( var index in arrData[0]) {
-                // Now convert each value to string and comma-seprated
-                row += index + ',';
-            }
-            row = row.slice(0, -1);
-            // append Label row with line break
-            CSV += row + '\r\n';
-            // 1st loop is to extract each row
-            for (var i = 0; i < arrData.length; i++) {
+            console.log(response);
+            if (!response){
+                alert("Debe indicar al menos un filtro.");
+            } else {
+                JSONData = response;
+                var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+                var CSV = '';
                 var row = "";
-
-                // 2nd loop will extract each column and convert it in string
-                // comma-seprated
-                for ( var index in arrData[i]) {
-                    row += '"' + arrData[i][index] + '",';
+                // This loop will extract the label from 1st index of on array
+                for ( var index in arrData[0]) {
+                    // Now convert each value to string and comma-seprated
+                    row += index + ',';
                 }
-                row.slice(0, row.length - 1);
-                // add a line break after each row
+                row = row.slice(0, -1);
+                // append Label row with line break
                 CSV += row + '\r\n';
-            }
+                // 1st loop is to extract each row
+                for (var i = 0; i < arrData.length; i++) {
+                    var row = "";
 
-            if (CSV == '') {
-                alert("Invalid data");
-                return;
+                    // 2nd loop will extract each column and convert it in string
+                    // comma-seprated
+                    for ( var index in arrData[i]) {
+                        row += '"' + arrData[i][index] + '",';
+                    }
+                    row.slice(0, row.length - 1);
+                    // add a line break after each row
+                    CSV += row + '\r\n';
+                }
+
+                if (CSV == '') {
+                    alert("Invalid data");
+                    return;
+                }
+                download(CSV, "notificaciones.csv", "text/csv");
             }
             finishedLoading();
-            download(CSV, "notificaciones.csv", "text/csv");
+            
         },
         error: function(xhr) {
             console.log('errror');
@@ -1009,10 +1017,14 @@ function descargarFiltradosJSON(){
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            //console.log('responseee');
-            data = response;
-            finishedLoading();
-            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+            console.log(response);
+            if (!response){
+                alert("Debe indicar al menos un filtro.");
+            } else {
+                data = response;
+                download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
+            }
+            finishedLoading();    
         },
         error: function(xhr) {
             console.log('errror');

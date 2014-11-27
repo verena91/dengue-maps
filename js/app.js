@@ -969,7 +969,6 @@ function descargarFiltradosCSV(){
                 download(CSV, "notificaciones.csv", "text/csv");
             }
             finishedLoading();
-            $("#filtered-csv").button('reset');
             
         },
         error: function(xhr) {

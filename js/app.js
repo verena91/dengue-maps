@@ -2,7 +2,8 @@ $(document).ready(function() {
     var mapTabActive = check_url();
     SMV.map = draw_map();
     draw_table();
-    draw_sidetag(map, !mapTabActive);
+    draw_sidetag(map, false);
+    open_sidetag ();
     //draw_or_defer_map(mapTabActive);
     $("#departamento").select2();
     $("#distrito").select2();
@@ -20,6 +21,15 @@ $(document).ready(function() {
     //$('#slider2').slider().slider('pips').slider('pips');
    
 });
+
+function open_sidetag () {
+    var panel = $('#slide-panel');
+    panel.addClass('visible').animate({'margin-left':'0px'});
+    $('#slide-tag').animate({'margin-left':'0px'});
+    $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
+    $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
+}
+
 function setup_anio_slider () {
     $( "#anio2" ).slider({
         value: 2013,
@@ -35,7 +45,6 @@ function setup_anio_slider () {
 
 function setup_semana_slider() {
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) {
-        //console.log('se movio el slide');
         SMV.semana= event.target.innerText;
         reloadMapSem();
         reloadNotificaciones();
@@ -46,35 +55,14 @@ function setup_semana_slider() {
         }
         
     });
-/*
-    $( "#slidersemana" ).on('dragstart', function (e) {
-          e.preventDefault();  // cancel the native drag event chain
-          containsole.log("dragstart");
+
+    $('#slidersemana').on('mousedown', function (e) {
+      $('html').disableSelection();
     });
 
-        $( "#slidersemana" ).on('dragstart', function (e) {
-          e.preventDefault();  // cancel the native drag event chain
-          console.log("dragstart");
+    $('html').on('mouseup', function (e) {
+        $('html').enableSelection();
     });
-/*/
-
-        $('#slidersemana').on('mousedown', function (e) {
-          console.log("mousedown");
-          $('html').disableSelection();
-        });
-
-        $('html').on('mouseup', function (e) {
-          console.log("mouseup");
-            $('html').enableSelection();
-        });
-
-    /*
-    $('.bfh-slider-handle').bind('dragstart', function(event) { console.log('asdf handle'); event.preventDefault(); });
-
-    $('#slidersemana').bind('dragstart', function(event) { console.log('asdf slidersemana'); event.preventDefault(); });
-    */
-
-
 }
 
 function setup_opacity_slider() {
@@ -88,17 +76,13 @@ function setup_opacity_slider() {
         change: opacityChange
     }); 
 }
-
 function anioChange (e, ui) {
     $( "#amount" ).val( $( "#anio2" ).slider( "value" ) );
     update_filters();
 }
-
 function opacityChange (e, ui) {
 
-    console.log(ui.value);
     var opaci = ui.value * 0.1;
-    console.log(opaci);
     SMV.opacity = opaci;
     if(SMV.inzoom){
         SMV.layerActual.setStyle(getStyleDrillDown);
@@ -117,10 +101,10 @@ function check_url(){
     }
 
     // Change hash for page-reload
-    /*$('.navbar-nav a').on('click', function (e) {
+    $('.navbar-nav a').on('click', function (e) {
         window.location.hash = e.target.hash;
-    })*/
-    return !_(['listado', 'acerca-de']).contains(hash);
+    })
+    return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
 }
 
 /** Tabla **/
@@ -160,7 +144,7 @@ function draw_table() {
             { "data": "distrito", "width": "20%"  },
             { "data": "sexo", "width": "20%"  },
             { "data": "edad", "width": "20%"  },
-            { "data": "clasificacon_clinica","width": "20%"  }
+            { "data": "resultado","width": "20%"  }
         ],
         "fnRowCallback"  : function(nRow,aData,iDisplayIndex) {
                                   $('td:eq(0)', nRow).css( "text-align", "right" );
@@ -225,8 +209,7 @@ function draw_or_defer_map(mapTabActive){
 }
 
 $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
-   console.log(e.target); // activated tab
-   console.log(e.target.id);
+   
    if(e.target.id == 'riesgo'){
         SMV.onriesgo = true;
         SMV.map.removeLayer(SMV.layerNotif);
@@ -236,8 +219,6 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
         if(SMV.inzoom){
             SMV.map.addLayer(SMV.layerActual);
         }
-        
-        console.log('remove del layerNotif');
         
    }else if (e.target.id == 'notif') {
         SMV.onriesgo = false;
@@ -266,8 +247,6 @@ function draw_map() {
     var gglHybrid = layers.GOOGLE_HYBRID.on("MapObjectInitialized", setup_gmaps);
     var gglRoadmap = layers.GOOGLE_ROADMAP.on("MapObjectInitialized", setup_gmaps);
 
-    /*var notif = JSON.parse(not_por_sem_ej);
-    console.log(notif);*/
     loadDrillDownDep();
     var map = L.map('map', {
         maxZoom: 18,
@@ -439,7 +418,6 @@ function update_filters() {
     var anio = $( "#anio2" ).slider( "value" );
     var sexo = get_selected_checkbox2('#sexo label');
     var clasif = get_selected_checkbox2('#clasif label');
-    console.log(anio);
     
     SMV.anio = anio;
     if(sexo.Masculino){
@@ -491,7 +469,6 @@ function update_filters() {
         riesgo = riesgo13;
         riesgoDistritos = riesgoDis13;
         riesgoAsu = riesgoAsu13;
-        console.log()
     }
     descargarFiltradosJsonMap();
     SMV.riesgoJson = riesgo;
@@ -500,10 +477,9 @@ function update_filters() {
     reloadMapSem();
 
     if(SMV.inzoom){
-        console.log('hay layer');
         SMV.layerActual.setStyle(getStyleDrillDown);
     }else{
-         SMV.geoJsonLayer.setStyle(getStyle);     
+        SMV.geoJsonLayer.setStyle(getStyle);     
     }
     
 
@@ -537,39 +513,40 @@ function go_to_feature(target) {
 
 function draw_sidetag(map, hide) {
     $('#opener').on('click', function() {
-    var panel = $('#slide-panel');
-    if (panel.hasClass("visible")) {
-       panel.removeClass('visible').animate({'margin-left':'-300px'});
-       $('#slide-tag').animate({'margin-left':'-300px'});
-    } else {
-      panel.addClass('visible').animate({'margin-left':'0px'});
-      $('#slide-tag').animate({'margin-left':'0px'});
-    }
-    $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
-    $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
-    return false;
+        var panel = $('#slide-panel');
+        if (panel.hasClass("visible")) {
+           panel.removeClass('visible').animate({'margin-left':'-300px'});
+           $('#slide-tag').animate({'margin-left':'-300px'});
+        } else {
+          panel.addClass('visible').animate({'margin-left':'0px'});
+          $('#slide-tag').animate({'margin-left':'0px'});
+        }
+        $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
+        $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
+       
+        return false;
     });
 
     $('.navbar-nav>li>a').bind('click', function (e) {
         if($(this).attr('href') === '#mapa'){
-        $('#menu-content').show();
-          $('#opener').show();
-          $('body').css('overflow', 'hidden');
-          $('#opener').click();
+            $('#menu-content').show();
+            $('#opener').show();
+            $('body').css('overflow', 'hidden');
+            $('#opener').click();
         }
         if($(this).attr('href') === '#listado' ||
-          $(this).attr('href') === '#acerca-de' ||
+            $(this).attr('href') === '#acerca-de' ||
             $(this).attr('href') === '#contacto'){
 
-          $('body').css('overflow', 'auto');
-          if ($('#slide-panel').hasClass("visible")) {
-            $('#opener').click();
-          }
+                $('body').css('overflow', 'auto');
+                if ($('#slide-panel').hasClass("visible")) {
+                    $('#opener').click();
+                }
           
-          $('#opener').hide();
-          $('#menu-content').hide();
+                $('#opener').hide();
+                $('#menu-content').hide();
         }
-      });
+    });
 
     if(hide){
         $('#opener').hide();
@@ -577,7 +554,6 @@ function draw_sidetag(map, hide) {
 
 }
 function handleClick(e) {
-    console.log(e.value);
     SMV.mapatype = e.value;
     if(SMV.mapatype=='mc'){
         $("#fcant").show();
@@ -742,7 +718,7 @@ function get_unique_values(prop){
 /** Ayuda **/
 
 function setup_intro(){
-    console.log('entro a setup_intro');
+    
   var stepsMapa = [
     {
       intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
@@ -755,12 +731,17 @@ function setup_intro(){
     },
     {
       element: '#slide-panel',
-      intro: "Filtra las viviendas por departamento, distrito, programa o estado de la obra.",
+      intro: "Puedes ver los mapas de riesgo por año y cambiar la opacidad los colores. También puedes ver el mapa de cantidad de notificaciones por departamento con filtros por sexo y clasificación.",
       position: 'right'
     },
     {
-      element: '.info-box',
-      intro: "Aquí puedes ver un resumen del departamento/dsitrito visible en el mapa.",
+      element: '#slide-de-semana',
+      intro: "Puedes deslizar la barra para ver los mapas por semana del año seleccionado.",
+      position: 'right'
+    },
+    {
+      element: '.info',
+      intro: "Aquí puedes ver los datos del departamento/distrito/barrio visible en el mapa.",
       position: "left"
     },
     {
@@ -832,7 +813,7 @@ function setup_intro(){
   ];
 
   $('#start-tour').click(function(){
-    console.log('cick en ayuda');
+   
     var steps;
     switch($('.menu-wrapper ul li.active').attr('id')) {
       case "tab-mapa":
@@ -869,7 +850,6 @@ function setup_download_buttons(){
 }
 
 function descargarCSV(anio) {
-    //console.log('entro a descargar csv');
     startLoading();
     var data;
     $.ajax({
@@ -916,14 +896,12 @@ function descargarCSV(anio) {
 }
 
 function descargarJSON(anio) {
-    //console.log('entro a descargar json');
     startLoading();
     var data;
     $.ajax({
         url: "http://localhost/denguemaps/rest/notificacion/filtros?anio=" + anio,
         type:"get",
         success: function(response) {
-            //console.log('responseee');
             data = response;
             finishedLoading();
             download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
@@ -935,7 +913,6 @@ function descargarJSON(anio) {
 }
 
 function descargarFiltradosCSV(){
-    //console.log('entro a descargar json filtrado');
     startLoading();
     var data;
     var anio = $("#anioF").children().children().val();
@@ -953,44 +930,38 @@ function descargarFiltradosCSV(){
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            console.log(response);
-            if (!response){
-                alert("Debe indicar al menos un filtro.");
-            } else {
-                JSONData = response;
-                var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
-                var CSV = '';
+            JSONData = response;
+            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+            var CSV = '';
+            var row = "";
+            // This loop will extract the label from 1st index of on array
+            for ( var index in arrData[0]) {
+                // Now convert each value to string and comma-seprated
+                row += index + ',';
+            }
+            row = row.slice(0, -1);
+            // append Label row with line break
+            CSV += row + '\r\n';
+            // 1st loop is to extract each row
+            for (var i = 0; i < arrData.length; i++) {
                 var row = "";
-                // This loop will extract the label from 1st index of on array
-                for ( var index in arrData[0]) {
-                    // Now convert each value to string and comma-seprated
-                    row += index + ',';
+
+                // 2nd loop will extract each column and convert it in string
+                // comma-seprated
+                for ( var index in arrData[i]) {
+                    row += '"' + arrData[i][index] + '",';
                 }
-                row = row.slice(0, -1);
-                // append Label row with line break
+                row.slice(0, row.length - 1);
+                // add a line break after each row
                 CSV += row + '\r\n';
-                // 1st loop is to extract each row
-                for (var i = 0; i < arrData.length; i++) {
-                    var row = "";
+            }
 
-                    // 2nd loop will extract each column and convert it in string
-                    // comma-seprated
-                    for ( var index in arrData[i]) {
-                        row += '"' + arrData[i][index] + '",';
-                    }
-                    row.slice(0, row.length - 1);
-                    // add a line break after each row
-                    CSV += row + '\r\n';
-                }
-
-                if (CSV == '') {
-                    alert("Invalid data");
-                    return;
-                }
-                download(CSV, "notificaciones.csv", "text/csv");
+            if (CSV == '') {
+                alert("Invalid data");
+                return;
             }
             finishedLoading();
-            
+            download(CSV, "notificaciones.csv", "text/csv");
         },
         error: function(xhr) {
             console.log('errror');
@@ -999,7 +970,6 @@ function descargarFiltradosCSV(){
 }
 
 function descargarFiltradosJSON(){
-    //console.log('entro a descargar json filtrado');
     startLoading();
     var data;
     var anio = $("#anioF").children().children().val();
@@ -1017,14 +987,9 @@ function descargarFiltradosJSON(){
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            console.log(response);
-            if (!response){
-                alert("Debe indicar al menos un filtro.");
-            } else {
-                data = response;
-                download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
-            }
-            finishedLoading();    
+            data = response;
+            finishedLoading();
+            download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
         },
         error: function(xhr) {
             console.log('errror');

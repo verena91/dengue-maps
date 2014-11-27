@@ -492,13 +492,13 @@ tr.shown td.details-control {
     width: 100px;
     margin-left: 310px;
     margin-bottom: 12px;
-    margin-top: -4px;
+    margin-top: -3px;
 }
 
 .slider-bar {
     margin-left: 0px;
     margin-bottom: 12px;
-    margin-top: 12px;
+    margin-top: 12px !important;
    /* color: #F6A828;*/
 }
 

@@ -62,11 +62,7 @@ function reloadMapSem(){
     }
    	//Riesgos de los distritos de la semana seleccionada
     SMV.mapNotifDis = mapSemDis;
-    console.log('reload');
-
-    //if(!SMV.firstTime){
-       
-    //}
+   
 }
 
 function reloadNotificaciones () {
@@ -82,7 +78,7 @@ function reloadNotificaciones () {
         }
 
         SMV.mapSemFil = mapSemFil;
-        //console.log(SMV.mapSemFil);
+       
 }
  /*Eventos para cada departamento*/
 function onEachFeature(feature, layer) {
@@ -91,8 +87,7 @@ function onEachFeature(feature, layer) {
         mouseout: mouseout,
         click: zoomToFeature
     });
-    //content = '<h2>'+feature.properties.DPTO_DESC+'<\/h2>';
-    //layer.bindPopup(content);
+   
 }
 
 
@@ -126,20 +121,16 @@ function zoomToFeature(e) {
     if(!SMV.inzoom){
         var button = new SMV.backClass();
         SMV.map.addControl(button);
-        SMV.backButton = button;
-        console.log(SMV.backButton);    
+        SMV.backButton = button;  
     }
    	SMV.inzoom = true;
    	SMV.geoJsonLayer.setStyle(getStyle);
     if(SMV.layerActual){
-        console.log('removiendo capa')
         SMV.map.removeLayer(SMV.layerActual);
     }
     SMV.layerActual = L.geoJson(json,  {style: getStyleDrillDown, onEachFeature: onEachFeatureDrillDown}).addTo(SMV.map);
     SMV.map.fitBounds(target.getBounds());
 
-    
-   // SMV.map.removeLayer(SMV.geoJsonLayer);
 }
 /*Color de cada riesgo*/
 function getColor(d) {
@@ -154,7 +145,7 @@ function getStyle(feature) {
     var mapSem = SMV.mapNotif;
     var color = 'NONE';
     try{
-        //color = mapSem[n]
+        
         color = mapSem[n]["riesgo"];
     }catch(e){
     }
@@ -186,12 +177,10 @@ function getStyleDrillDown(feature) {
     var color = 'NONE';
     if(prop.DPTO_DESC == 'ASUNCION'){
         n = prop.DPTO_DESC+'-'+prop.BARLO_DESC;
-        console.log('es asuncion');
-        console.log(n);
     }
    try{
         color = mapSem[n]["riesgo"];
-        //console.log("hay valor");
+       
     }catch(e){
     }
   
@@ -259,7 +248,6 @@ function loadDrillDownDep(){
 }
 
 function drillUp(){
-    console.log('Volver a vista de departamentos');
     map = SMV.map;
     //map.fitBounds(SMV.geoJsonLayer.getBounds());
     SMV.map.removeLayer(SMV.layerActual);
@@ -272,7 +260,6 @@ function drillUp(){
 
 
 function descargarFiltradosJsonMap(){
-    console.log('entro a descargar json filtrado mapa');
     var data;
     //mientras hasta leer los filtros de la tabla
     var anio = SMV.anio;
@@ -283,14 +270,12 @@ function descargarFiltradosJsonMap(){
     }else{
         variables =  variables + "&f="+SMV.f+"&m="+SMV.m;
     }
-    console.log(variables);
     $.ajax({
         url: "http://localhost/denguemaps/rest/notificacion/filtrosmapa?anio=" + anio + variables,
         type:"get", //send it through get method
         //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
         success: function(response) {
             SMV.resFiltro = response;
-            console.log("volvio");
             reloadNotificaciones();
             if(SMV.layerNotif){
                 SMV.layerNotif.setStyle(getStyleNotificaciones);

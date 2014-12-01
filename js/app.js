@@ -45,7 +45,8 @@ function setup_anio_slider () {
 
 function setup_semana_slider() {
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) {
-        SMV.semana= event.target.innerText;
+        SMV.semana = event.target.value;
+        
         reloadMapSem();
         reloadNotificaciones();
         SMV.layerNotif.setStyle(getStyleNotificaciones);
@@ -932,7 +933,7 @@ function descargarFiltradosCSV(){
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            console.log(response);
+           // console.log(response);
             if (!response){
                 alert("Debe indicar al menos un filtro.");
             } else {
@@ -995,7 +996,7 @@ function descargarFiltradosJSON(){
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
-            console.log(response);
+           // console.log(response);
             if (!response){
                 alert("Debe indicar al menos un filtro.");
             } else {

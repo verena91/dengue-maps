@@ -10,15 +10,16 @@ function reloadMapSem(){
     //Cargar el json de los riesgos por semana
     //riesgos de todas las semanas de los departamentos
     var riesgo = SMV.riesgoJson;
+
     //riesgos de todas las semana de los distritos
     var riesgoDis = SMV.riesgoDisJson;
     //riesgos de todas las semanas de los barrios de asuncion
     var riesgoAsu = SMV.riesgoAsuJson;
+   
 
     for(var i=0; i<riesgo.length; i++){
         var obj = riesgo[i];
         if(obj["semana"]==semana ){
-            
             mapSem[obj["departamento"]]= obj;
             if(obj["departamento"]=="CENTRAL"){
                 rcen = obj;
@@ -271,11 +272,12 @@ function descargarFiltradosJsonMap(){
         variables =  variables + "&f="+SMV.f+"&m="+SMV.m;
     }
     $.ajax({
-        url: "http://localhost/denguemaps/rest/notificacion/filtrosmapa?anio=" + anio + variables,
+        url: "/denguemaps/rest/notificacion/filtrosmapa?anio=" + anio + variables,
         type:"get", //send it through get method
         //data: {ajaxid:4, UserID: UserID, EmailAddress:encodeURIComponent(EmailAddress)} 
         success: function(response) {
             SMV.resFiltro = response;
+            
             reloadNotificaciones();
             if(SMV.layerNotif){
                 SMV.layerNotif.setStyle(getStyleNotificaciones);

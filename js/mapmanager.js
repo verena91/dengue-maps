@@ -222,28 +222,28 @@ function mouseoutDrillDown(e) {
     SMV.info.updateDrillDown();
    
 }
-
+/*Se transforman los topojsons a geojson*/
 function loadDrillDownDep(){
 
     var drillDown = new Object();
-    drillDown['ASUNCION'] = asuncion;
-    drillDown['ALTO PARAGUAY'] = altoparaguay;
-    drillDown['ALTO PARANA'] = altoparana;
-    drillDown['AMAMBAY'] = amambay;
-    drillDown['BOQUERON'] = boqueron;
-    drillDown['CAAGUAZU'] = caaguazu;
-    drillDown['CAAZAPA'] = caazapa;
-    drillDown['CANINDEYU'] = canindeyu;
-    drillDown['CENTRAL'] = central;
-    drillDown['CONCEPCION'] = concepcion;
-    drillDown['CORDILLERA'] = cordillera;
-    drillDown['GUAIRA'] = guaira;
-    drillDown['ITAPUA'] = itapua;
-    drillDown['MISIONES'] = misiones;
-    drillDown['ÑEEMBUCU'] = neembucu;
-    drillDown['PARAGUARI'] = paraguari;
-    drillDown['PRESIDENTE HAYES'] = presidentehayes;
-    drillDown['SAN PEDRO'] = sanpedro;
+    drillDown['ASUNCION'] = topojson.feature(asuncion, asuncion.objects.asuncionGEO);
+    drillDown['ALTO PARAGUAY'] = topojson.feature(altoparaguay, altoparaguay.objects.altoparaguayGEO);
+    drillDown['ALTO PARANA'] = topojson.feature(altoparana, altoparana.objects.altoparanaGEO);
+    drillDown['AMAMBAY'] =  topojson.feature(amambay, amambay.objects.amambayGEO);
+    drillDown['BOQUERON'] = topojson.feature(boqueron, boqueron.objects.boqueronGEO);
+    drillDown['CAAGUAZU'] = topojson.feature(caaguazu, caaguazu.objects.caaguazuGEO);
+    drillDown['CAAZAPA'] = topojson.feature(caazapa, caazapa.objects.caazapaGEO);
+    drillDown['CANINDEYU'] = topojson.feature(canindeyu, canindeyu.objects.canindeyuGEO);
+    drillDown['CENTRAL'] = topojson.feature(central, central.objects.centralGEO);
+    drillDown['CONCEPCION'] = topojson.feature(concepcion, concepcion.objects.concepcionGEO);
+    drillDown['CORDILLERA'] = topojson.feature(cordillera, cordillera.objects.cordilleraGEO);
+    drillDown['GUAIRA'] = topojson.feature(guaira, guaira.objects.guairaGEO);
+    drillDown['ITAPUA'] = topojson.feature(itapua, itapua.objects.itapuaGEO);
+    drillDown['MISIONES'] = topojson.feature(misiones, misiones.objects.misionesGEO);
+    drillDown['ÑEEMBUCU'] = topojson.feature(neembucu, neembucu.objects.neembucuGEO);
+    drillDown['PARAGUARI'] = topojson.feature(paraguari, paraguari.objects.paraguariGEO);
+    drillDown['PRESIDENTE HAYES'] = topojson.feature(presidentehayes, presidentehayes.objects.presidentehayesGEO);
+    drillDown['SAN PEDRO'] = topojson.feature(sanpedro, sanpedro.objects.sanpedroGEO);
     SMV.drillDown = drillDown;
 
 }
@@ -282,7 +282,7 @@ function descargarFiltradosJsonMap(){
             if(SMV.layerNotif){
                 SMV.layerNotif.setStyle(getStyleNotificaciones);
             }else{
-                SMV.layerNotif = L.geoJson(departamentos,  {style: getStyleNotificaciones, onEachFeature:onEachFeatureNotificaciones});   
+                SMV.layerNotif = L.geoJson(SMV.departamentos,  {style: getStyleNotificaciones, onEachFeature:onEachFeatureNotificaciones});   
             }
             
         },

@@ -284,9 +284,11 @@ function draw_map() {
     L.control.layers(baseMaps).addTo(map);
 
    // var geoJson = L.mapbox.featureLayer(viviendas);
+   
+    /*Se transforma el topojson de departamentos a geojson*/
+    SMV.departamentos = topojson.feature(depto, depto.objects.departamentosGEO);
     /*Se añade capa de departamentos*/
-    
-    var statesLayer = L.geoJson(departamentos,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
+    var statesLayer = L.geoJson(SMV.departamentos,  {style: getStyle, onEachFeature: onEachFeature}).addTo(map);
     SMV.geoJsonLayer = statesLayer;
 
     var MyControl = L.Control.extend({

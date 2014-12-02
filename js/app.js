@@ -5,9 +5,7 @@ $(document).ready(function() {
     draw_sidetag(map, false);
     open_sidetag ();
     //draw_or_defer_map(mapTabActive);
-    $("#departamento").select2();
-    $("#distrito").select2();
-    $("#localidad").select2();
+
     add_filter_listeners(map);
     setup_modal_navigation();
     setup_intro();
@@ -489,11 +487,6 @@ function update_filters() {
     
 }
 
-function get_selected_combo(selector) {
-    var value = $(selector).select2('val');
-
-    return value;
-}
 
 function go_to_feature(target) {
     SMV.markerLayer.eachLayer(function(marker) {
@@ -674,7 +667,7 @@ function add_filter_listeners(map) {
         $("#resultado li input").prop('checked', this.checked);
     });
 
-    $('#resultado li input, #departamento, #distrito, #localidad, #sexo label input, #clasif label input').change(function() {
+    $('#resultado li input, #sexo label input, #clasif label input').change(function() {
         update_filters(map);
     });
 
@@ -698,24 +691,6 @@ function get_selected_checkbox2(selector){
   _.each(labels, function(l){ enabled[l.innerText] = l.children[0].checked; });
 
   return enabled;
-}
-
-function setup_checkbox_values(name, selector){
-    var values = get_unique_values(name);
-
-    _.each(values, function(d){
-        var icon = SMV.ESTADO_TO_ICON_CSS[d] || '';
-        var label = sprintf('<label class="btn btn-sm btn-primary %s"><input type="checkbox">%s</label>', icon, d);
-        $(selector).append(label);
-    });
-}
-
-function get_unique_values(prop){
-    return _.chain(viviendas.features)
-        .map(function(f){ return f.properties[prop]; })
-        .unique()
-        .sortBy(function(d){ return d; })
-        .value();
 }
 
 /** Ayuda **/

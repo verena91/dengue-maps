@@ -417,31 +417,36 @@ function draw_map() {
 function update_filters() {
     var proyectos = get_selected_checkbox('#resultado li input');
     var anio = $( "#anio2" ).slider( "value" );
-    var sexo = get_selected_checkbox2('#sexo label');
-    var clasif = get_selected_checkbox2('#clasif label');
-    
     SMV.anio = anio;
-    if(sexo.Masculino){
+
+    var femenino = $('#sexo label input')[0].checked;
+    var masculino = $('#sexo label input')[1].checked;
+    var confirmado = $('#clasif label input')[0].checked;
+    var sospechoso = $('#clasif label input')[1].checked;
+    var descartado = $('#clasif label input')[2].checked;
+
+    if(masculino){
         SMV.m = 1;
     }else{
         SMV.m = 0;
     }
-    if(sexo.Femenino){
+    if(femenino){
         SMV.f = 1;
     }else{
         SMV.f = 0;
     }
-    if(clasif.Confirmado){
+
+    if(confirmado){
         SMV.c = 1;
     }else{
         SMV.c = 0;
     }
-    if(clasif.Descartado){
+    if(descartado){
         SMV.d = 1;
     }else{
         SMV.d = 0;
     }
-    if(clasif.Sospechoso){
+    if(sospechoso){
         SMV.s = 1;
     }else{
         SMV.s = 0;

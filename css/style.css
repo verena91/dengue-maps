@@ -518,3 +518,14 @@ tr.shown td.details-control {
     user-select: none;
     z-index: 2;
 }
+
+/* Datatables */
+#lista_wrapper {
+    overflow-x: auto;
+    width: 95%;
+}
+
+#lista_wrapper > thead > tr > th {
+    min-width: 70px;
+}
+

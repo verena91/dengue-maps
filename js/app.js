@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var mapTabActive = check_url();
     SMV.map = draw_map();
-    draw_table();
+    //draw_table();
     draw_sidetag(map, false);
     open_sidetag ();
     //draw_or_defer_map(mapTabActive);
@@ -10,13 +10,18 @@ $(document).ready(function() {
     setup_modal_navigation();
     setup_intro();
     setup_semana_slider();
-    setup_download_buttons();
+    //setup_download_buttons();
     setup_opacity_slider();
     setup_anio_slider();
 
     //var $slider2 = $("#slider2").slider({ max: 20 , value: 10 });
     //$slider2.slider("pips");
     //$('#slider2').slider().slider('pips').slider('pips');
+
+    var modulo = 'notificaciones';
+    var columns = init_config(modulo);
+    draw_table(columns, urlBase);
+    //draw_table(columns, urlBase + modulo);
    
 });
 

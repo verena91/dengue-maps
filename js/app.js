@@ -18,9 +18,11 @@ $(document).ready(function() {
     //$slider2.slider("pips");
     //$('#slider2').slider().slider('pips').slider('pips');
 
-    var modulo = 'notificaciones';
+    //var modulo = 'notificacion';
+    var modulo = 'reporte';
     var columns = init_config(modulo);
-    draw_table(columns, urlBase);
+    table_reporte = "#lista"
+    draw_table(columns, urlBase, table_reporte);
     //draw_table(columns, urlBase + modulo);
    
 });
@@ -542,7 +544,7 @@ function draw_sidetag(map, hide) {
             $('body').css('overflow', 'hidden');
             $('#opener').click();
         }
-        if($(this).attr('href') === '#listado' ||
+        if($(this).attr('href') === '#listado' || 
             $(this).attr('href') === '#acerca-de' ||
             $(this).attr('href') === '#contacto'){
 

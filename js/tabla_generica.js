@@ -1,10 +1,10 @@
-function draw_table(columns, url) {
+function draw_table(columns, url, id_tabla) {
 
 	for (var i = 0; i < columns.length; i++) {
-		$('#lista tfoot tr').append('<th></th>');
+		$(id_tabla + ' tfoot tr').append('<th></th>');
 	}
 
-	$('#lista')
+	$(id_tabla)
 			.dataTable(
 					{
 						"processing" : true,
@@ -44,15 +44,15 @@ function draw_table(columns, url) {
 					});
 
 	// Setup - add a text input to each footer cell
-	$('#lista tfoot th').each(
+	$(id_tabla + ' tfoot th').each(
 			function() {
-				var title = $('#lista thead th').eq($(this).index()).text();
+				var title = $(id_tabla + ' thead th').eq($(this).index()).text();
 				$(this).html(
 						'<input class="column-filter form-control input-sm" type="text" placeholder="'
-								+ title + '" style="min-width:60px" />');
+								+ title + '" style="width: 100%;" />');
 			});
 
-	var table = $('#lista').DataTable();
+	var table = $(id_tabla).DataTable();
 
 	// Apply the search
 	table.columns().eq(0).each(
@@ -71,7 +71,7 @@ function draw_table(columns, url) {
 
 	// Call datatables, and return the API to the variable for use in our code
     // Binds datatables to all elements with a class of datatable
-    var dtable = $("#lista").dataTable().api();
+    var dtable = $(id_tabla).dataTable().api();
     var generalFilter;
 
     // Grab the datatables input box and alter how it is bound to events
@@ -96,7 +96,7 @@ function draw_table(columns, url) {
 	$("#btn-descarga").on(
 			'click',
 			function() {
-				var oTable = $('#lista').dataTable();
+				var oTable = $(id_tabla).dataTable();
 				var oParams = oTable.oApi
 						._fnAjaxParameters(oTable.fnSettings());
 				// console.log(oParams);
@@ -121,11 +121,11 @@ function draw_table(columns, url) {
 				});
 			});
 	
-	$('#lista').on( 'draw.dt', function () {
+	$(id_tabla).on( 'draw.dt', function () {
 		var search = $('[type="search"]');
 		search.addClass('form-control input-sm lista-search');
 
-		var listaLength = $('#lista_length select');
+		var listaLength = $(id_tabla + '#lista_length select');
 		listaLength.addClass('form-control input-sm lista-length');
 		
 		var spanToReplace = $('span > a + span');

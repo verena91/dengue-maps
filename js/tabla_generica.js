@@ -90,7 +90,7 @@ function draw_table(columns, url, id_tabla) {
             return;
         }, 500));
 
-	$('tfoot').insertAfter('thead');
+	$(id_tabla + 'tfoot').insertAfter(id_tabla + 'thead');
 
 	/* Apply the request for JSON download */
 	$("#btn-descarga-json").on(

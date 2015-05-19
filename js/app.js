@@ -112,7 +112,7 @@ function check_url(){
    /* $('.navbar-nav a').on('click', function (e) {
         window.location.hash = e.target.hash;
     })*/
-    return !_(['listado', 'acerca-de']).contains(hash);
+    return !_(['listado', 'acerca-de', 'diccionario']).contains(hash);
 }
 
 /** Tabla **/
@@ -546,6 +546,7 @@ function draw_sidetag(map, hide) {
         }
         if($(this).attr('href') === '#listado' || 
             $(this).attr('href') === '#acerca-de' ||
+            $(this).attr('href') === '#diccionario' ||
             $(this).attr('href') === '#contacto'){
 
                 $('body').css('overflow', 'auto');

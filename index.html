@@ -289,17 +289,138 @@
               <td>año</td> 
               <td>Número del año en el que ocurrió el caso</td>
               <td>xsd:gYear</td>
-              <td>Smith</td> 
-              <td>50</td>
+              <td></td> 
+              <td>Temporal</td>
             </tr>
             <tr>
-              <td>Jill</td>
-              <td>Smith</td> 
-              <td>50</td>
-              <td>Jill</td>
-              <td>Smith</td> 
-              <td>50</td>
+              <td>mes (month)</td>
+              <td>mes</td> 
+              <td>Número del mes del año</td>
+              <td>xsd:gMonth</td>
+              <td>Valor entre 1 y 12</td> 
+              <td>Temporal</td>
             </tr>
+            <tr>
+              <td>día (month)</td>
+              <td>día</td> 
+              <td>Número de día del mes</td>
+              <td>xsd:gMonth</td>
+              <td>Valor entre 1 y 12</td> 
+              <td>Temporal</td>
+            </tr>
+             <tr>
+              <td>semana (week)</td>
+              <td>Semana epidemiológica</td> 
+              <td>Variable estandarizada utilizada por los sistemas de vigilancia</td>
+              <td>xsd:decimal</td>
+              <td>Valor entre 1 y 53, inicia domingo y termina sábado</td> 
+              <td>Temporal</td>
+            </tr>
+            <tr>
+              <td>región (region)</td>
+              <td>región</td> 
+              <td>Continente o parte del continente</td>
+              <td>AdministrativeArea</td>
+              <td></td> 
+              <td>Geográfica</td>
+            </tr>
+             <tr>
+              <td>país (country)</td>
+              <td>país</td> 
+              <td>País en que ocurrió el caso</td>
+              <td>AdministrativeArea</td>
+              <td></td> 
+              <td>Geográfica</td>
+            </tr>
+            <tr>
+              <td>adm1</td>
+              <td>División administrativa de primer nivel</td> 
+              <td>Ej. en Paraguay correspondería a departamento, en Argentina a provincia</td>
+              <td>AdministrativeArea</td>
+              <td></td> 
+              <td>Geográfica</td>
+            </tr>
+            <tr>
+              <td>adm2</td>
+              <td>División administrativa de segundo nivel</td> 
+              <td>Ej. en Paraguay correspondería a distrito, en Argentina a departamento</td>
+              <td>AdministrativeArea</td>
+              <td></td> 
+              <td>Geográfica</td>
+            </tr>
+            <tr>
+              <td>adm3</td>
+              <td>División administrativa de tercer nivel</td> 
+              <td>Ej. en Paraguay correspondería a barrio, en Argentina a municipio</td>
+              <td>AdministrativeArea</td>
+              <td></td> 
+              <td>Geográfica</td>
+            </tr>
+            <tr>
+              <td>edad (age)</td>
+              <td>grupo de edad</td>
+              <td>Grupos de edades</td>
+              <td>xsd:string</td>
+              <td>&lt; 5, 5-9, 10-19, 20-59, &gt;=60</td>
+              <td>Demográfica</td>
+            </tr>
+            <tr>
+              <td>sexo (sex)</td>
+              <td>sexo</td>
+              <td>Conjunto de personas con la misma condición orgánica.</td>
+              <td>xsd:string</td>
+              <td>Femenino, Masculino</td>
+              <td>Demográfica</td>
+            </tr>
+            <tr>
+              <td>origen (origin)</td>
+              <td></td>
+              <td>Si la enfermedad fue contraída dentro del territorio nacional del reportante o si fue fuera del él</td>
+              <td>xsd:string</td>
+              <td>Importado, Autóctono</td>
+              <td>Características del caso</td>
+            </tr>
+            <tr>
+              <td>estado (status)</td>
+              <td>Estado final</td>
+              <td>Determinación del caso</td>
+              <td>xsd:string</td>
+              <td>Confirmado, Sospechoso, Descartado, Muerte</td>
+              <td>Características del caso</td>
+            </tr>
+            <tr>
+              <td>clasificación (classification)</td>
+              <td>Clasificación clínica</td>
+              <td>Clasificación clínica de las Manifestaciones del virus según la OMS</td>
+              <td>xsd:string</td>
+              <td>{DF, DHF, DSS}OMS’97 o {A,B,C}OMS’09</td>
+              <td>Características del caso</td>
+            </tr>
+            <tr>
+              <td>serotipo (serotype)</td>
+              <td>Serotipo</td>
+              <td>Subpoblación de del microorganismo. Los conocidos hasta el momento son 1, 2, 3, 4 y 5</td>
+              <td>xsd:string</td>
+              <td>DEN-1, DEN-2, DEN-3, DEN-4, DEN-5</td>
+              <td>Características del caso</td>
+            </tr>
+            <tr>
+              <td>casos (cases)</td>
+              <td>Número de casos</td>
+              <td>Suma del número de casos agrupadas por la demás variables</td>
+              <td>xsd:decimal</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>fuente (source)</td>
+              <td>Fuente reportante</td>
+              <td>Institución de la cual provienen los datos</td>
+              <td>xsd:string</td>
+              <td></td>
+              <td></td>
+            </td>
+
         </table>
         </div>
       </div>

@@ -24,7 +24,7 @@ $(document).ready(function() {
     table_reporte = "#lista"
     draw_table(columns, urlBase, table_reporte);
     //draw_table(columns, urlBase + modulo);
-   
+
 });
 
 function open_sidetag () {
@@ -51,7 +51,7 @@ function setup_anio_slider () {
 function setup_semana_slider() {
     $( "#slidersemana" ).on( 'change.bfhslider', function( event ) {
         SMV.semana = event.target.value;
-        
+
         reloadMapSem();
         reloadNotificaciones();
         SMV.layerNotif.setStyle(getStyleNotificaciones);
@@ -59,7 +59,7 @@ function setup_semana_slider() {
         if(SMV.inzoom){
             SMV.layerActual.setStyle(getStyleDrillDown);
         }
-        
+
     });
 
     $('#slidersemana').on('mousedown', function (e) {
@@ -80,7 +80,7 @@ function setup_opacity_slider() {
         max: 10,
         animate: true,
         change: opacityChange
-    }); 
+    });
 }
 
 function anioChange (e, ui) {
@@ -97,7 +97,7 @@ function opacityChange (e, ui) {
     }else{
         SMV.geoJsonLayer.setStyle(getStyle);
     }
-    
+
 }
 
 function check_url(){
@@ -217,7 +217,7 @@ function draw_or_defer_map(mapTabActive){
 }
 
 $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
-   
+
    if(e.target.id == 'riesgo'){
         SMV.onriesgo = true;
         SMV.map.removeLayer(SMV.layerNotif);
@@ -227,7 +227,7 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
         if(SMV.inzoom){
             SMV.map.addLayer(SMV.layerActual);
         }
-        
+
    }else if (e.target.id == 'notif') {
         SMV.onriesgo = false;
         SMV.map.removeControl(SMV.legendRiesgo);
@@ -291,7 +291,7 @@ function draw_map() {
     L.control.layers(baseMaps).addTo(map);
 
    // var geoJson = L.mapbox.featureLayer(viviendas);
-   
+
     /*Se transforma el topojson de departamentos a geojson*/
     SMV.departamentos = topojson.feature(depto, depto.objects.departamentosGEO);
     /*Se añade capa de departamentos*/
@@ -375,7 +375,7 @@ function draw_map() {
             }else{
                 var mapSem = SMV.mapSemFil;
             }
-            
+
             var nroNS = '0';
             try{
                 nroNS = mapSem[dep]["cantidad"];
@@ -393,7 +393,7 @@ function draw_map() {
             var dis = props.DIST_DESC;
             var mapSem = SMV.mapNotifDis;
             var nroNS = '0';
-            
+
             var info;
             if(dep == 'ASUNCION'){
                 var key = dep+'-'+props.BARLO_DESC;
@@ -417,7 +417,7 @@ function draw_map() {
     };
     info.addTo(map);
     SMV.info = info;
-   
+
     return map;
 }
 
@@ -494,11 +494,11 @@ function update_filters() {
     if(SMV.inzoom){
         SMV.layerActual.setStyle(getStyleDrillDown);
     }else{
-        SMV.geoJsonLayer.setStyle(getStyle);     
+        SMV.geoJsonLayer.setStyle(getStyle);
     }
-    
 
-    
+
+
 }
 
 
@@ -533,7 +533,7 @@ function draw_sidetag(map, hide) {
         }
         $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
         $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
-       
+
         return false;
     });
 
@@ -544,7 +544,7 @@ function draw_sidetag(map, hide) {
             $('body').css('overflow', 'hidden');
             $('#opener').click();
         }
-        if($(this).attr('href') === '#listado' || 
+        if($(this).attr('href') === '#listado' ||
             $(this).attr('href') === '#acerca-de' ||
             $(this).attr('href') === '#diccionario' ||
             $(this).attr('href') === '#contacto'){
@@ -553,7 +553,7 @@ function draw_sidetag(map, hide) {
                 if ($('#slide-panel').hasClass("visible")) {
                     $('#opener').click();
                 }
-          
+
                 $('#opener').hide();
                 $('#menu-content').hide();
         }
@@ -711,7 +711,7 @@ function get_selected_checkbox2(selector){
 /** Ayuda **/
 
 function setup_intro(){
-    
+
   var stepsMapa = [
     {
       intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
@@ -765,18 +765,19 @@ function setup_intro(){
       position: "right"
     },
     {
-      element: document.querySelector('#lista_length label'),
+      element: '#lista_length > label',
       intro: "Selecciona la cantidad de filas por página de la tabla.",
       position: 'right'
     },
     {
-      element: document.querySelector('#lista_filter label'),
+      element: '#lista_filter > label',
       intro: "Filtra los resultados de acuerdo a los valores de cualquier campo.",
       position: "left"
     },
     {
-      element: document.querySelectorAll('#departamentoF')[0],
+      element: '#lista > tfoot',
       intro: "O filtra de acuerdo a los valores de una columna en particular.",
+      position: "bottom"
     },
     {
       element: '#lista_info',
@@ -789,7 +790,7 @@ function setup_intro(){
       position: "left"
     },
     {
-      element: '#download-button-bar',
+      element: '#download-footer',
       intro: "Descarga los resultados filtrados en JSON o CSV.",
       position: "top"
     },
@@ -806,7 +807,7 @@ function setup_intro(){
   ];
 
   $('#start-tour').click(function(){
-   
+
     var steps;
     switch($('.menu-wrapper ul li.active').attr('id')) {
       case "tab-mapa":
@@ -846,7 +847,7 @@ function descargarCSV(anio) {
     startLoading();
     var data;
     $.ajax({
-        url: "/denguemaps/rest/notificacion/filtros?anio=" + anio,
+        url: "/denguemaps/rest/reporte/descarga/" + anio,
         type:"get",
         success: function(response) {
             JSONData = response;
@@ -892,7 +893,7 @@ function descargarJSON(anio) {
     startLoading();
     var data;
     $.ajax({
-        url: "/denguemaps/rest/notificacion/filtros?anio=" + anio,
+        url: "/denguemaps/rest/reporte/descarga/" + anio,
         type:"get",
         success: function(response) {
             data = response;
@@ -919,7 +920,7 @@ function descargarFiltradosCSV(){
 
     $.ajax({
         url: "/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
-        + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento 
+        + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
@@ -960,7 +961,7 @@ function descargarFiltradosCSV(){
                 download(CSV, "notificaciones.csv", "text/csv");
             }
             finishedLoading();
-            
+
         },
         error: function(xhr) {
             console.log('errror');
@@ -982,7 +983,7 @@ function descargarFiltradosJSON(){
 
     $.ajax({
         url: "/denguemaps/rest/notificacion/filtros?anio=" + anio + "&semana=" + semana
-        + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento 
+        + "&fechaNotificacion=" + fechaNotificacion + "&departamento=" + departamento
         + "&distrito=" + distrito + "&sexo=" + sexo + "&edad=" + edad + "&resultado=" + resultado,
         type:"get",
         success: function(response) {
@@ -993,7 +994,7 @@ function descargarFiltradosJSON(){
                 data = response;
                 download(JSON.stringify(data, null, 4), "notificaciones.json", "application/json");
             }
-            finishedLoading();    
+            finishedLoading();
         },
         error: function(xhr) {
             console.log('errror');

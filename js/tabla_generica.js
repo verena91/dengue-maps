@@ -90,7 +90,7 @@ function draw_table(columns, url, id_tabla) {
             return;
         }, 500));
 
-	$(id_tabla + 'tfoot').insertAfter(id_tabla + 'thead');
+	$(id_tabla + ' tfoot').insertAfter(id_tabla + ' thead');
 
 	/* Apply the request for JSON download */
 	$("#btn-descarga-json").on(
@@ -134,7 +134,7 @@ function draw_table(columns, url, id_tabla) {
 					finishedLoading();
 					alert("Debe indicar al menos un filtro para poder realizar la descarga.");
 				}
-				
+
 			});
 
 		/* Apply the request for CSV download */
@@ -211,16 +211,16 @@ function draw_table(columns, url, id_tabla) {
 					alert("Debe indicar al menos un filtro para poder realizar la descarga.");
 				}
 			});
-	
+
 	$(id_tabla).on( 'draw.dt', function () {
 		var search = $('[type="search"]');
 		search.addClass('form-control input-sm lista-search');
 
 		var listaLength = $(id_tabla + '#lista_length select');
 		listaLength.addClass('form-control input-sm lista-length');
-		
+
 		var spanToReplace = $('span > a + span');
-		spanToReplace.replaceWith("<a class=\"paginate_button disabled\">...</a>");	
+		spanToReplace.replaceWith("<a class=\"paginate_button disabled\">...</a>");
 	} );
 
 }
